@@ -19,5 +19,6 @@ Leer el radio de un círculo y calcular e imprimir su superficie y su circunfere
 | **Salidas:**  | Superficie del circulo (Variable SUPERFICIE).<br/>Circunferencia del  circulo (Variable LONGITUD) |
 | **Variables:**  |RADIO, SUPERFICIE, LONGITUD de tipo REAL.|
 
+## Especificaciones del problema
 
-
+El resultado final del anális es obtener una serie de documentos (**especificación**) en los cuales quedan totalmente definido el proceso a seguir en la resolución del problema.
