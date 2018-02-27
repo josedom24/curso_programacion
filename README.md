@@ -5,7 +5,7 @@
 ### Introducción a la programación
 
 1. [Resolución de problemas](curso/u1)
-2. Análisis del problema
+2. [Análisis del problema](curso/u2)
 	* Definición del problema
 	* Especificaciones de entrada
 	* Especificaciones de salida
