@@ -17,5 +17,20 @@ Un **programador** es una persona que resuelve problemas, y para llegar a ser un
 
 ## Sistemas de información
 
+Sistema de procesamiento de información es un sistema que transforma datos
+brutos en información organizada, significativa y útil.
+
 ![si](img/si.png)
+
+* *Datos*: se refiere a la representación de algún hecho, concepto o entidad real (palabras escritas, números, dibujos etc)
+* *Información*: Información implica datos procesados y organizados.
+* *Procesador*: Proceso por el que se convierte datos de entrada en información útil.
+
+El conjunto de instrucciones que especifican la secuencia de operaciones a
+realizar, en orden, para resolver un sistema específico o clase de problemas, se
+denomina **algoritmo**. O sea, un algoritmo es una fórmula para la resolución de un
+problema.
+
+Cuando el procesador es un ordenador, el algoritmo ha de expresarse de una
+forma que recibe el nombre de **programa**.
 
