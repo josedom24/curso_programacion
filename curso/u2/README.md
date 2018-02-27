@@ -12,6 +12,7 @@ El propósito del análisis de un problema es ayudar al programador (Analista) p
 Leer el radio de un círculo y calcular e imprimir su superficie y su circunferencia.
 
 **Análisis**
+
 |  | Especificaciones |
 |------------------------------------------------|-----------------------------------------------|
 | Entradas: | Radio del circulo (Variable RADIO). |
