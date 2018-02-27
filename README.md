@@ -1,2 +1,5 @@
-# curso_programacion
-Curso: "Introducción a la programación"
+# Curso de introducción a la programación
+
+0. Introducción al curso
+
+### Introducción
