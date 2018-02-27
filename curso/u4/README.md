@@ -13,11 +13,11 @@
 	* Indentado Inteligente
 	* Listados de funciones, operadores y variables
 * Permite generar y editar el diagrama de flujo del algoritmo.
-* El pseudo-lenguaje utilizado es configurable: fléxible, estricto y otros perfiles de distintas instituciones.
+* El pseudo-lenguaje utilizado es configurable: flexible, estricto y otros perfiles de distintas instituciones.
 * Puede interpretar (ejecutar) los algoritmos escritos.
 	* Permite ejecutar el algoritmo paso a paso controlando la velocidad e inspeccionando variables y expresiones
 * Determina y marca claramente los errores.
-* Permite convertir el algoritmo de pseudocodigo a código numerosos lenguajes de programación.
+* Permite convertir el algoritmo de pseudocódigo a código numerosos lenguajes de programación.
 * Ofrece un sistema de ayuda integrado acerca del pseudocódigo y el uso del programa.
 * Es multiplataforma (probado en Microsoft Windows, GNU/Linux y Mac OS X).
 * Es totalmente libre y gratuito (licencia GPLv2)
