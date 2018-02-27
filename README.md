@@ -10,6 +10,8 @@
 
 ### Entorno de trabajo: PSeInt
 
+4. [Introducción a PSeInt](curso/u4)
+
 ### Pseudocódigo
 
 * Toma de contacto
