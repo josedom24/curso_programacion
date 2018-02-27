@@ -15,9 +15,9 @@ Leer el radio de un círculo y calcular e imprimir su superficie y su circunfere
 
 |  | Especificaciones |
 |------------------------------------------------|-----------------------------------------------|
-| Entradas: | Radio del circulo (Variable RADIO). |
-| Salidas:  | Superficie del circulo (Variable SUPERFICIE).<br/>Circunferencia del  circulo (Variable LONGITUD) |
-| Variables:  |RADIO, SUPERFICIE, LONGITUD de tipo REAL.|
+| **Entradas:** | Radio del circulo (Variable RADIO). |
+| **Salidas:**  | Superficie del circulo (Variable SUPERFICIE).<br/>Circunferencia del  circulo (Variable LONGITUD) |
+| **Variables:**  |RADIO, SUPERFICIE, LONGITUD de tipo REAL.|
 
 
 
