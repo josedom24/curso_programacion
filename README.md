@@ -6,12 +6,7 @@
 
 1. [Resolución de problemas](curso/u1)
 2. [Análisis del problema](curso/u2)
-	* Definición del problema
-	* Especificaciones de entrada
-	* Especificaciones de salida
-	* variables y constantes
-	* Tipo de datos
-3. Diseño de algoritmos
+3. [Diseño de algoritmos](curso/u3)
 	* Descomponer el problema en problema más pequeños
 	* Diagramas de flujo
 	* Pseudocódigo
