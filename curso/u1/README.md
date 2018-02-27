@@ -15,5 +15,7 @@ Un **programador** es una persona que resuelve problemas, y para llegar a ser un
 * *Transformación del algoritmo en un programa (codificación)*: Se expresa el algoritmo como un programa en un **lenguaje de programación**.
 * *Ejecución y validación del programa*.
 
+## Sistemas de información
 
+![si](img/si.png)
 
