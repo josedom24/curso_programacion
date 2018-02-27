@@ -22,24 +22,26 @@
 	* Definición del problema
 	* Especificaciones de entrada
 	* Especificaciones de salida
+	* variables y constantes
 	* Tipo de datos
-3. Diseño de algortimos
+3. Diseño de algoritmos
 	* Descomponer el problema en problema más pequeños
-	* Digaramas de flujo
-	* Pseudocóidgo
+	* Diagramas de flujo
+	* Pseudocódigo
 
 ### Entorno de trabajo: PSeInt
 
 ### Pseudocódigo
 
 * Toma de contacto
+* Variables. Asignación de variables
 * Entrada / Salida
-* Variables
 * Tipos de variables
 * Operadores
 * Funciones matemáticas
 * Funciones de cadenas de texto
 * Ejercicios estructura secuencial
+	* Estructuras de programación
 * Estructuras alternativas: si
 * Estructuras alternativas: según
 * Ejercicios estructuras alternativas
