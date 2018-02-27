@@ -7,9 +7,6 @@
 1. [Resolución de problemas](curso/u1)
 2. [Análisis del problema](curso/u2)
 3. [Diseño de algoritmos](curso/u3)
-	* Descomponer el problema en problema más pequeños
-	* Diagramas de flujo
-	* Pseudocódigo
 
 ### Entorno de trabajo: PSeInt
 
@@ -55,3 +52,5 @@
 * https://www.google.es/url?q=http://director.io/prepajv/docs/pseduca/ApuntePSeInt02.pdf&sa=U&ved=0ahUKEwjCnYjEwcDZAhVIOhQKHXskD1kQFggPMAI&usg=AOvVaw0JF3t8uW3ecJGOwR161hD1
 * http://pseint.sourceforge.net
 * https://plataforma.josedomingo.org/pledin/course/view.php?id=13
+* http://www.aliat.org.mx/BibliotecasDigitales/sistemas/Analisis_y_disenio_de_algoritmos.pdf
+* http://www.lcc.uma.es/~pepeg/modula/temas/tema2.pdf
