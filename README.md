@@ -38,17 +38,29 @@
 * Tipos de variables
 * Operadores
 * Funciones matemáticas
-* Funciones de cadnenas de texto
+* Funciones de cadenas de texto
 * Ejercicios estructura secuencial
 * Estructuras alternativas: si
 * Estructuras alternativas: según
-* Ejercicos estructuras alternativas
-* Estrucutras repetitivas: Mientras
-* Estrucutras repetitivas: Repetir-hasta
-* Estrucutras repetitivas: Para
+* Ejercicios estructuras alternativas
+* Estructuras repetitivas: Mientras
+* Estructuras repetitivas: Repetir-hasta
+* Estructuras repetitivas: Para
+* Ejercicios estructuras repetitivas
 * Uso específico de variables: contadores, acumuladores e indicadores
 * Tipos de datos complejos: Arrays
-* Programación estrucutrada: Funciones y procedimientos
+* Programación estructurada: Funciones y procedimientos
+* Ejercicios
 
 ### Lenguajes de Programación
+
+* Introducción a los lenguajes de programación
+	* Definición
+	* Tipos
+	* Ejemplos de lenguajes de programación
+* Traductores
+	* Compiladores, interpretes, máquinas virtuales
+* Ejecución y validación de programas
+* Ejemplos de códigos fuentes
+
 
