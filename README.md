@@ -6,14 +6,7 @@
 * http://www.aprendeaprogramar.com/course/view.php?id=22
 * https://www.google.es/url?q=http://director.io/prepajv/docs/pseduca/ApuntePSeInt02.pdf&sa=U&ved=0ahUKEwjCnYjEwcDZAhVIOhQKHXskD1kQFggPMAI&usg=AOvVaw0JF3t8uW3ecJGOwR161hD1
 * http://pseint.sourceforge.net
-<<<<<<< HEAD
 * https://plataforma.josedomingo.org/pledin/course/view.php?id=13
-=======
-<<<<<<< HEAD
-* https://plataforma.josedomingo.org/pledin/course/view.php?id=13
-=======
->>>>>>> e3137b318311cad63d0510510ef987232d6771d9
->>>>>>> 3fbe79f636b93c832da8d386a5db726afcedd38a
 
 0. Introducción al curso
 
