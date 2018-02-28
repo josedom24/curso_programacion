@@ -22,7 +22,7 @@
 10. [Entrada y salida de información](curso/u10)
 11. [Otras instrucciones](curso/u11)
 12. [Funciones matemáticas](curso/u12)
-* Funciones de cadenas de texto
+13. [Funciones de cadenas de texto](curso/u13)
 * Nuestro primer pseudocódigo completo
 * Ejecución paso a paso
 * Ejercicios estructura secuencial
