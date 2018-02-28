@@ -20,6 +20,7 @@
 8. [Operadores y expresiones](curso/u8)
 9. [Asignación de variables](curso/u9)
 10. [Entrada y salida de información](curso/u10)
+11. [Otras instrucciones](curso/u11)
 * Funciones matemáticas
 * Funciones de cadenas de texto
 * Ejercicios estructura secuencial
