@@ -16,7 +16,9 @@
 
 5. [Estructura del algoritmo](curso/u5)
 
+* Tipos de datos
 * Variables. Asignación de variables
+* Operadores y expresiones
 * Entrada / Salida
 * Tipos de variables
 * Operadores
