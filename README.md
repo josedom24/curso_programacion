@@ -21,18 +21,19 @@
 9. [Asignación de variables](curso/u9)
 10. [Entrada y salida de información](curso/u10)
 11. [Otras instrucciones](curso/u11)
-* Funciones matemáticas
+12. [Funciones matemáticas](curso/u12)
 * Funciones de cadenas de texto
+* Nuestro primer pseudocódigo completo
+* Ejecución paso a paso
 * Ejercicios estructura secuencial
-	* Estructuras de programación
 * Estructuras alternativas: si
 * Estructuras alternativas: según
 * Ejercicios estructuras alternativas
 * Estructuras repetitivas: Mientras
 * Estructuras repetitivas: Repetir-hasta
 * Estructuras repetitivas: Para
-* Ejercicios estructuras repetitivas
 * Uso específico de variables: contadores, acumuladores e indicadores
+* Ejercicios estructuras repetitivas
 * Tipos de datos complejos: Arrays
 * Programación estructurada: Funciones y procedimientos
 * Ejercicios
@@ -47,6 +48,7 @@
 	* Compiladores, interpretes, máquinas virtuales
 * Ejecución y validación de programas
 * Ejemplos de códigos fuentes
+* Ejecución de programas
 
 
 * https://es.m.wikibooks.org/wiki/Introducci%C3%B3n_a_la_Programaci%C3%B3n
