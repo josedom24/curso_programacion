@@ -31,4 +31,6 @@ Por ejemplo para incrementar una variable en 1:
 
 	numero1 <- numero1 + 1
 
-	
+Y para decrementar sería algo similar:
+
+	numero1 <- numero1 - 1
