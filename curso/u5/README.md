@@ -19,7 +19,11 @@ El lenguaje que utilizamos para construir el pseudocódigo no es estándar. Pode
         acción n;
     FinProceso
 
-Comienza con la palabra clave `Proceso` (o alternativamente `Algortimo`, son sinónimos) seguida del nombre del programa, luego le sigue una secuencia (**Estructura de control secuencial**) de instrucciones y finaliza con la palabra `FinProceso` (o `FinAlgoritmo`). Una secuencia de instrucciones es una lista de una o más instrucciones y/o estructuras de control.
+* Comienza con la palabra clave `Proceso` (o alternativamente `Algortimo`, son sinónimos) seguida del nombre del programa.
+* Le sigue una secuencia (**Estructura de control secuencial**) de instrucciones. Una secuencia de instrucciones es una lista de una o más instrucciones y/o estructuras de control.
+* Finaliza con la palabra `FinProceso` (o `FinAlgoritmo`). 
+* La identación no es significativo, pero se recomienda para que el código sea más legible.
+* No se diferencia entre mayúsculas y minúsculas. Preferible las minúsculas, aunque a veces se añaden automáticamente los nombres con la primera letra en mayúsculas.
 
 ## Comentarios
 
