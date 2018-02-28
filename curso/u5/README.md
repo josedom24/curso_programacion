@@ -39,7 +39,7 @@ El pseudocódigo podría ser:
 
 	Proceso Circulo
 		Definir radio,superficie,perimetro como Real;
-		Escribir "Introduce le radio de la circunferencia:";
+		Escribir "Introduce el radio de la circunferencia:";
 		Leer radio;
 		superficie <- PI * radio ^ 2;
 		perimetro <- 2 * PI * radio;
