@@ -2,10 +2,10 @@
 
 El tipo de dato representa la clase de datos con el que vamos a trabajar. Tenemos los siguientes tipos de datos simples:
 
-* `Entero`: Nos sirve para representar números enteros.
-* `Real`: Nos sirve para representar números reales.
-* `Caracter`: Nos permite trabaja con cadenas de caracteres.
-* `Logico`: Nos permite trabajar con valores lógicos.
+* Números enteros: Nos sirve para representar números enteros.
+* Números reales: Nos sirve para representar números reales.
+* Cadenas de caracteres: Nos permite trabaja con cadenas de caracteres.
+* Valores lógicos: Nos permite trabajar con valores lógicos.
 
 ## Literales
 

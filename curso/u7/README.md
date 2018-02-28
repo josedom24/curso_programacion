@@ -10,13 +10,21 @@ El perfil "Estricto" nos obliga, al igual que muchos lenguajes de programación,
 
 Para definir una variable usamos la siguiente instrucción:
 
-	Definir <var1>, <var2>, ..., <varN> como [Entero/Real,Caracter/Logico];
+	Definir <var1>, <var2>, ..., <varN> como <Tipo de datos>;
+
+Como tipo de datos podemos poner las siguiente opciones:
+
+* Tipo entero: `Entero`.
+* Tipo real: `Real`, `Numerico` o `Numero`.
+* Tipo cadena de caracteres: `Caracter`, `Texto` o `Cadena`.
+* Tipo logico: `Logico`.
+
 
 Por ejemplo:
 
-	Definir numero1, numero2 como entero;
-	Definir superficie, perimetro como real;
-	Definir nombre como caracter;
-	Definir mayor_edad como logico;
+	Definir numero1, numero2 como Entero;
+	Definir superficie, perimetro como Real;
+	Definir nombre como Caracter;
+	Definir mayor_edad como Logico;
 
 
