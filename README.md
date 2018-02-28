@@ -15,8 +15,7 @@
 ### Pseudocódigo
 
 5. [Estructura del algoritmo](curso/u5)
-
-* Tipos de datos
+6. [Tipos de datos simples](curso/u6)
 * Variables. Asignación de variables
 * Operadores y expresiones
 * Entrada / Salida
