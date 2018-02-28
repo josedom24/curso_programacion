@@ -14,7 +14,8 @@
 
 ### Pseudocódigo
 
-* Toma de contacto
+5. [Estructura del algoritmo](curso/u5)
+
 * Variables. Asignación de variables
 * Entrada / Salida
 * Tipos de variables
