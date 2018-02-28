@@ -23,3 +23,12 @@ Las siguientes asignaciones producen error:
 * Una variable numérica si se asigna a una variable cadena de caracteres.
 * Una asignación de una variable lógica a cualquier otra variable de otro tipo, y al contrario.
 
+## Incremento y decremento de una variable
+
+Al incrementar o decrementar una variable numérica le modificamos su valor sumando o restando un número.
+
+Por ejemplo para incrementar una variable en 1:
+
+	numero1 <- numero1 + 1
+
+	
