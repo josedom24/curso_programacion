@@ -6,6 +6,10 @@ Una vez que hemos definido una variable, podemos asignarle un valor con el opera
 	var2 <- var1;
 	var3 <- var1 + var2;
 
+Como diagrama de flujo:
+
+![asignacion](img/asignacion.png)
+
 Tenemos que tener en cuenta lo siguiente:
 
 * No se puede asigna un valor a una variable que no haya sido definida con anterioridad.
