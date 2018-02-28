@@ -29,7 +29,7 @@ Se pueden introducir comentarios luego de una instrucción, o en líneas separad
 
 Leer el radio de un círculo y calcular e imprimir su superficie y su circunferencia.
 
-El pseudocódigo 
+El pseudocódigo podría ser:
 
 	//Leer el radio de un círculo y calcular e imprimir su superficie y su circunferencia.
 	//Análisis
