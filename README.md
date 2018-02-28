@@ -18,10 +18,8 @@
 6. [Tipos de datos simples](curso/u6)
 7. [Variables](curso/u7)
 8. [Operadores y expresiones](curso/u8)
-9. Asignación de variables
-* Entrada / Salida
-* Tipos de variables
-* Operadores
+9. [Asignación de variables](curso/u9)
+10. [Entrada / Salida](curso/u10)
 * Funciones matemáticas
 * Funciones de cadenas de texto
 * Ejercicios estructura secuencial
