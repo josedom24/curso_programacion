@@ -23,7 +23,7 @@
 11. [Otras instrucciones](curso/u11)
 12. [Funciones matemáticas](curso/u12)
 13. [Funciones de cadenas de texto](curso/u13)
-* Nuestro primer pseudocódigo completo
+14. [Nuestro primer pseudocódigo completo](curso/u14)
 * Ejecución paso a paso
 * Ejercicios estructura secuencial
 * Estructuras alternativas: si
