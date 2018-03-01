@@ -34,9 +34,10 @@
 22. [Estructuras repetitivas: Para](curso/u22)
 23. [Uso específico de variables: contadores, acumuladores e indicadores](curso/u23)
 * Ejercicios estructuras repetitivas
-* Tipos de datos complejos: Arrays
+* Tipos de datos complejos: Arreglos
+* Ejercicios de arreglos
 * Programación estructurada: Funciones y procedimientos
-* Ejercicios
+* Ejercicios de funciones
 
 ### Lenguajes de Programación
 
