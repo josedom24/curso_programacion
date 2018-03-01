@@ -27,7 +27,7 @@
 * Ejecución paso a paso
 * Ejercicios estructura secuencial
 17. [Estructuras alternativas: Si](curso/u17)
-18. [Estructuras alternativas: Segun](curso/u18())
+18. [Estructuras alternativas: Segun](curso/u18)
 * Ejercicios estructuras alternativas
 * Estructuras repetitivas: Mientras
 * Estructuras repetitivas: Repetir-hasta
