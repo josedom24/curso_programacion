@@ -31,7 +31,7 @@
 * Ejercicios estructuras alternativas
 20. [Estructuras repetitivas: Mientras](curso/u20)
 21. [Estructuras repetitivas: Repetir-Hasta Que](curso/u21)
-* Estructuras repetitivas: Para
+22. [Estructuras repetitivas: Para](curso/u22)
 * Uso específico de variables: contadores, acumuladores e indicadores
 * Ejercicios estructuras repetitivas
 * Tipos de datos complejos: Arrays
