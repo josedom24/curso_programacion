@@ -26,7 +26,7 @@
 14. [Nuestro primer pseudocódigo completo](curso/u14)
 * Ejecución paso a paso
 * Ejercicios estructura secuencial
-* Estructuras alternativas: si
+17. [Estructuras alternativas: si](curso/u17)
 * Estructuras alternativas: según
 * Ejercicios estructuras alternativas
 * Estructuras repetitivas: Mientras
