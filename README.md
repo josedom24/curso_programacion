@@ -30,7 +30,7 @@
 18. [Estructuras alternativas: Segun](curso/u18)
 * Ejercicios estructuras alternativas
 20. [Estructuras repetitivas: Mientras](curso/u20)
-* Estructuras repetitivas: Repetir-hasta
+21. [Estructuras repetitivas: Repetir-Hasta Que](curso/u21)
 * Estructuras repetitivas: Para
 * Uso específico de variables: contadores, acumuladores e indicadores
 * Ejercicios estructuras repetitivas
