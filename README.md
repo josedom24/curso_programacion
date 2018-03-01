@@ -29,7 +29,7 @@
 17. [Estructuras alternativas: Si](curso/u17)
 18. [Estructuras alternativas: Segun](curso/u18)
 * Ejercicios estructuras alternativas
-* Estructuras repetitivas: Mientras
+20. [Estructuras repetitivas: Mientras](curso/u20)
 * Estructuras repetitivas: Repetir-hasta
 * Estructuras repetitivas: Para
 * Uso específico de variables: contadores, acumuladores e indicadores
