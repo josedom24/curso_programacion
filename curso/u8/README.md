@@ -41,14 +41,31 @@ El valor devuelto por una operación lógica es un valor lógico:
 * `|` ó `O`: Disyunción, operación OR.
 * `~` ó `NO`: Negación, operación NOT.
 
-**Tabla de verdad del operador AND**
+**Tabla de verdad del operador Y**
 
-| x  | y  | resultado  |
+| a  | b  | a Y b  |
 |---|---|--------------|
 | V  | V  | V  |
 | V  | F  | F  |
 | F  | V  | F  |
 | F  | F  | F  |
+
+**Tabla de verdad del operador O**
+
+| a  | b  | a O b  |
+|---|---|--------------|
+| V  | V  | V  |
+| V  | F  | V  |
+| F  | V  | V  |
+| F  | F  | F  |
+
+**Tabla de verdad del operador NO**
+
+| a  | NO a  |
+|---|---|
+| V  | F  |
+| F  | V  |
+
 
 ## Procedencia de operadores
 
