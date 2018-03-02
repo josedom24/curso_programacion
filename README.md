@@ -39,7 +39,7 @@
 27. [Arreglos multidimensionales: Tablas](curso/u27)
 * Ejercicios de arreglos
 29. [Programación estructurada](curso/u29)
-* Funciones y procedimientos
+30. [Funciones y procedimientos](curso/u30)
 * Ejercicios de funciones
 
 ### Lenguajes de Programación
@@ -64,3 +64,4 @@
 * https://plataforma.josedomingo.org/pledin/course/view.php?id=13
 * http://www.aliat.org.mx/BibliotecasDigitales/sistemas/Analisis_y_disenio_de_algoritmos.pdf
 * http://www.lcc.uma.es/~pepeg/modula/temas/tema2.pdf
+* http://www.fio.unicen.edu.ar/usuario/ariera/b6-0/Trabajos/FuncionesPseInt.pdf
