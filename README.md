@@ -35,7 +35,7 @@
 23. [Uso específico de variables: contadores, acumuladores e indicadores](curso/u23)
 24. Ejercicios estructuras repetitivas
 25. [Estructuras de datos: Arreglos (array)](curso/u25)
-* Arreglos unidimensionales: Vectores
+26. [Arreglos unidimensionales: Vectores](curso/u26)
 * Arreglos multidimensionales: Tablas
 * Ejercicios de arreglos
 * Programación estructurada: Funciones y procedimientos
