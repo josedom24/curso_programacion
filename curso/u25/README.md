@@ -1,4 +1,4 @@
-# Estructuras de datos: Arreglos
+# Estructuras de datos: Arreglos (array)
 
 ## Estructura de datos
 
