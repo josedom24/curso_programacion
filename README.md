@@ -40,6 +40,7 @@
 * Ejercicios de arreglos
 29. [Programación estructurada](curso/u29)
 30. [Funciones y procedimientos](curso/u30)
+31. [Funciones recursivas](curso/u31)
 * Ejercicios de funciones
 
 ### Lenguajes de Programación
