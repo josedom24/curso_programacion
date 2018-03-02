@@ -28,7 +28,7 @@ Podríamos recorrer el vector para mostrar el valor de los elementos:
 		Escribir array[i];
 	FinPara
 
-Ejemplo
+### Ejemplo
 
 Inicializar un vector de 5 cadenas a partir de los datos pedidos por teclado y posterior mostrarlos en pantalla en mayúsculas.
 
