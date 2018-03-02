@@ -35,6 +35,8 @@
 23. [Uso específico de variables: contadores, acumuladores e indicadores](curso/u23)
 * Ejercicios estructuras repetitivas
 * Tipos de datos complejos: Arreglos
+* Arreglos unidimensionales: Vectores
+* Arreglos multidimensionales: Tablas
 * Ejercicios de arreglos
 * Programación estructurada: Funciones y procedimientos
 * Ejercicios de funciones
