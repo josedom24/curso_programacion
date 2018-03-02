@@ -43,6 +43,6 @@ Para mostrar el primer elemento del vector:
 
 Otro ejemplo asignamos y mostramos el segundo elemento de la segunda fila de la tabla:
 
-	tabla[1][1] <- "Hola";
-	Escribir tabla[1][1];
+	tabla[1,1] <- "Hola";
+	Escribir tabla[1,1];
 
