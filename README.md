@@ -38,7 +38,8 @@
 26. [Arreglos unidimensionales: Vectores](curso/u26)
 27. [Arreglos multidimensionales: Tablas](curso/u27)
 * Ejercicios de arreglos
-* Programación estructurada: Funciones y procedimientos
+29. [Programación estructurada](curso/u29)
+* Funciones y procedimientos
 * Ejercicios de funciones
 
 ### Lenguajes de Programación
