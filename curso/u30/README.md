@@ -35,7 +35,7 @@ Por ejemplo la variable `max` definida en la función no existe en el programa p
 
 * **Parámetros reales**: Son la expresiones que se utilizan en la llamada de la función, sus valores se copiarán en los parámetros formales.
 
-# Paso de parámetro por valor o por referencia
+## Paso de parámetro por valor o por referencia
 
 * **Paso por valor**: El valor de los parámetros reales se copian en los parámetros formales, por lo tanto una modificación de algún parámetro formal no modifica el parámetro real.
 * **Paso por referencia**: Cuando se pasa un parámetro por referencia implica que si modificamos el parámetro formal se modificará el parámetro real.
