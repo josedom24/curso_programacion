@@ -24,7 +24,7 @@
 12. [Funciones matemáticas](curso/u12)
 13. [Funciones de cadenas de texto](curso/u13)
 14. [Nuestro primer pseudocódigo completo](curso/u14)
-15. Ejecución paso a paso
+15. [Ejecución paso a paso](curso/u15)
 16. Ejercicios estructura secuencial
 17. [Estructuras alternativas: Si](curso/u17)
 18. [Estructuras alternativas: Segun](curso/u18)
@@ -33,7 +33,7 @@
 21. [Estructuras repetitivas: Repetir-Hasta Que](curso/u21)
 22. [Estructuras repetitivas: Para](curso/u22)
 23. [Uso específico de variables: contadores, acumuladores e indicadores](curso/u23)
-* Ejercicios estructuras repetitivas
+24. Ejercicios estructuras repetitivas
 * Tipos de datos complejos: Arreglos
 * Arreglos unidimensionales: Vectores
 * Arreglos multidimensionales: Tablas
