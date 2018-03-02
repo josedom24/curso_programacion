@@ -34,7 +34,7 @@
 22. [Estructuras repetitivas: Para](curso/u22)
 23. [Uso específico de variables: contadores, acumuladores e indicadores](curso/u23)
 24. Ejercicios estructuras repetitivas
-* Tipos de datos complejos: Arreglos
+25. [Estructuras de datos: Arreglos](curso/u25)
 * Arreglos unidimensionales: Vectores
 * Arreglos multidimensionales: Tablas
 * Ejercicios de arreglos
