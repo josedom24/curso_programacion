@@ -31,6 +31,8 @@ El valor devuelto por una operación de comparación es un valor lógico:
 * `<=`: Menor o igual
 * `>=`: Mayor o igual
 
+La comparación entre cadenas de caracteres se hace según el código ASCII.
+
 ## Operadores lógicos
 
 El valor devuelto por una operación lógica es un valor lógico:
@@ -38,6 +40,15 @@ El valor devuelto por una operación lógica es un valor lógico:
 * `&` ó `Y`: Conjunción, operación AND.
 * `|` ó `O`: Disyunción, operación OR.
 * `~` ó `NO`: Negación, operación NOT.
+
+**Tabla de verdad del operador AND**
+
+| x  | y  | resultado  |
+|---|---|--------------|
+| V  | V  | V  |
+| V  | F  | F  |
+| F  | V  | F  |
+| F  | F  | F  |
 
 ## Procedencia de operadores
 
