@@ -9,7 +9,7 @@ Hemos definido una tabla de enteras con 3 filas y 4 columnas, por tanto tenemos 
 
 Para acceder a cada uno de lo elemento tenemos que indicar la fila y la columna en la que se encuentra, siempre empezando por el 0. Por ejemplo para incializar el elemento que esta en la primera fila y la segunda columna sería:
 
-	tabla[0][1] <- 10;
+	tabla[0,1] <- 10;
 
 El acceso a un elemento que no existe producirá un error.
 
@@ -53,4 +53,24 @@ Inicializar una tabla con los números del 1 al 5, sus cuadrados y sus cubos. Po
 		FinPara
 	FinProceso
 
+## Arrays multidimensionales
+
+Los arrays pueden ter las dimensiones que deseemos, por ejemplo podemos tener una array de tres dimensiones:
+
+	Definir tabla como Entero;
+	Dimension tabla [4,4,4];
+
+Y podríamos inicializar el primer elemento como:
+
+	tabla[0,0,0,]<-10;
+
+Necesitaríamos tres bucles para recorrer un array de tres dimensiones:
+
+	Para i<-0 hasta 2 Hacer
+		Para j<-0 hasta 2 Hacer
+			Para k<-0 hasta 2 Hacer
+				tabla[i,j,k]<-0;
+			FinPara
+		FinPara
+	FinPara
 
