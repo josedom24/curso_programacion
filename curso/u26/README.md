@@ -10,7 +10,7 @@ Para acceder a cada uno de los elementos del vector utilizamos un índice. el pr
 	vector[0]<-10;
 	Escribir vector[0];
 
-El acceso a un elemento que no existe producirá un erro, por ejemplo:
+El acceso a un elemento que no existe producirá un error, por ejemplo:
 
 	vector[10]<-10;
 

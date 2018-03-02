@@ -36,7 +36,7 @@
 24. Ejercicios estructuras repetitivas
 25. [Estructuras de datos: Arreglos (array)](curso/u25)
 26. [Arreglos unidimensionales: Vectores](curso/u26)
-* Arreglos multidimensionales: Tablas
+27. [Arreglos multidimensionales: Tablas](curso/u27)
 * Ejercicios de arreglos
 * Programación estructurada: Funciones y procedimientos
 * Ejercicios de funciones
