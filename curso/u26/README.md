@@ -14,9 +14,6 @@ El acceso a un elemento que no existe producirá un erro, por ejemplo:
 
 	vector[10]<-10;
 
-
-Las operaciones que podemos realizar sobre un vector son las siguientes:
-
 ## Recorrido de un vector
 
 Vamos a inicializar todos los elementos de un vector. Para ello vamos a **recorrer** el vector e inicializar cada elemento con un valor ,por ejemplo lo vamos a inicializar a 0. Para recorrer un vector utilizamos un bucle `Para`:
