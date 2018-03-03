@@ -27,7 +27,8 @@ Escribir un programa que convierta un valor dado en grados Fahrenheit a grados C
 7. Realiza un programa que reciba una cantidad de minutos y muestre por pantalla a cuantas horas y minutos corresponde.
 
 	Por ejemplo: 1000 minutos son 16 horas y 40 minutos.
-8. Suponga que un individuo desea invertir su capital en un banco y desea saber cuanto dinero ganara después de un mes si el banco paga a razón de 2% mensual.
+
+
 9. Un vendedor recibe un sueldo base mas un 10% extra por comisión de sus ventas, el vendedor desea saber cuanto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el mes y el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones.
 10. Una tienda ofrece un descuento del 15% sobre el total de la compra y un cliente desea saber cuanto deberá pagar finalmente por su compra.
 11. Un alumno desea saber cual será su calificación final en la materia de Algoritmos. Dicha calificación se compone de los siguientes porcentajes:
@@ -80,7 +81,31 @@ inicio
 fin
 
 
-Pedir el nombre y los das apellidos de una persona y mostrar las iniciales.
+Pedir el nombre y los dos apellidos de una persona y mostrar las iniciales.
 
 
 Escribir un algoritmo para calcular la nota final de un estudiante, considerando que: por cada respuesta correcta 5 puntos, por una incorrecta -1 y por respuestas en blanco 0. Imprime el resultado obtenido por el estudiante.
+
+
+Diseñar un algoritmo que nos diga el dinero que tenemos (en euros y céntimos) después de pedirnos cuantas monedas tenemos (de 2€, 1€, 50 céntimos, 20 céntimos o 10 céntimos).
+
+Proceso CalcularDinero
+	Definir euro2,euro1,cent50,cent20,cent10 como Entero;
+	Definir total_euros, total_centimos Como Entero;
+	Escribir Sin Saltar "Monedas de 2 euros:";
+	Leer euro2;
+	Escribir Sin Saltar "Monedas de 1 euro:";
+	Leer euro1;
+	Escribir Sin Saltar "Monedas de 50 centimos:";
+	Leer cent50;
+	Escribir Sin Saltar "Monedas de 20 centimos:";
+	Leer cent20;
+	Escribir Sin Saltar "Monedas de 10 centimos:";
+	Leer cent10;
+	total_euros <- euro2 * 2 + euro1;
+	total_centimos <- cent50 * 50 + cent20 * 20 + cent10 * 10;
+	total_euros <- total_euros + trunc(total_centimos / 100);
+	total_centimos <- total_centimos % 100;
+	Escribir total_euros," euros y ",total_centimos," centimos.";
+	
+FinProceso
