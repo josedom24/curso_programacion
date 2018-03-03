@@ -1,7 +1,12 @@
 # Ejercicios estructura secuencial
 
-1. Escribir un programa que pregunte al usuario su nombre, y luego lo salude.
-2. Calcular el perímetro y área de un rectángulo dada su base y su altura.
+### Ejercicio 1
+
+Escribir un programa que pregunte al usuario su nombre, y luego lo salude.
+
+### Ejercicio 2
+
+Calcular el perímetro y área de un rectángulo dada su base y su altura.
 3. Dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
 4. Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
 5.  Escribir un programa que convierta un valor dado en grados Fahrenheit a grados Celsius. Recordar que la fórmula para la conversión es: 
