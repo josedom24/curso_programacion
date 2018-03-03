@@ -28,7 +28,7 @@
 16. [Ejercicios estructura secuencial](curso/u16)
 17. [Estructuras alternativas: Si](curso/u17)
 18. [Estructuras alternativas: Segun](curso/u18)
-19. Ejercicios estructuras alternativas
+19. [Ejercicios estructuras alternativas](curso/u19)
 20. [Estructuras repetitivas: Mientras](curso/u20)
 21. [Estructuras repetitivas: Repetir-Hasta Que](curso/u21)
 22. [Estructuras repetitivas: Para](curso/u22)
