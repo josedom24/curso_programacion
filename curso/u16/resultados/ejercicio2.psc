@@ -1,8 +1,9 @@
 //Calcular el perímetro y área de un rectángulo dada su base y su altura.
 //Análisis
 //Tenemos que leer la base y la altura del triangulo y calcular el perímetro y el área
-//Variables de entrada: base(real), altura(real)
-//Variables de salida: perimetro(real) y area(real)
+//Datos de entrada: base(real), altura(real)
+//Información de salida: perimetro(real) y area(real)
+//Variables: base, altura, perimetro y area (Real)
 //Diseño
 //1. Leer base y altura
 //2. Calcular perímetro(2*base + 2*altura)

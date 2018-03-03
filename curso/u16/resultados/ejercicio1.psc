@@ -1,7 +1,8 @@
 //Escribir un programa que pregunte al usuario su nombre, y luego lo salude.
 //Análisis
 //Tenemos que pedir un nombre proteclado y luego escribir un mensaje de saludo
-//Variables de entrada: nombre (Cadena)
+//Datos de entrada: nombre (Cadena)
+//Variables: nombre (Cadena)
 //Diseño
 //1. Leer nombre
 //2. Escribir mensaje de saludo

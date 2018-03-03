@@ -8,10 +8,15 @@ Escribir un programa que pregunte al usuario su nombre, y luego lo salude.
 
 Calcular el perímetro y área de un rectángulo dada su base y su altura.
 
+### Ejercicio 3
+
+Dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
+
+### Ejercicio 4
+
+Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
 
 
-3. Dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
-4. Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
 5.  Escribir un programa que convierta un valor dado en grados Fahrenheit a grados Celsius. Recordar que la fórmula para la conversión es: 
 
 		F = 9/5 * C + 32.
