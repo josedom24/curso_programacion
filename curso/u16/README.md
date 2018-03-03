@@ -16,10 +16,12 @@ Dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
 
 Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
 
+### Ejercicio 5
 
-5.  Escribir un programa que convierta un valor dado en grados Fahrenheit a grados Celsius. Recordar que la fórmula para la conversión es: 
+Escribir un programa que convierta un valor dado en grados Fahrenheit a grados Celsius. Recordar que la fórmula para la conversión es: 
 
-		F = 9/5 * C + 32.
+	C = (F-32)*5/9
+
 
 6. Calcular la media de tres números pedidos por teclado.
 7. Realiza un programa que reciba una cantidad de minutos y muestre por pantalla a cuantas horas y minutos corresponde.
