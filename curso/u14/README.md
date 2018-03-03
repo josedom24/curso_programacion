@@ -15,17 +15,17 @@ Vamos a resolver un problema completo, siguiendo todas las etapas que hemos estu
 
 Podemos dividir el problema en problemas más pequeños:
 
-	* Leer el número de hombres y el número de mujeres.
-	* Calcular el porcentaje de hombres y mujeres.
-	* Escribir los porcentajes
+* Leer el número de hombres y el número de mujeres.
+* Calcular el porcentaje de hombres y mujeres.
+* Escribir los porcentajes
 
 Refinamiento del algoritmo
 
-	* Leer `num_hombres` y `num_mujeres
-	* Calcular el número total de personas (`num_personas`)
-	* `porc_hombres` = `num_hombres` * 100 / `num_personas`
-	* `porc_mujeres` = `num_mujeres` * 100 / `num_personas`
-	* Escribir `porc_hombres`,`porc_mujeres`
+* Leer `num_hombres` y `num_mujeres`
+* Calcular el número total de personas (`num_personas`)
+* `porc_hombres` = `num_hombres` * 100 / `num_personas`
+* `porc_mujeres` = `num_mujeres` * 100 / `num_personas`
+* Escribir `porc_hombres`,`porc_mujeres`
 
 Como vemos durante el diseño pueden aparecer nuevas posibles variables 
 (variables intermedias), en este caso `num_personas` del tipo entero. Posteriormente cuando construimos el pseudocódigo tendremos que decidir si utilizamos todas las variables.

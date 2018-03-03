@@ -25,7 +25,7 @@
 13. [Funciones de cadenas de texto](curso/u13)
 14. [Nuestro primer pseudocódigo completo](curso/u14)
 15. [Ejecución paso a paso](curso/u15)
-16. Ejercicios estructura secuencial
+16. [Ejercicios estructura secuencial](curso/u16)
 17. [Estructuras alternativas: Si](curso/u17)
 18. [Estructuras alternativas: Segun](curso/u18)
 19. Ejercicios estructuras alternativas
