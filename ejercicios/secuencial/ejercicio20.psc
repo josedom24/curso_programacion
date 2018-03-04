@@ -8,9 +8,9 @@
 //Diseño
 //1. Leer el monedas de 2e, 1e, 50 céntimos, 20 céntimos o 10 céntimos.
 //2. Calcular Euros (sumar monedas de 2 euros * 2 + monedas de 1 euro
-//3. Calcular céntimos (monedas de 50c * 50 + monedas de 30c * 30 + moneda de 20c * 20 `moneda de 10c * 10
+//3. Calcular céntimos (monedas de 50c * 50 + monedas de 30c * 30 + moneda de 20c * 20 + moneda de 10c * 10
 //4. Convertir céntimos a euros (división entera entre 100)
-//5. Mostrar euros y céntimos totales,
+//5. Mostrar euros y céntimos totales
 
 Proceso CalcularDinero
 	Definir euro2,euro1,cent50,cent20,cent10 como Entero;
