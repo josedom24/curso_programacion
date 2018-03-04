@@ -116,7 +116,7 @@ Una compañía de paquetería internacional tiene servicio en algunos países de
 
 
 |Zona|Ubicación|Costo/gramo|
-----------------------------
+|----|---------|-----------|
 |1|América del Norte|11.00 euros|
 |2|América Central|10.00 euros|
 |3|América del Sur|$12.00 euros|
