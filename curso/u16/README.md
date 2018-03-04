@@ -39,12 +39,12 @@ Un vendedor recibe un sueldo base mas un 10% extra por comisión de sus ventas, 
 
 Una tienda ofrece un descuento del 15% sobre el total de la compra y un cliente desea saber cuanto deberá pagar finalmente por su compra.
 
+## Ejercicio 10
 
-
-11. Un alumno desea saber cual será su calificación final en la materia de Algoritmos. Dicha calificación se compone de los siguientes porcentajes:
-	* 55% del promedio de sus tres calificaciones parciales.
-    * 30% de la calificación del examen final.
-    * 15% de la calificación de un trabajo final.
+Un alumno desea saber cual será su calificación final en la materia de Algoritmos. Dicha calificación se compone de los siguientes porcentajes:
+* 55% del promedio de sus tres calificaciones parciales.
+* 30% de la calificación del examen final.
+* 15% de la calificación de un trabajo final.
 
 
 Pide al usuario dos números y muestra la "distancia" entre ellos (el valor absoluto de su diferencia, de modo que el resultado sea siempre positivo).
