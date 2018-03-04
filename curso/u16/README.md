@@ -32,9 +32,15 @@ Realiza un programa que reciba una cantidad de minutos y muestre por pantalla a 
 Por ejemplo: 1000 minutos son 16 horas y 40 minutos.
 
 ## Ejercicio 8
+
 Un vendedor recibe un sueldo base mas un 10% extra por comisión de sus ventas, el vendedor desea saber cuanto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el mes y el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones.
 
-10. Una tienda ofrece un descuento del 15% sobre el total de la compra y un cliente desea saber cuanto deberá pagar finalmente por su compra.
+## Ejercicio 9
+
+Una tienda ofrece un descuento del 15% sobre el total de la compra y un cliente desea saber cuanto deberá pagar finalmente por su compra.
+
+
+
 11. Un alumno desea saber cual será su calificación final en la materia de Algoritmos. Dicha calificación se compone de los siguientes porcentajes:
 	* 55% del promedio de sus tres calificaciones parciales.
     * 30% de la calificación del examen final.
