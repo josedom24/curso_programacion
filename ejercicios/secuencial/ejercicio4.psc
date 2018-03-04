@@ -1,12 +1,12 @@
-//Dados dos n煤meros, mostrar la suma, resta, divisi贸n y multiplicaci贸n de ambos.
-//An谩lisis
-//Tenemos que leer dos n煤meros, calcular la suma, resta, multiplicaci贸n y divisi贸n.
-//Datos de entrada: Los dos n煤meros (real)
-//Informaci贸n de salida: suma, resta, multiplicaci贸n, divisi贸n(real)
-//Variables: n煤m1, num2 (Real). Considero que las salidas no es necesario guardarla en variables.
-//Dise帽o
-//1. Leer los n煤emros
-//2. Mostrar suma,resta, multiplicaci贸n y divisi贸n
+//Dados dos n煤meros, mostrar la suma, resta, divisi髇 y multiplicaci髇 de ambos.
+//An醠isis
+//Tenemos que leer dos n鷐eros, calcular la suma, resta, multiplicaci髇 y divisi髇.
+//Datos de entrada: Los dos n鷐eros (real)
+//Informaci髇 de salida: suma, resta, multiplicaci髇, divisi髇(real)
+//Variables: num1, num2 (Real). Considero que las salidas no es necesario guardarla en variables.
+//Dise駉
+//1. Leer los n鷐eros
+//2. Mostrar suma,resta, multiplicaci髇 y divisi髇
 
 Proceso Calcular
 	Definir num1,num2 Como Real;
@@ -16,6 +16,6 @@ Proceso Calcular
 	Leer num2;
 	Escribir "La suma es ", num1+num2;
 	Escribir "La resta es ", num1-num2;
-	Escribir "La multiplicaci贸n es ", num1*num2;
-	Escribir "La divisi贸n es ", num1/num2;
+	Escribir "La multiplicaci髇 es ", num1*num2;
+	Escribir "La divisi髇 es ", num1/num2;
 FinProceso

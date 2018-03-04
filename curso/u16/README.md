@@ -64,7 +64,7 @@ Dado un número de dos cifras, diseñe un algoritmo que permita obtener el núme
 
 ### Ejercicio 15
 
-Un alumno desea saber cuál sera su calificación final en una asignatura. dicha calificación se compone de los siguiente porcentajes: 55% del promedio de sus tres practicas calificadas, 30% de la calificación del examen final y 15 % de la calificación de un proyecto final.
+Dadas dos variables numéricas A y B, que el usuario debe teclear, se pide realizar un algoritmo que intercambie los valores de ambas variables y muestre cuanto valen al final las dos variables.
 
 ### Ejercicio 16
 
