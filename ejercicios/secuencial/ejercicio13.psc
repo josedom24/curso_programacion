@@ -1,19 +1,22 @@
-//Realizar un algoritmos que lea un número y que muestre su raíz cuadrada y su raíz cúbica. PSeInt no tiene ninguna función predefinida que permita calcular la raíz cúbica, ¿Cómo se puede calcular?
+//Realizar un algoritmos que lea un n鷐ero y que muestre su ra韟 cuadrada y su ra韟 c鷅ica.
+//PSeInt no tiene ninguna funci髇 predefinida que permita calcular la ra韟 c鷅ica,
+//縞髆o se puede calcular?
 
-//Análisis
-//Se piden número y se muestra la raíz cuadrada y la cúbica. 
+//An醠isis
+//Se piden n鷐ero y se muestra la ra韟 cuadrada y la c鷅ica. 
 //Datos de entrada: numero (entero).
-//Información de salida: raíz cuadrada, raíz cúbica(real).
+//Informaci髇 de salida: ra韟 cuadrada, ra韟 c鷅ica(real).
 //Variables: num (entero).
-//Diseño
-//1. Leer el número.
-//2. Calular raíz cuadrada: tenemos una función
-//3. Calcular raíz cúbica: es igual ue elevar l número a 1/3
-//4. NMostrar las raices
+//Dise駉
+//1. Leer el n鷐ero.
+//2. Calular ra韟 cuadrada: tenemos una funci髇
+//3. Calcular ra韟 c鷅ica: es igual que elevar el n鷐ero a 1/3
+//4. Mostrar las ra韈es
+
 Proceso CalcularRaices
 	Definir num como Entero;
-	Escribir "Dime el número:";
+	Escribir "Dime el n鷐ero:";
 	Leer num;
-	Escribir "Raíz cuadrada:", raiz(num);
-	Escribir "Raíz cúbica:", num ˆ (1/3);
+	Escribir "Ra韟 cuadrada:", raiz(num);
+	Escribir "Ra韟 c鷅ica:", num ^ (1/3);
 FinProceso 

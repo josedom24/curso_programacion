@@ -24,7 +24,7 @@ Escribir un programa que convierta un valor dado en grados Fahrenheit a grados C
 
 ## Ejercicio 6
 
-Calcular la media de tres números pedidos por teclado
+Calcular la media de tres números pedidos por teclado.
 
 ## Ejercicio 7
 
