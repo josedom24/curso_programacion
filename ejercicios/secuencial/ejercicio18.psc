@@ -9,6 +9,7 @@
 //2. Obtener primer carácter de cada cadena
 //3. Concatenar los caracteres
 //4. Mostrar iniciales
+
 Proceso Iniciales
 	Definir nombre,apellido1,apellido2,inicial como Cadenas;
 	Escribir Sin Saltar "Dime tu nombre:";
