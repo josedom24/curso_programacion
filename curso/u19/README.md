@@ -14,7 +14,7 @@ Algoritmo que pida un número y diga si es positivo, negativo o 0.
 
 ### Ejercicio 4
 
-Escribe un programa que lea un número e indique si es par o impar.
+Escribe un programa que lea un número e indique si es par o impar. 
 
 ### Ejercicio 5
 
@@ -73,6 +73,17 @@ Escribir un programa que lea un año indicar si es bisiesto. Nota: un año es bi
 ### Ejercicio 14
 
 Escribe un programa que pida una fecha (dia, mes y año) y diga si es correcta.
+
+### Ejercicio 15
+
+La asociación de vinicultores tiene como política fijar un precio inicial al kilo de uva, la cual se clasifica en tipos A y B, y además en tamaños 1 y 2. Cuando se realiza la venta del producto, ésta es de un solo tipo y tamaño, se requiere determinar cuánto recibirá un productor por la uva que entrega en un embarque, considerando lo siguiente: si es de tipo A,
+ se le cargan 20centímos al precio inicial cuando es de tamaño 1; y 30 centímos si es de tamaño 2. Si es de tipo B, se rebajan 30 centimos cuando es de tamaño 1, y 50 centimos cuando es de tamaño 2.  Realice  un  algoritmo  para  determinar  la  ganancia  obtenida.
+
+
+
+
+
+
 
 ### Ejercicio 15
 
