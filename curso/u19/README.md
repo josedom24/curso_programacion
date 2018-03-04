@@ -119,7 +119,7 @@ Una compañía de paquetería internacional tiene servicio en algunos países de
 |----|---------|-----------|
 |1|América del Norte|11.00 euros|
 |2|América Central|10.00 euros|
-|3|América del Sur|$12.00 euros|
+|3|América del Sur|12.00 euros|
 |4|Europa|24.00 euros|
 |5|Asia|27.00 euros|
 
