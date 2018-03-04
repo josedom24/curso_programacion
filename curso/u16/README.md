@@ -26,10 +26,10 @@ Escribir un programa que convierta un valor dado en grados Fahrenheit a grados C
 
 Calcular la media de tres números pedidos por teclado
 
+## Ejercicio 7
 
-7. Realiza un programa que reciba una cantidad de minutos y muestre por pantalla a cuantas horas y minutos corresponde.
-
-	Por ejemplo: 1000 minutos son 16 horas y 40 minutos.
+Realiza un programa que reciba una cantidad de minutos y muestre por pantalla a cuantas horas y minutos corresponde.
+Por ejemplo: 1000 minutos son 16 horas y 40 minutos.
 
 
 9. Un vendedor recibe un sueldo base mas un 10% extra por comisión de sus ventas, el vendedor desea saber cuanto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el mes y el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones.
