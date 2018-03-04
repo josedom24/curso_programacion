@@ -46,6 +46,7 @@ Un alumno desea saber cual será su calificación final en la materia de Algorit
 * 30% de la calificación del examen final.
 * 15% de la calificación de un trabajo final.
 
+## Ejercicio 11
 
 Pide al usuario dos números y muestra la "distancia" entre ellos (el valor absoluto de su diferencia, de modo que el resultado sea siempre positivo).
 
