@@ -66,3 +66,4 @@
 * http://www.aliat.org.mx/BibliotecasDigitales/sistemas/Analisis_y_disenio_de_algoritmos.pdf
 * http://www.lcc.uma.es/~pepeg/modula/temas/tema2.pdf
 * http://www.fio.unicen.edu.ar/usuario/ariera/b6-0/Trabajos/FuncionesPseInt.pdf
+* http://www.uaa.mx/direcciones/dgdv/editorial/docs/algoritmos.pdf
