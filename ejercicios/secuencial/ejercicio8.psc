@@ -1,6 +1,6 @@
 //
 //Análisis
-//El vededo tiene un sueldo base mas una comisión del 10% por cada venta. Hace tres ventas.
+//El vendedor tiene un sueldo base mas una comisión del 10% por cada venta. Hace tres ventas.
 //Datos de entrada: sueldo base, las tres ventas (real).
 //Información de salida: comisiones y sueldo total (real).
 //Variables: sueldo_base, venta1, venta2, venta3, comision(real).
