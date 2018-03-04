@@ -7,7 +7,7 @@
 //Variables: a,b (entero).
 //Diseño
 //1. Leer los dos números
-//2. Inercambio los valores. Necesito una variable auxiliar (aux). Asigno "a" en "aux", "b" en "a" y "aux" en "b"
+//2. Intercambio los valores. Necesito una variable auxiliar (aux). Asigno "a" en "aux", "b" en "a" y "aux" en "b"
 //3. Mostrar "a" y "b"
 
 Proceso IntercambiarVariables
