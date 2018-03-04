@@ -50,6 +50,8 @@ Un alumno desea saber cual será su calificación final en la materia de Algorit
 
 Pide al usuario dos números y muestra la "distancia" entre ellos (el valor absoluto de su diferencia, de modo que el resultado sea siempre positivo).
 
+## Ejercicio 12
+
 Pide al usuario dos pares de números x1,y2 y x2,y2, que representen dos puntos en el plano. Calcula y muestra la distancia entre ellos.
 
 
