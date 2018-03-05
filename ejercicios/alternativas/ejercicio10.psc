@@ -1,4 +1,5 @@
 //http://mimosa.pntic.mec.es/clobo/geoweb/circun3.htm
+//https://www.geogebra.org/m/Wk7Y7N6V
 Proceso PosicionCircunferencias
 	Definir x1,y1,x2,y2,r1,r2 Como Real;
 	Definir distancia Como Real;
