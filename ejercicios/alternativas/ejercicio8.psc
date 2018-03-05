@@ -11,7 +11,7 @@ Proceso ComprobarNotaEdadSexo
 		Si Mayusculas(sexo)="F" Entonces
 			Escribir "Aceptada";
 		SiNo
-			Si Mayusculas(sexo)="F" Entonces
+			Si Mayusculas(sexo)="M" Entonces
 				Escribir "Posible";
 			SiNo
 				Escribir "No Aceptada";
