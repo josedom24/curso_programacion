@@ -2,7 +2,7 @@
 
 ### Ejercicio 1
 
-Algoritmo que pida dos números 'a' y 'b' e indique si 'a' es mayor que 'b' o no.
+Algoritmo que pida dos números e indique si el primero es mayor que el segundo o no.
 
 ### Ejercicio 2
 
