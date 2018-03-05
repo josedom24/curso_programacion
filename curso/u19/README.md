@@ -26,7 +26,7 @@ Programa que lea una cadena por teclado y compruebe si es una letra mayúscula.
 
 ### Ejercicio 7
 
-Realiza un algoritmo que calcule la potencia, para ello pide por teclado la base y el exponente. Peden ocurrir tres cosas:
+Realiza un algoritmo que calcule la potencia, para ello pide por teclado la base y el exponente. Pueden ocurrir tres cosas:
 
 * El exponente sea positivo, sólo tienes que imprimir la potencia.
 * El exponente sea 0, el resultado es 1.
@@ -52,11 +52,11 @@ circunferencias y las clasifique en uno de estos estados:
 * secantes
 * tangentes interiores
 * interiores
-* concentricas
+* concéntricas
 
 ### Ejercicio 11
 
-Programa que lea 3 datos de entrada A, B y C. Estos corresponden a las dimensiones de los lados de un triángulo. El programa debe determinar que tipo de triangulo es, teniedno en cuenta los siguiente:
+Programa que lea 3 datos de entrada A, B y C. Estos corresponden a las dimensiones de los lados de un triángulo. El programa debe determinar que tipo de triangulo es, teniendo en cuenta los siguiente:
 
 * Si se cumple Pitágoras entonces es triángulo rectángulo
 * Si sólo dos lados del triángulo son iguales entonces es isósceles.
@@ -69,12 +69,12 @@ Escribir un programa que lea un año indicar si es bisiesto. Nota: un año es bi
 
 ### Ejercicio 13
 
-Escribe un programa que pida una fecha (dia, mes y año) y diga si es correcta.
+Escribe un programa que pida una fecha (día, mes y año) y diga si es correcta.
 
 ### Ejercicio 14
 
 La asociación de vinicultores tiene como política fijar un precio inicial al kilo de uva, la cual se clasifica en tipos A y B, y además en tamaños 1 y 2. Cuando se realiza la venta del producto, ésta es de un solo tipo y tamaño, se requiere determinar cuánto recibirá un productor por la uva que entrega en un embarque, considerando lo siguiente: si es de tipo A,
- se le cargan 20centímos al precio inicial cuando es de tamaño 1; y 30 centímos si es de tamaño 2. Si es de tipo B, se rebajan 30 centimos cuando es de tamaño 1, y 50 centimos cuando es de tamaño 2.  Realice  un  algoritmo  para  determinar  la  ganancia  obtenida.
+ se le cargan 20 céntimos al precio inicial cuando es de tamaño 1; y 30 céntimos si es de tamaño 2. Si es de tipo B, se rebajan 30 céntimos cuando es de tamaño 1, y 50 céntimos cuando es de tamaño 2.  Realice  un  algoritmo  para  determinar  la  ganancia  obtenida.
 
 ### Ejercicio 15
 
@@ -83,7 +83,7 @@ Realice un algoritmo que permita determinar el pago a la compañía de autobuses
 
 ### Ejercicio 16
 
-La politica de cobro de una compañia telefónica es: cuando se realiza una llamada, el cobro es por el tiempo que ésta dura, de tal forma que los primeros cinco minutos cuestan 1 euro, los siguientes tres,  80 centimos,  los  siguientes  dos  minutos,  70 centimos,  y  a  partir  del  décimo  minuto, 50 centimos.
+La política de cobro de una compañía telefónica es: cuando se realiza una llamada, el cobro es por el tiempo que ésta dura, de tal forma que los primeros cinco minutos cuestan 1 euro, los siguientes tres,  80 céntimos,  los  siguientes  dos  minutos,  70 céntimos,  y  a  partir  del  décimo  minuto, 50 céntimos.
 Además,  se  carga  un  impuesto  de  3  %  cuando  es  domingo,  y  si  es  
 día hábil, en turno matutino, 15 %, y en turno vespertino, 10 %. Realice 
 un algoritmo para determinar cuánto debe pagar por cada concepto una 
@@ -105,7 +105,7 @@ Ejemplo:
 
 ### Ejercicio 18
 
-Realiza un programa que pida el día de la semana (del 1 al 7) y escriba el día corespondiente. Si introducimos otro número nos da un error.
+Realiza un programa que pida el día de la semana (del 1 al 7) y escriba el día correspondiente. Si introducimos otro número nos da un error.
 
 ### Ejercicio 19
 
