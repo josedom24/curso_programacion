@@ -41,7 +41,7 @@ imprimir 'POSIBLE'. Si no se cumplen dichas condiciones se debe mostrar 'NO ACEP
 
 ### Ejercicio 9
 
-Algoritmo que pida tres números y los muestre ordenados.
+Algoritmo que pida tres números y los muestre ordenados (de mayor a menor);
 
 ### Ejercicio 10
 
@@ -52,6 +52,7 @@ circunferencias y las clasifique en uno de estos estados:
 * secantes
 * tangentes interiores
 * interiores
+* concentricas
 
 ### Ejercicio 11
 
