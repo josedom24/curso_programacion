@@ -2,7 +2,7 @@
 //Análisis
 //Tenenemos que pedir dos números por teclado, compararlos e indicar si el primero es mayor que el segundo o no.
 //Datos de entrada: número1, número2 (entero)
-//Información de salida: Un mensaje de texto indicando se el primero es mayor que el segundo o no.
+//Información de salida: Un mensaje de texto indicando si el primero es mayor que el segundo o no.
 //Variables: num1,num2 (enteros)
 //Diseño
 //1. Leer los numeros
