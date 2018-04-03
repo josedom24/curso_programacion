@@ -1,3 +1,14 @@
+//Algoritmo que pida dos números e indique si el primero es mayor que el segundo o no.
+//Análisis
+//Tenenemos que pedir dos números por teclado, compararlos e indicar si el primero es mayor que el segundo o no.
+//Datos de entrada: número1, número2 (entero)
+//Información de salida: Un mensaje de texto indicando se el primero es mayor que el segundo o no.
+//Variables: num1,num2 (enteros)
+//Diseño
+//1. Leer los numeros
+//2. Si el número1 es mayor que el segundo escribir "El primero es mayor que el segundo"
+//3. En caso contrario escribir "El primero no es mayor que el segundo"
+
 Proceso CalcularMayor
 	Definir num1, num2 como Entero;
 	Escribir "Dime el número 1:";
