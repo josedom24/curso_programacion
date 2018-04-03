@@ -74,4 +74,4 @@ Una empresa les paga a sus empleados con base en las horas trabajadas en la sema
 
 # Ejercicios resueltos
 
-[Ejercicios estructura secuencial](../../ejercicios/repetitiva)
+[Ejercicios estructuras repetitivas](../../ejercicios/repetitivas)
