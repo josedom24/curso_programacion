@@ -1,4 +1,4 @@
-# Ejercicios estructura repetitiva
+# Ejercicios estructuras repetitivas
 
 ### Ejercicio 1
 
@@ -40,7 +40,32 @@ Realizar una algoritmo que muestre la tabla de multiplicar de un número introdu
 
 Escribe un programa que diga si un número introducido por teclado es o no primo. Un número primo es aquel que sólo es divisible entre él mismo y la unidad.
 
-###
+### Ejercicio 11
+
+Realizar un algoritmo para determinar cuánto ahorrará una persona en un año, si al final de cada mes deposita variables cantidades de dinero; además, se quiere saber cuánto lleva ahorrado cada mes. 
+
+### Ejercicio 12
+
+Una empresa tiene el registro de las horas que trabaja diariamente un empleado durante la semana (seis días) y requiere determinar el total de éstas, así como el sueldo que recibirá por las horas trabajadas. 
+
+### Ejercicio 13
+
+Una persona se encuentra en el kilómetro 70 de una carretera, otra se encuentra en el km 150, los coches tienen sentido opuesto y tienen la misma velocidad. Realizar un programa para determinar en qué kilometro de esa carretera se encontrarán.
+
+### Ejercicio 14
+
+Una persona adquirió un producto para pagar en 20 meses. El primer mes pagó 10 €, el segundo 20 €, el tercero 40 € y así sucesivamente. Realizar un algoritmo para determinar cuánto debe pagar mensualmente y el total de 
+lo que pagó después de los 20 meses.
+
+### Ejercicio 15
+
+Una empresa les paga a sus empleados con base en las horas trabajadas en la semana. Realice un algoritmo para determinar el sueldo semanal de N trabajadores y, además, calcule cuánto pagó la empresa por los N empleados. 
+
+### Ejercicio 16
+
+Una empresa les paga a sus empleados con base en las horas trabajadas en la semana. Para esto, se registran los días que trabajó y las horas de cada día. Realice un algoritmo para determinar el sueldo semanal de N trabajadores y además calcule cuánto pagó la empresa por los N empleados.
+
+
 
 
 # Ejercicios resueltos
