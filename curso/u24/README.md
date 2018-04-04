@@ -87,6 +87,10 @@ Proceso sin_titulo
 FinProceso
 
 
+### Ejercicio 18
+
+Menú:  http://pseint.sourceforge.net/index.php?page=ejemplos.php&cual=Menu&mode=estricto
+
 # Ejercicios resueltos
 
 [Ejercicios estructuras repetitivas](../../ejercicios/repetitivas)
