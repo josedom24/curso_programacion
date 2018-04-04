@@ -69,7 +69,22 @@ Una empresa les paga a sus empleados con base en las horas trabajadas en la sema
 
 Una empresa les paga a sus empleados con base en las horas trabajadas en la semana. Para esto, se registran los días que trabajó y las horas de cada día. Realice un algoritmo para determinar el sueldo semanal de N trabajadores y además calcule cuánto pagó la empresa por los N empleados.
 
+### Ejercicio 17
 
+Hacer un programa que muestre un cronometro, indicando las horas, minutos y segundos.
+
+Proceso sin_titulo
+	Definir k,i,j Como Entero;
+	para k <- 0 hasta 23 con paso 1 hacer //horas
+		para i <- 0 hasta 59 con paso 1 hacer //minutos
+			para j <- 0 hasta 59 con paso 1 hacer //segundos
+				Limpiar Pantalla;                
+				escribir k,":",i,":",j; //escribe hora:minutos:segundos (actualizandose a medida que va pasando cada segundo)
+				Esperar 1 Segundo;
+			finpara 
+		finpara
+	finpara
+FinProceso
 
 
 # Ejercicios resueltos
