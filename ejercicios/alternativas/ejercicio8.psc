@@ -4,7 +4,7 @@
 //En caso de que se cumpla lo mismo, pero el sexo sea 'M', debe imprimir 'POSIBLE'. 
 //Si no se cumplen dichas condiciones se debe mostrar 'NO ACEPTADA'.
 // Análisis
-// Pedimos por teclado dos números: nots y edad y un carácter sexo.
+// Pedimos por teclado dos números: nota y edad y un carácter sexo.
 // Se muestra "ACEPTADA" si nota>=5, edad>=18 y el sexo es femenino.
 // Si se cumple las mismas condiciones pero con el sexo masculino se muestra "POSIBLE"
 // en caso contrario se muestra "NO ACEPTADA"
