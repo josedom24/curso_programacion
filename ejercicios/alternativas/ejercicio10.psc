@@ -1,5 +1,22 @@
+//Algoritmo que pida los puntos centrales x1,y1,x2,y2 y los radios r1,r2 de dos circunferencias y las clasifique en uno de estos estados:
+//exteriores
+//tangentes exteriores
+//secantes
+//tangentes interiores
+//interiores
+//concéntricas
+// Análisis
+// Pedimos el centro (x1,y1) de una circunferencia y su radio r1, pedimos el centro de otra circunferencia (x2,y2) y su radio r2.
+//En las siguientes página podemos aprender la relación entre dos circunferencias.
 //http://mimosa.pntic.mec.es/clobo/geoweb/circun3.htm
 //https://www.geogebra.org/m/Wk7Y7N6V
+// Datos de entrada: x1,y1,x3,y2,r1,r2 (real)
+// Información de salida: Tipo de relación entre las circunferencias
+// Variables: x1,y1,x3,y2,r1,r2 (real), distancia (real)
+// Diseño
+
+
+
 Proceso PosicionCircunferencias
 	Definir x1,y1,x2,y2,r1,r2 Como Real;
 	Definir distancia Como Real;
