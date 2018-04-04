@@ -14,6 +14,15 @@
 // Información de salida: Tipo de relación entre las circunferencias
 // Variables: x1,y1,x3,y2,r1,r2 (real), distancia (real)
 // Diseño
+// 1.Leer x1,y1,r1
+// 2.Leer x2,y2,r2
+// 3. Calcular distancia entre los centros
+// 4. Si distancia>suma de los radios mostrar "Circunferencias exteriores"
+// 5. Si distancia = suma de los radios mostrar "Circunferencias tangentes exteriores"
+// 6. Si distancia < suma de los radios Y distancia> que el valor absoluto de la resta de los radios mostrar "Circunferencias secante"
+// 7. Si distancia = que el valor absoluto de la resta de los radios mostrar "Circunferencias tangentes interiores"
+// 8. Si distancia >0 y distancia < que el valor absoluto de la resta de los radios mostrar "Circunferencias interiores"
+// 9. Si distancia = 0  mostrar "Circunferencias concentricas"
 
 
 
