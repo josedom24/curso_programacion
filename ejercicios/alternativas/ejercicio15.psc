@@ -8,7 +8,7 @@ Proceso CalcularCosteAutobus
 	Definir num_alumnos Como Entero;
 	Definir coste_por_alumno como Real;
 	Definir coste_autobus como Entero;
-	Escribir Sin Saltar "¿Cuaántos alumnos participan en la actividad?:";
+	Escribir Sin Saltar "¿Cuántos alumnos participan en la actividad?:";
 	Leer num_alumnos;
 	Si num_alumnos>=100 Entonces
 		coste_por_alumno<-65;
