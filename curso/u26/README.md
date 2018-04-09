@@ -40,7 +40,7 @@ Inicializar un vector de 5 cadenas a partir de los datos pedidos por teclado y p
 			Escribir Sin Saltar "Dime la cadena número ",i+1,":";
 			Leer vector[i];
 		FinPara
-		Escribir "Las cadenas en mayísculas";
+		Escribir "Las cadenas en mayúsculas";
 		Para i<-0 hasta 4 Hacer
 			Escribir Sin Saltar Mayusculas(vector[i])," ";
 		FinPara
