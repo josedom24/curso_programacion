@@ -76,7 +76,7 @@ Hacer un programa que muestre un cronometro, indicando las horas, minutos y segu
 
 ### Ejercicio 19
 
-REalizar un ejemplo de menú, donde podemos escoger las distintas opciones hasta que seleccionamos la opción de "Salir".
+Realizar un ejemplo de menú, donde podemos escoger las distintas opciones hasta que seleccionamos la opción de "Salir".
 
 ### Ejercicio 20
 
