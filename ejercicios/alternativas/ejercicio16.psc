@@ -4,6 +4,32 @@
 //y a partir del décimo minuto, 50 céntimos. Además, se carga un impuesto de 3 % cuando es domingo, y si es
 //otro día, en turno de mañana, 15 %, y en turno de tarde, 10 %. 
 //Realice un algoritmo para determinar cuánto debe pagar por cada concepto una persona que realiza una llamada.
+// Análisis
+// El precio final de la llamada depende del tiempo de la llamada.
+// El primer minuto cuesta 1 euro.
+// Los siguientes 3 minutos, 80 céntimos.
+// Los siguientes 2 minutos, 70 céntimos.
+// A partir del minuto 10, 50 céntimos.
+// Además el coste depende del día u del turno, de esta manera:
+// Si la llamada es el domingo, se suma el 3% al precio final
+// Si la llamada es cualquier otro día por la mañana, se suma el 15% al precio final
+// Si la llamada es cualquier otro día por la tarde, se suma el 10% al precio final
+// Datos de entrada: tiempo de la llamada (entero), si la llamada es en domingo (carácter), turno (carácter)
+// Información de salida: Precio de la llamada en euros (real)
+// Variables: tiempo (entero), es_domingo, turno (carácter), coste (entero)
+// Diseño
+// 1. Leer tiempo
+// 2. Leer si la llamada es en domingo
+// 3. Si no es en domingo, leer el turno (Mañana o Tarde)
+// 4. Si tiempo <5 coste=tiempo*100
+// 5. Si tiempo<8 coste=(tiempo-5)*80 + 500 (el coste de los cinco primeros minutos)
+// 6. Si tiempo<10 coste=(tiempo-8)*70 + 240 (el coste desde el minuto 6 al 8) + 500 (el coste de los cinco primeros minutos)
+// 6. Si tiempo>10 coste=(tiempo-10)*50 + 140 (el coste desde el minuto 9 al 10) + 240 (el coste desde el minuto 6 al 8) + 500 (el coste de los cinco primeros minutos)
+// 7. Si la llamada es en domingo coste = coste + 3%
+// 8. Si la llamada es otro día por la mañana coste = coste + 15%
+// 9. Si la llamada es otro día por la mañana coste = coste + 10%
+// 10. Mostrar coste final en euros
+
 Proceso CalcularCosteTelefono
 	Definir tiempo Como Entero;
 	Definir es_domingo Como Caracter;
@@ -21,12 +47,12 @@ Proceso CalcularCosteTelefono
 		coste<-tiempo*100;
 	SiNo
 		Si tiempo<8 Entonces
-			coste<-tiempo*80;
+			coste<-(tiempo-5)*80+500;
 		SiNo
 			Si tiempo<10 Entonces
-				coste<-tiempo*70;
+				coste<-(tiempo-8)*70+240+500;
 			SiNo
-				coste<-tiempo*50;
+				coste<-(tiempo-10)*50+140+240+500;
 			FinSi
 		FinSi
 	FinSi
