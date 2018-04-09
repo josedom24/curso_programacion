@@ -6,7 +6,7 @@ Crea una aplicación que pida un número y calcule su factorial (El factorial de
 
 ### Ejercicio 2
 
-Crea una aplicación que permita adivinar un número. En primer lugar la aplicación solicita un número entero por teclado. A continuación va pidiendo números y va respondiendo si el número a adivinar es mayor o menor que el introducido. El programa termina cuando se acierta el número.
+Crea una aplicación que permita adivinar un número. La aplicación genera un número aleatorio del 1 al 100. A continuación va pidiendo números y va respondiendo si el número a adivinar es mayor o menor que el introducido,a demás de los intentos que te quedan (tienes 10 intentos para acertarlo). El programa termina cuando se acierta el número (además te dice en cuantos intentos lo has acertado), si se llega al limite de intentos te muestra el número que había generado. 
 
 ### Ejercicio 3
 
@@ -73,23 +73,10 @@ Una empresa les paga a sus empleados con base en las horas trabajadas en la sema
 
 Hacer un programa que muestre un cronometro, indicando las horas, minutos y segundos.
 
-Proceso sin_titulo
-	Definir k,i,j Como Entero;
-	para k <- 0 hasta 23 con paso 1 hacer //horas
-		para i <- 0 hasta 59 con paso 1 hacer //minutos
-			para j <- 0 hasta 59 con paso 1 hacer //segundos
-				Limpiar Pantalla;                
-				escribir k,":",i,":",j; //escribe hora:minutos:segundos (actualizandose a medida que va pasando cada segundo)
-				Esperar 1 Segundo;
-			finpara 
-		finpara
-	finpara
-FinProceso
-
 
 ### Ejercicio 18
 
-Menú:  http://pseint.sourceforge.net/index.php?page=ejemplos.php&cual=Menu&mode=estricto
+REalizar un ejemplo de menú, donde podemos escoger las distintas opciones hasta que seleccionamos la opción de "Salir".
 
 # Ejercicios resueltos
 
