@@ -115,11 +115,11 @@ Una compañía de transporte internacional tiene servicio en algunos países de 
 
 |Zona|Ubicación|Costo/gramo|
 |----|---------|-----------|
-|1|América del Norte|11.00 euros|
-|2|América Central|10.00 euros|
-|3|América del Sur|12.00 euros|
-|4|Europa|24.00 euros|
-|5|Asia|27.00 euros|
+|1|América del Norte|24.00 euros|
+|2|América Central|20.00 euros|
+|3|América del Sur|21.00 euros|
+|4|Europa|10.00 euros|
+|5|Asia|18.00 euros|
 
 Parte de su política implica que los paquetes con un peso superior a 5 kg no son transportados, esto por cuestiones de logística y de seguridad. 
 Realice un algoritmo para determinar el cobro por la entrega de un paquete o, en su caso, el rechazo de la entrega.
