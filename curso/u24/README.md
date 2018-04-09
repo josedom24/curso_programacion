@@ -26,11 +26,11 @@ Escribir un programa que imprima todos los números pares entre dos números que
 
 ### Ejercicio 7
 
-Algoritmo que muestre la tabla de multiplicar de los números 1,2,3,4 y 5.
+Realizar una algoritmo que muestre la tabla de multiplicar de un número introducido por teclado.
 
 ### Ejercicio 8
 
-Escribe un programa que lea una lista de diez números y determine cuántos son positivos, y cuántos son negativos.
+
 
 ### Ejercicio 9
 
@@ -38,7 +38,7 @@ Escribe un programa que dados dos números, uno real (base) y un entero positivo
 
 ### Ejercicio 10
 
-Realizar una algoritmo que muestre la tabla de multiplicar de un número introducido por teclado.
+Algoritmo que muestre la tabla de multiplicar de los números 1,2,3,4 y 5.
 
 ### Ejercicio 11
 
