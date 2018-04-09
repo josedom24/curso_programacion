@@ -78,6 +78,14 @@ Hacer un programa que muestre un cronometro, indicando las horas, minutos y segu
 
 REalizar un ejemplo de menú, donde podemos escoger las distintas opciones hasta que seleccionamos la opción de "Salir".
 
+### Ejercicio 19
+
+Mostrar en pantalla los N primero número primos. Se pide por teclado la cantidad de números primos que queremos mostrar.
+
+### Ejercicio 20
+
+Algoritmo para descomponer un número en sus factores primos.
+
 # Ejercicios resueltos
 
 [Ejercicios estructuras repetitivas](../../ejercicios/repetitivas)
