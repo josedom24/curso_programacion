@@ -47,7 +47,7 @@ Algoritmo que muestre la tabla de multiplicar de los números 1,2,3,4 y 5.
 
 ### Ejercicio 11
 
-Escribe un programa que diga si un número introducido por teclado es o no primo. Un número primo es aquel que sólo es divisible entre él mismo y la unidad.
+Escribe un programa que diga si un número introducido por teclado es o no primo. Un número primo es aquel que sólo es divisible entre él mismo y la unidad. Nota: Es suficiente probar hasta la raíz cuadrada del número para ver si es divisible por algún otro número.
 
 ### Ejercicio 12
 
