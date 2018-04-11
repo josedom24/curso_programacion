@@ -1,74 +1,76 @@
+# Arreglos multidimensionales: Tablas
 
-Vectores
+Una **tabla** en un array bidimensional. La primera dimensión indica el número de filas y el segundo el número de columnas.
 
-Hacer una tabla de puntuación realizando lo siguiente. La puntuación se guardará en un vector de 10 números. Hat que mostrar:
+	Definir tabla como Entero;
+	Dimension tabla [3,4];
 
-* La suma de los valores de la tabla.
-* La media de los valores de la tabla.
+Hemos definido una tabla de enteras con 3 filas y 4 columnas, por tanto tenemos 12 elementos.
 
-Realizar un algoritmo que permita realizar el cuadrado de los cien primeros números enteros y a continuación escribir el vector que contenga los 100 no cuadrados.
+Para acceder a cada uno de lo elemento tenemos que indicar la fila y la columna en la que se encuentra, siempre empezando por el 0. Por ejemplo para incializar el elemento que esta en la primera fila y la segunda columna sería:
 
-Programa que lee una secuencia de 10 numeros enteros y los almacena en un vector y luego lo saca en orden inverso al de entrada.
+	tabla[0,1] <- 10;
 
-Tablas
+El acceso a un elemento que no existe producirá un error.
 
-1- Tenemos una tabla con 3 filas y 3 columnas. Inicializa todos los elementos con datos solicitados por teclado y a continuación muestra la suma de todos los elementos.
+## Recorrido de una tabla
 
-2- Realizar la suma de 2 matrices bidimensionales de un números enteros, la matriz será 3 * 2.
+Para recorrer todos los elementos de una tabla necesitamos utilizar dos bucles anidados. Normalmente el exterior nos va a permitir recorrer las filas y el interior las columnas. Por ejemplo para inicializar todos los elementos a 0, quedaría:
 
-3- Escribir un algoritmo que permita sumar los elementos positivos de una tabla y los elementos negativos, siendo la tabla real de 5 * 3.
+	Para filas<-0 hasta 2 Hacer
+		Para columnas<-0 hasta 3 Hacer
+			tabla[filas,columnas]<-0;
+		FinPara
+	FinPara
 
+De forma similar podríamos recorrer la tabla para mostrar los elementos:
 
+	Para filas<-0 hasta 2 Hacer
+		Para columnas<-0 hasta 3 Hacer
+			Escribir tabla[filas,columnas];
+		FinPara
+	FinPara
 
-4- Tenemos una matriz de 5 filas y 4 columnas que contiene el las notas de un conjunto de alumnos
-(las notas de cada alumno se guarda en una fila, la nota de cada asignatura se guarada en una columna. Tenemos un vector de cadenas con el nombre de las asignturas:
+### Ejemplo
 
-1. Matemáticas
-2. Lengua
-3. Ciencias Sociales
-4. Ciencias Naturales
-5. Inglés
-6. Educación física 
+Inicializar una tabla con los números del 1 al 5, sus cuadrados y sus cubos. Por lo tanto tenemos que definir una tabla con 5 filas y 3 columnas. Muestra los datos:
 
-Realizar un programa que inicialice desde teclado dicha tabla y a continuación calcule la nota media por asignatura.
+	Proceso CuadradoCubos
+		Definir tabla Como Entero;
+		Definir filas,columnas Como Entero;
+		Dimension tabla[5,3];
+		Para filas<-0 hasta 4 Hacer
+			tabla[filas,0]<-filas+1;
+			tabla[filas,1]<-(filas+1)^2;
+			tabla[filas,2]<-(filas+1)^3;
+		FinPara
+		
+		Para filas<-0 hasta 4 Hacer
+			Para columnas<-0 hasta 2 Hacer
+				Escribir Sin Saltar tabla[filas,columnas]," ";
+			FinPara
+			Escribir "";
+		FinPara
+	FinProceso
 
-Ejercicio de repaso propuesto 9.1: Crea un programa que pida un número al usuario un número de mes (por ejemplo, el 4) y diga cuántos días tiene (por ejemplo, 30). Debes usar una matriz.
+## Arrays multidimensionales
 
-Ejercicio de repaso propuesto 9.2: Haz un programa que pida al usuario 5 datos, los guarde en una matriz y luego muestre su media (la suma de los 5 datos, dividida entre 5).
+Los arrays pueden ter las dimensiones que deseemos, por ejemplo podemos tener una array de tres dimensiones:
 
-Ejercicio de repaso propuesto 9.3: Crea una versión ampliada del ejercicio 9.2, en la que se pida al usuario 5 datos, se guarden en una matriz y finalmente se calcule su media, se muestre ésta y se muestren también los valores mayores que la media).
+	Definir tabla como Entero;
+	Dimension tabla [4,4,4];
 
-Ejercicio de repaso propuesto 9.4: Si has estudiado lo que es un vector, crea un programa que reserve espacio para dos vectores de 3 componentes, pida al usuario sus valores y calcule la suma de ambos vectores (su primera componente será x1+y1, la segunda será x2+y2 y así sucesivamente).
+Y podríamos inicializar el primer elemento como:
 
-Ejercicio de repaso propuesto 9.5: Si has estudiado lo que es un vector, prepara un programa que reserve espacio para dos vectores de 3 componentes, pida al usuario sus valores y calcule su producto escalar (x1·y1+ x2·y2+x3·y3).
+	tabla[0,0,0,]<-10;
 
-Ejercicio de repaso propuesto 9.6: Haz un programa que pida al usuario 7 números enteros y calcule (y muestre) cuál es el mayor de ellos. Nota: para calcular el mayor valor de una matriz, hay que comparar cada uno de los valores que tiene almacenados con el que hasta ese momento es el máximo provisional. El valor inicial de este máximo provisional no debería ser cero (porque el resultado sería incorrecto si todos los números son negativos), sino el primer elemento de la matriz.
+Necesitaríamos tres bucles para recorrer un array de tres dimensiones:
 
-Ejercicio de repaso propuesto 9.7: Crea un programa que prepare un array con 10 datos prefijados, luego pregunte al usuario qué dato desea buscar, avise si ese dato no aparece, y que en caso contrario diga cuántas veces se ha encontrado.
+	Para i<-0 hasta 2 Hacer
+		Para j<-0 hasta 2 Hacer
+			Para k<-0 hasta 2 Hacer
+				tabla[i,j,k]<-0;
+			FinPara
+		FinPara
+	FinPara
 
-
-También se pueden crear arrays "de dos dimensiones" (por ejemplo, 3 filas y dos columnas), que se acercan más al concepto matemático de matriz:
-
-Proceso Matriz32
- 
-    Dimension datos[3,2]
- 
-    datos[1,1] <- 10
-    datos[2,1] <- 25
-    datos[3,1] <- 50
- 
-    datos[1,2] <- 11
-    datos[2,2] <- 26
-    datos[3,2] <- 51
- 
-    Escribir "El primer dato en la primera columna es ", datos[1,1]
-    Escribir "Y el ultimo de la segunda columna ", datos[3,2]
- 
-FinProceso
- 
-
-Ejercicio de repaso propuesto 9.8: Crea un programa que pida al usuario dos bloques de 10 números cada uno (usando un array de dos dimensiones). Después deberá mostrar el mayor dato que se ha introducido en cada uno de esos dos bloques.
-
-Ejercicio de repaso propuesto 9.9: Si has estudiado álgebra matricial, haz un programa que calcule el determinante de una matriz de 2x2, a partir de datos que introduzca el usuario.
-
-Ejercicio de repaso propuesto 9.10: Si has estudiado álgebra matricial, prepara un programa que calcule el determinante de una matriz de 3x3.

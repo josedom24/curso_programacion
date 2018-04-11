@@ -34,15 +34,16 @@
 22. [Estructuras repetitivas: Para](curso/u22)
 23. [Uso específico de variables: contadores, acumuladores e indicadores](curso/u23)
 24. [Ejercicios estructuras repetitivas](curso/u24)
-25. [Estructuras de datos: Arreglos (array)](curso/u25)
-26. [Arreglos unidimensionales: Vectores](curso/u26)
-27. [Arreglos multidimensionales: Tablas](curso/u27)
-28. Ejercicios de arreglos
-29. [Programación estructurada](curso/u29)
-30. [Funciones y procedimientos](curso/u30)
-31. [Funciones recursivas](curso/u31)
-32. Ejercicios de funciones
-33. [Más ejercicios](curso/u33)
+25. Ejercicios cadenas de caracteres
+26. [Estructuras de datos: Arreglos (array)](curso/u26)
+27. [Arreglos unidimensionales: Vectores](curso/u27)
+28. [Arreglos multidimensionales: Tablas](curso/u28)
+29. Ejercicios de arreglos
+30. [Programación estructurada](curso/u30)
+31. [Funciones y procedimientos](curso/u31)
+32. [Funciones recursivas](curso/u32)
+33. Ejercicios de funciones
+34. [Más ejercicios](curso/u34)
 
 ### Lenguajes de Programación
 

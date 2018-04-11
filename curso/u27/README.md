@@ -1,76 +1,47 @@
-# Arreglos multidimensionales: Tablas
+# Arreglos unidimensionales: Vectores
 
-Una **tabla** en un array bidimensional. La primera dimensión indica el número de filas y el segundo el número de columnas.
+Un **vector** es una array unidimensional. Para declarar un vector de 10 enteros:
 
-	Definir tabla como Entero;
-	Dimension tabla [3,4];
+	Definir vector como Entero;
+	Dimension vector[10];
 
-Hemos definido una tabla de enteras con 3 filas y 4 columnas, por tanto tenemos 12 elementos.
+Para acceder a cada uno de los elementos del vector utilizamos un índice. el primer elemento se accede con el índice 0. Podemos trabajar individualmente con cada uno de los elementos:
 
-Para acceder a cada uno de lo elemento tenemos que indicar la fila y la columna en la que se encuentra, siempre empezando por el 0. Por ejemplo para incializar el elemento que esta en la primera fila y la segunda columna sería:
+	vector[0]<-10;
+	Escribir vector[0];
 
-	tabla[0,1] <- 10;
+El acceso a un elemento que no existe producirá un error, por ejemplo:
 
-El acceso a un elemento que no existe producirá un error.
+	vector[10]<-10;
 
-## Recorrido de una tabla
+## Recorrido de un vector
 
-Para recorrer todos los elementos de una tabla necesitamos utilizar dos bucles anidados. Normalmente el exterior nos va a permitir recorrer las filas y el interior las columnas. Por ejemplo para inicializar todos los elementos a 0, quedaría:
+Vamos a inicializar todos los elementos de un vector. Para ello vamos a **recorrer** el vector e inicializar cada elemento con un valor ,por ejemplo lo vamos a inicializar a 0. Para recorrer un vector utilizamos un bucle `Para`:
 
-	Para filas<-0 hasta 2 Hacer
-		Para columnas<-0 hasta 3 Hacer
-			tabla[filas,columnas]<-0;
-		FinPara
+	Para i<-0 hasta 9 Hacer
+		array[i]<-0;
 	FinPara
 
-De forma similar podríamos recorrer la tabla para mostrar los elementos:
+Podríamos recorrer el vector para mostrar el valor de los elementos:
 
-	Para filas<-0 hasta 2 Hacer
-		Para columnas<-0 hasta 3 Hacer
-			Escribir tabla[filas,columnas];
-		FinPara
+	Para i<-0 hasta 9 Hacer
+		Escribir array[i];
 	FinPara
 
 ### Ejemplo
 
-Inicializar una tabla con los números del 1 al 5, sus cuadrados y sus cubos. Por lo tanto tenemos que definir una tabla con 5 filas y 3 columnas. Muestra los datos:
+Inicializar un vector de 5 cadenas a partir de los datos pedidos por teclado y posterior mostrarlos en pantalla en mayúsculas.
 
-	Proceso CuadradoCubos
-		Definir tabla Como Entero;
-		Definir filas,columnas Como Entero;
-		Dimension tabla[5,3];
-		Para filas<-0 hasta 4 Hacer
-			tabla[filas,0]<-filas+1;
-			tabla[filas,1]<-(filas+1)^2;
-			tabla[filas,2]<-(filas+1)^3;
+	Proceso VectorCadenas
+		Definir i Como Entero;
+		Definir vector Como Caracter;
+		Dimension vector[5];
+		Para i<-0 hasta 4 Hacer
+			Escribir Sin Saltar "Dime la cadena número ",i+1,":";
+			Leer vector[i];
 		FinPara
-		
-		Para filas<-0 hasta 4 Hacer
-			Para columnas<-0 hasta 2 Hacer
-				Escribir Sin Saltar tabla[filas,columnas]," ";
-			FinPara
-			Escribir "";
+		Escribir "Las cadenas en mayúsculas";
+		Para i<-0 hasta 4 Hacer
+			Escribir Sin Saltar Mayusculas(vector[i])," ";
 		FinPara
 	FinProceso
-
-## Arrays multidimensionales
-
-Los arrays pueden ter las dimensiones que deseemos, por ejemplo podemos tener una array de tres dimensiones:
-
-	Definir tabla como Entero;
-	Dimension tabla [4,4,4];
-
-Y podríamos inicializar el primer elemento como:
-
-	tabla[0,0,0,]<-10;
-
-Necesitaríamos tres bucles para recorrer un array de tres dimensiones:
-
-	Para i<-0 hasta 2 Hacer
-		Para j<-0 hasta 2 Hacer
-			Para k<-0 hasta 2 Hacer
-				tabla[i,j,k]<-0;
-			FinPara
-		FinPara
-	FinPara
-
