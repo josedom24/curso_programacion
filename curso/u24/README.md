@@ -81,7 +81,7 @@ Hacer un programa que muestre un cronometro, indicando las horas, minutos y segu
 
 ### Ejercicio 19
 
-Escribir por pantalla cada carácter de una cadena introducida por teclado.
+
 
 ### Ejercicio 20
 

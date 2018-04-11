@@ -34,7 +34,7 @@
 22. [Estructuras repetitivas: Para](curso/u22)
 23. [Uso específico de variables: contadores, acumuladores e indicadores](curso/u23)
 24. [Ejercicios estructuras repetitivas](curso/u24)
-25. Ejercicios cadenas de caracteres
+25. [Ejercicios cadenas de caracteres](curso/u25)
 26. [Estructuras de datos: Arreglos (array)](curso/u26)
 27. [Arreglos unidimensionales: Vectores](curso/u27)
 28. [Arreglos multidimensionales: Tablas](curso/u28)
