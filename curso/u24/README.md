@@ -18,7 +18,7 @@ Realizar un algoritmo que pida números (se pedirá por teclado la cantidad de n
 
 ### Ejercicio 5
 
-Algoritmo que pida caracteres e imprima 'VOCAL' si son vocales y 'CONSONANTE' si no, el programa termina cuando se introduce un espacio.
+Algoritmo que pida caracteres e imprima 'VOCAL' si son vocales y 'NO VOCAL' en caso contrario, el programa termina cuando se introduce un espacio.
 
 ### Ejercicio 6
 
