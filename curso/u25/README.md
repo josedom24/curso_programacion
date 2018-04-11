@@ -6,4 +6,4 @@ Escribir por pantalla cada carácter de una cadena introducida por teclado.
 
 # Ejercicios resueltos
 
-[Ejercicios estructuras repetitivas](../../ejercicios/cadenas)
+[Ejercicios cadenas de caracteres](../../ejercicios/cadenas)
