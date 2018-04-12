@@ -12,6 +12,16 @@ Crear un vector de 5 elementos de cadenas de caracteres, inicializa el vector co
 
 Se quiere realizar un programa que lea por teclado las 5 notas obtenidas por un alumno (comprendidas entre 0 y 10). A continuación debe mostrar todas las notas, la nota media, la nota más alta que ha sacado y la menor.
 
+### Ejercicio 4
+
+Programa que declare un vector de diez elementos enteros y pida números
+ para rellenarlo hasta que se llene el vector o se introduzca un número
+ negativo. Entonces se debe imprimir el vector (sólo los elementos introducidos).
+
+### Ejercicio 10
+
+ ejemplo sucursales
+
 # Ejercicios resueltos
 
 [Ejercicios de arreglos](../../ejercicios/arreglos)
