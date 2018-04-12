@@ -26,6 +26,10 @@ Hacer un programa que inicialice un vector de números con valores aleatorios, y
 
  ejemplo sucursales
 
+### Ejercicio xxx
+
+Liga de futbol
+
 # Ejercicios resueltos
 
 [Ejercicios de arreglos](../../ejercicios/arreglos)
