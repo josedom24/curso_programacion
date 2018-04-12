@@ -17,7 +17,7 @@ Para declarar un array tenemos que ejecutar dos instrucción:
 1. En primer lugar debemos declara el tipo de datos de la variable, con `Definir`.
 2. Debemos indicar el número de elementos que va a tener el array, para ello utilizamos la instrucción `Dimension`:
 
-		Dimesion <identificador> [<maxl>,...,<maxN>];
+		Dimension <identificador> [<maxl>,...,<maxN>];
 
 	Esta instrucción define un arreglo con el nombre indicado en <identificador> y N dimensiones. Los N parámetros indican la cantidad de dimensiones y el valor máximo de cada una de ellas. La cantidad de dimensiones puede ser una o más, y la máxima cantidad de elementos debe ser una expresión numérica positiva.
 
