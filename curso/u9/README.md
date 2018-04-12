@@ -43,15 +43,15 @@ Y para decrementar sería algo similar:
 		Definir nombre como Caracter;
 		Definir mayor_edad como Logico;	
 		//Produce un error: no se ha definido la variable
-		numero3<- 3;
+		numero3 <- 3;
 		//Produce un error: no se puede asignar un valor real a un entero
 		numero1<-2.5;
-		//Produce un errr:no se puede utilizar una variable sin inicializar
+		//Produce un error:no se puede utilizar una variable sin inicializar
 		numero1<-numero2*3;
 		//Produce un error: Asignación de cadena a un número
 		nombre<-"Pepe";
 		superficie<-nombre;
-		//Tambien produce un error lo contrario
+		//También produce un error lo contrario
 		superficie<-2.5;
 		nombre<-superficie;
 		
