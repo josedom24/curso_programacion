@@ -20,13 +20,19 @@ Suponiendo que hemos introducido una cadena por teclado que representa una frase
 
 Si tenemos una cadena con un nombre y apellidos, realizar un programa que muestre las iniciales en mayúsculas.
 
+### Ejercicio 6
 
-### Ejercicio contiene
+Realizar un programa que dada una cadena de caracteres por caracteres, genere otra cadena resultado de invertir la primera.
+
+### Ejercicio 7
+
+Pide una cadena y dos caracteres por teclado (valida que sea un carácter), sustituye la aparición del primer carácter en la cadena por el segundo carácter.
+
+### Ejercicio 9
 
 Realizar un programa que compruebe si una cadena **contiene** una subcadena. Las dos cadenas se introducen por teclado.
 
-### Ejercicio
-
+### Ejercicio 10
 
 Introducir una cadena de caracteres e indicar si es un palíndromo. Una palabra palíndroma es aquella que se lee igual adelante que atrás.
 
