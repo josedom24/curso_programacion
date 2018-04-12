@@ -51,7 +51,7 @@ Escribe un programa que diga si un número introducido por teclado es o no primo
 
 ### Ejercicio 12
 
-Realizar un algoritmo para determinar cuánto ahorrará una persona en un año, si al final de cada mes deposita variables cantidades de dinero; además, se quiere saber cuánto lleva ahorrado cada mes. 
+Realizar un algoritmo para determinar cuánto ahorrará una persona en un año, si al final de cada mes deposita cantidades variables de dinero; además, se quiere saber cuánto lleva ahorrado cada mes. 
 
 ### Ejercicio 13
 
