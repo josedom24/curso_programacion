@@ -28,6 +28,10 @@ Realizar un programa que dada una cadena de caracteres por caracteres, genere ot
 
 Pide una cadena y dos caracteres por teclado (valida que sea un carácter), sustituye la aparición del primer carácter en la cadena por el segundo carácter.
 
+### Ejercicio 8
+
+Realizar un programa que lea una cadena por teclado y convierta las mayúsculas a minúsculas y viceversa.
+
 ### Ejercicio 9
 
 Realizar un programa que compruebe si una cadena **contiene** una subcadena. Las dos cadenas se introducen por teclado.
