@@ -1,22 +1,19 @@
-Proceso Contiene
-	Definir cad, subcad,subcad_de_cadena Como Caracter;
-	Definir num_subcadenas,nsubc Como Entero;
-	Definir indicador Como Logico;
-	indicador<-Falso;
+Proceso ContarCaracter
+	Definir cad, car Como Caracter;
+	Definir c,cont Como Entero;
+	cont<-0;
 	Escribir Sin Saltar "Introduce una cadena:";
 	Leer cad;
-	Escribir Sin Saltar "Introduce una subcadena:";
-	Leer subcad;
-	num_subcadenas<- Longitud(cad)-Longitud(subcad)+1;
-	Para nsubc<-0 hasta num_subcadenas-1 Hacer
-		subcad_de_cadena<-Subcadena(cad,nsubc,nsubc+Longitud(subcad)-1);
-		Si subcad_de_cadena=subcad Entonces
-			indicador<-Verdadero;
+	Repetir
+		Escribir Sin Saltar "Introduce un caracter:";
+		Leer car;
+	Hasta Que Longitud(car)=1;
+	
+	
+	Para c<-0 hasta Longitud(cad) Hacer
+		Si Subcadena(cad,c,c)=car Entonces
+			cont<-cont+1;
 		FinSi
 	FinPara
-	Si indicador Entonces
-		Escribir "La cadena contiene la subcadena.";
-	SiNo
-		Escribir "La cadena no contiene la subcadena.";
-	FinSi
+	Escribir "En la cadena ",cad," aparecen ",cont," veces el caracter ",car,".";
 FinProceso
