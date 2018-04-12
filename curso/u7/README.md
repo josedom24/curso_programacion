@@ -17,7 +17,7 @@ Como tipo de datos podemos poner las siguiente opciones:
 * Tipo entero: `Entero`
 * Tipo real: `Real`, `Numerico` o `Numero`
 * Tipo cadena de caracteres: `Caracter`, `Texto` o `Cadena`
-* Tipo logico: `Logico`
+* Tipo lógico: `Logico`
 
 
 Por ejemplo:
