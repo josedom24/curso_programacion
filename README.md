@@ -38,7 +38,7 @@
 26. [Estructuras de datos: Arreglos (array)](curso/u26)
 27. [Arreglos unidimensionales: Vectores](curso/u27)
 28. [Arreglos multidimensionales: Tablas](curso/u28)
-29. Ejercicios de arreglos
+29. [Ejercicios de arreglos](curso/u29)
 30. [Programación estructurada](curso/u30)
 31. [Funciones y procedimientos](curso/u31)
 32. [Funciones recursivas](curso/u32)
