@@ -1,4 +1,4 @@
-Proceso CuadradoCuboVector
+Proceso VectorInverso
 	Definir vector1,vector2 Como Cadenas;
 	Dimension vector1[5],vector2[5];
 	Definir ind1,ind2 Como Entero;
