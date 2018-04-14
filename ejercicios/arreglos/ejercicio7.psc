@@ -14,7 +14,7 @@ Proceso DiasDelMes
 			Leer edad[indice];
 		FinSi
 		indice<-indice+1;
-	Hasta Que nombre[indice-1]="*";
+	Hasta Que nombre[indice-1]="*" o indice=30;
 	indice<-0;
 	Escribir "Alumnos mayores de edad";
 	Escribir "=======================";
