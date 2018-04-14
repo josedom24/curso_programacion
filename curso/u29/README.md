@@ -26,6 +26,21 @@ Hacer un programa que inicialice un vector de números con valores aleatorios, y
 
  Crea un programa que pida un número al usuario un número de mes (por ejemplo, el 4) y diga cuántos días tiene (por ejemplo, 30) y el nombre del mes. Debes usar un vector. Para simplificarlo vamos a suponer que febrero tiene 28 días.
 
+### Ejercicio 7
+
+Queremos guardar los nombres y la edades de los alumnos de un curso. Realiza un programa que introduzca el nombre y la edad de cada alumno. El proceso de lectura de datos terminará cuando se introduzca como nombre un asterisco (`*`) Al finalizar se mostrará los siguientes datos:
+
+* Todos lo alumnos mayores de edad.
+* Los alumnos mayores (los que tienen más edad)
+
+### Ejercicio 8
+
+Queremos guardar la temperatura mínima y máxima de 5 días. realiza un programa que de la siguiente información:
+
+* La temperatura media de cada día
+* Los días con menos temperatura
+* Se lee una temperatura por teclado y se muestran los días cuya temperatura máxima coincide con ella. si no existe ningun día se muestra un mensaje de información.
+
 ### Ejercicio 10
 
  ejemplo sucursales

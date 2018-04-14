@@ -1,4 +1,4 @@
-Proceso DiasDelMes
+Proceso InformacionAlumnos
 	Definir edad Como Entero;
 	Dimension edad[30];
 	Definir nombre Como Caracter;
