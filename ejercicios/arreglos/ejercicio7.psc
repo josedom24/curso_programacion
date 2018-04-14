@@ -3,7 +3,7 @@ Proceso DiasDelMes
 	Dimension edad[30];
 	Definir nombre Como Caracter;
 	Dimension nombre[30];
-	Definir mes como Entero;
+	Definir edad_max como Entero;
 	Definir indice como Entero;
 	indice<-0;
 	Repetir
@@ -16,6 +16,16 @@ Proceso DiasDelMes
 		indice<-indice+1;
 	Hasta Que nombre[indice-1]="*" o indice=30;
 	indice<-0;
+	//Calcular la edad máxima
+	edad_max<-edad[0];
+	Mientras nombre[indice]<>"*" Hacer
+		Si edad[indice]>edad_max Entonces
+			edad_max<-edad[indice];
+		FinSi
+		indice<-indice+1;
+	FinMientras
+	// Alumnos mayores de edad
+	indice<-0;
 	Escribir "Alumnos mayores de edad";
 	Escribir "=======================";
 	Mientras nombre[indice]<>"*" Hacer
@@ -24,4 +34,15 @@ Proceso DiasDelMes
 		FinSi
 		indice<-indice+1;
 	FinMientras
+	// Alumnos mayores 
+	indice<-0;
+	Escribir "Alumnos mayores";
+	Escribir "===============";
+	Mientras nombre[indice]<>"*" Hacer
+		Si edad[indice]=edad_max Entonces
+			Escribir nombre[indice];
+		FinSi
+		indice<-indice+1;
+	FinMientras
+	
 FinProceso
