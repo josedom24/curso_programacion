@@ -41,6 +41,14 @@ Queremos guardar la temperatura mínima y máxima de 5 días. realiza un program
 * Los días con menos temperatura
 * Se lee una temperatura por teclado y se muestran los días cuya temperatura máxima coincide con ella. si no existe ningun día se muestra un mensaje de información.
 
+### Ejercicio 9
+
+Diseñar el algoritmo correspondiente a un  programa, que:
+
+* Crea una tabla bidimensional de longitud 10x10 y nombre 'matriz'.
+* Carga la tabla con valores numéricos enteros.
+* Suma todos los elementos de cada fila y todos los elementos de cada columna visualizando los resultados en pantalla.
+
 ### Ejercicio 10
 
  ejemplo sucursales
