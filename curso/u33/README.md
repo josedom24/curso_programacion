@@ -14,7 +14,7 @@ Crear una función que calcule la temperatura media de un día a partir de la te
 
 ### Ejercicio 4
 
-Crea un procedimiento EscribirEspaciado, que reciba como parámetro un texto y devuelve una cadena con un espacio adicional tras cada letra. Por ejemplo, "Hola, tú" devolverá "H o l a , t ú ".
+Crea un función "ConvertirEspaciado", que reciba como parámetro un texto y devuelve una cadena con un espacio adicional tras cada letra. Por ejemplo, "Hola, tú" devolverá "H o l a , t ú ". Crea un programa principal donde se use dicha función.
 
 ### Ejercicio 5
 
@@ -24,6 +24,11 @@ Crea una función "calcularMaxMin" que recibe una arreglo con valores númerico 
 
 Diseñar una función que calcule el área y el perímetro de una circunferencia. Utiliza dicha función en un programa principal que lea el radio de una circunferencia y muestre su área y perímetro.
 
+### Ejercicio 7
+
+Crear una subrutina llamada "Login", que recibe un nombre de usuario y una contraseña y te devuelve Verdadero si el nombre de usuario es "usuario1" y la contraseña es "asdasd". Además recibe el número de intentos que se ha intentado hacer login y si no se ha podido hacer login incremente este valor.
+
+Crear un programa principal donde se pida un nombre de usuario y una contrseña y se intente hacer login, solamente tenemos tres oportuniaddes para intentarlo.
 
 
 # Ejercicios resueltos
