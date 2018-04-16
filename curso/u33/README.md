@@ -1,18 +1,31 @@
+# Ejercicios de funciones
 
-Ejercicio de repaso propuesto 12.1: Crea un procedimiento EscribirCentrado, que reciba como parámetro un texto y lo escriba centrado en pantalla (suponiendo una anchura de 80 columnas; pista: deberás escribir 40 - longitud/2 espacios antes del texto).
+### Ejercicio 1
 
-Ejercicio de repaso propuesto 12.2: Crea una función CantidadDeDivisores, que reciba un número entero y devuelva la cantidad de divisores (por ejemplo, para el número 16, sus divisores son 1, 2, 4, 8, 16, por lo que la respuesta debería ser 5).
+Crea un procedimiento EscribirCentrado, que reciba como parámetro un texto y lo escriba centrado en pantalla (suponiendo una anchura de 80 columnas; pista: deberás escribir 40 - longitud/2 espacios antes del texto). Además subraya el mansaje utilizando el carácter `=`.
 
-Ejercicio de repaso propuesto 12.3: Crea un programa que pida dos número enteros al usuario y diga si alguno de ellos es múltiplo del otro. Crea una función EsMultiplo que te ayude a que el proceso principal sea legible.
+### Ejercicio 2
 
-Ejercicio de repaso propuesto 12.4: Crea un procedimiento EscribirEspaciado, que reciba como parámetro un texto y lo escriba con un espacio adicional tras cada letra. Por ejemplo, "Hola, tú" se escribiría "H o l a , t ú ".
+Crea un programa que pida dos número enteros al usuario y diga si alguno de ellos es múltiplo del otro. Crea una función EsMultiplo que reciba los dos números, y devuelve si el primero es múltiplo del segundo.
 
-Ejercicio de repaso propuesto 12.5: Crea una función MayorDeTres, que reciba tres números enteros y devuelva el valor del mayor de ellos. Por ejemplo, para los números 5, 7 y 5, devolvería el valor 7.
+### Ejercicio 3
 
-Ejercicio de repaso propuesto 12.6: Crea una función EsPar que devuelva el valor lógico "verdadero" o "falso" según si el número que se indique como parámetro es par o no lo es.
+Crear una función que calcule la temperatura media de un día a partir de la temperatura máxima y mínima. Crear un programa principal, que utilizando la función anterior, vaya pidiendo la temperatura máxima y mínima de cada día y vaya mostrando la media. El programa pedirá el número de días que se van a introducir.
 
-Ejercicio de repaso propuesto 12.7: Crea una función Cubo, que reciba un número y lo devuelva elevado al cubo.
+### Ejercicio 4
 
-Ejercicio de repaso propuesto 12.8: Crea una función Iniciales, que devuelva una cadena formada por las iniciales de la frase que se indique como parámetro (primera letra y la letra que haya tras cada espacio; por ejemplo, para "Nacho Cabanes" devolvería "NC").
+Crea un procedimiento EscribirEspaciado, que reciba como parámetro un texto y lo escriba con un espacio adicional tras cada letra. Por ejemplo, "Hola, tú" se escribiría "H o l a , t ú ".
 
-Ejercicio de repaso propuesto 12.9: Crea una función Contiene, que reciba una cadena y una (posible) subcadena, y devuelva "verdadero" o "falso", según si la primera contiene a la segunda (como "Nacho" contiene "ac") o no la contiene, (como "Aurora" no contiene "sol").
+### Ejercicio 5
+
+Crea una función "calcularMaxMin" que recibe una arreglo con valores númerico y devuelve el valor máximo y el mínimo. Crea un programa que pida números por teclado y muestre el máximo y el mínimo, utilizando la función anterior.
+
+### Ejercicio 6
+
+Diseñar una función que calcule el área y el perímetro de una circunferencia. Utiliza dicha función en un programa principal que lea el radio de una circunferencia y muestre su área y perímetro.
+
+
+
+# Ejercicios resueltos
+
+[Ejercicios de funciones](../../ejercicios/funciones)

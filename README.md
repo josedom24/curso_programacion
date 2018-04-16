@@ -42,7 +42,7 @@
 30. [Programación estructurada](curso/u30)
 31. [Funciones y procedimientos](curso/u31)
 32. [Funciones recursivas](curso/u32)
-33. Ejercicios de funciones
+33. [Ejercicios de funciones](curso/u33)
 34. [Más ejercicios](curso/u34)
 
 ### Lenguajes de Programación
