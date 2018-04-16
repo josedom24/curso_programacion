@@ -75,12 +75,43 @@ Diseñar el algoritmo correspondiente a un  programa, que:
 
 * Visualiza el contenido de la matriz en pantalla.
 
+### Ejercicio 13
 
- ejemplo sucursales
+De una empresa de transporte se quiere guardar el nombre de los conductores que tiene, y los kilemetros que conducen cada día de la semana. 
 
-### Ejercicio xxx
+Para guardar esta información se van a utilizar dos reglos:
 
-Liga de futbol
+* Nombre: Vector para guardar los nombres de los conductores.
+* kms: Tabla para guardar los kilómetros que relizan cada dia de la semana.
+
+Se quiere generar un nuevo vector ("total_kms") con los kilometros totales que realzia cda conductor.
+
+Al finalizar se muetra la lista con los nombres de conductores y los kilómetros que ha realizado.
+
+
+### Ejercicio 14
+
+Crear un programa que lea los precios de 5 articulos y las cantidades vendidas por una empresa en sus 4 sucursales. Informar:
+
+* Las cantidades totales de cada articulo.
+* La cantidad de articulos en la sucursal 2.
+* La cantidad del articulo 3 en la sucursal 1.
+* La recaudacion total de cada sucursal.
+* La recaudacion total de la empresa.
+* La sucursal de mayor recaudacion.
+
+### Ejercicio 15
+
+Crear un programa de ordenador para gestionar los resultados de la quiniela de fútbol. Para ello vamos a utilizar dos tablas:
+
+* Equipos: Que es una tabla de cadenas donde guardamos en cada columna el nombre de los equipos de cada partido. En la quiniela se 
+indican 15 partidos.
+* Resultados: Es una tabla de enteros donde se indica el resultado. También tiene dos columnas, enla primera se guarda el número de goles del equipo que está guardado en la primera columna
+ de la tabla anterior, y en la segunda los goles del otro equipo.
+
+El programa ira pidiendo los nombres de los equipos de cada partido y el resultado del partido, a continuación se imprimirá la quiniela de esa jornada.
+
+¿Qué modificación habría que hacer en las tablas para guardar todos los resultados de todas las jornadas de la temporada?
 
 # Ejercicios resueltos
 
