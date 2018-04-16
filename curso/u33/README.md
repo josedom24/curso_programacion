@@ -30,6 +30,36 @@ Crear una subrutina llamada "Login", que recibe un nombre de usuario y una contr
 
 Crear un programa principal donde se pida un nombre de usuario y una contrseña y se intente hacer login, solamente tenemos tres oportuniaddes para intentarlo.
 
+### Ejercicio
+
+calcular mcd por euclides
+
+### Ejercicio
+
+Horas
+
+### Ejercicio
+
+dia juliano
+
+### Ejercicio
+
+validar fecha
+
+### Ejercicio
+
+fracciones
+
+### Ejercicio
+
+funciones para trabajar con una cola 
+
+### Ejercicio
+
+funciones para trabajar con una pila
+
+
+
 
 # Ejercicios resueltos
 
