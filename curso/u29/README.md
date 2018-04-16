@@ -45,11 +45,20 @@ Queremos guardar la temperatura mínima y máxima de 5 días. realiza un program
 
 Diseñar el algoritmo correspondiente a un  programa, que:
 
-* Crea una tabla bidimensional de longitud 10x10 y nombre 'matriz'.
+* Crea una tabla bidimensional de longitud 5x5 y nombre 'matriz'.
 * Carga la tabla con valores numéricos enteros.
 * Suma todos los elementos de cada fila y todos los elementos de cada columna visualizando los resultados en pantalla.
 
 ### Ejercicio 10
+
+Diseñar el algoritmo correspondiente a un  programa, que:
+
+* Crea una tabla bidimensional de longitud 5x5 y nombre 'diagonal'.
+* Carga la tabla de forma que los componentes pertenecientes a la diagonal de la matriz tomen el valor 1 y el resto el valor 0.
+* Muestra el contenido de la tabla en pantalla.
+
+
+
 
  ejemplo sucursales
 
