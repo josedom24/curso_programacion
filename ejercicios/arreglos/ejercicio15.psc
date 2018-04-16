@@ -4,7 +4,7 @@ Proceso Quiniela
 	Dimension equipos[15,2];
 	Definir resultados Como Entero;
 	Dimension resultados[15,2];
-	NUMEQUIPOS<-3;
+	NUMEQUIPOS<-15;
 	Para indice<-0 hasta NUMEQUIPOS-1 Hacer
 		Escribir Sin Saltar "Introduce el nombre del equipo 1 del partido ", indice+1,":";
 		Leer equipos[indice,0];
