@@ -14,7 +14,7 @@ Crear una función que calcule la temperatura media de un día a partir de la te
 
 ### Ejercicio 4
 
-Crea un procedimiento EscribirEspaciado, que reciba como parámetro un texto y lo escriba con un espacio adicional tras cada letra. Por ejemplo, "Hola, tú" se escribiría "H o l a , t ú ".
+Crea un procedimiento EscribirEspaciado, que reciba como parámetro un texto y devuelve una cadena con un espacio adicional tras cada letra. Por ejemplo, "Hola, tú" devolverá "H o l a , t ú ".
 
 ### Ejercicio 5
 
