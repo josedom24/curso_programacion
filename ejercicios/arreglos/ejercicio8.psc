@@ -1,51 +1,48 @@
-Proceso Temperatuas
-	Definir temperatura Como Real;
-	Dimension temperatura[5,2];
-	Definir existe_temperatura Como Logico;
+Proceso InformacionAlumnos
+	Definir edad Como Entero;
+	Dimension edad[30];
+	Definir nombre Como Caracter;
+	Dimension nombre[30];
+	Definir edad_max como Entero;
 	Definir indice como Entero;
-	Definir temp, temp_min como Real;
-	Para indice<-0 Hasta 4 Hacer
-		Escribir Sin Saltar "Día ",(indice+1),". Temperatura mínima:";
-		Leer temperatura[indice,0];
-		Escribir Sin Saltar "Día ",(indice+1),". Temperatura máxima:";
-		Leer temperatura[indice,1];
-	FinPara
-	//Mostrar temperatura media
-	Escribir "Temperaturas medias";
-	Escribir "===================";
-	Para indice<-0 Hasta 4 Hacer
-		Escribir "Día ",(indice+1),". Temperatura media:",(temperatura[indice,0]+temperatura[indice,1])/2;
-	FinPara
-	//Calcular temperatura mínima más pequeña
-	temp_min<-temperatura[0,0];
-	Para indice<-0 Hasta 4 Hacer
-		Si temperatura[indice,0]<temp_min Entonces
-			temp_min<-temperatura[indice,0];
+	indice<-0;
+	Repetir
+		Escribir Sin Saltar "Dime el nombre de un alumno:";
+		Leer nombre[indice];
+		Si nombre[indice]<>"*" Entonces
+			Escribir sin saltar "Dime su edad:";
+			Leer edad[indice];
 		FinSi
-	FinPara
-	//Mostrar los días con menos temperatura
-	Escribir "Días con menos temperatura";
-	Escribir "==========================";
-	Para indice<-0 Hasta 4 Hacer
-		Si temperatura[indice,0]=temp_min Entonces
-			Escribir "Día ",(indice+1);
+		indice<-indice+1;
+	Hasta Que nombre[indice-1]="*" o indice=30;
+	indice<-0;
+	//Calcular la edad máxima
+	edad_max<-edad[0];
+	Mientras nombre[indice]<>"*" Hacer
+		Si edad[indice]>edad_max Entonces
+			edad_max<-edad[indice];
 		FinSi
-	FinPara
-	//Días con temperatura máxima
-	existe_temperatura<-Falso;
-	Escribir "Días con temperatura máxima";
-	Escribir "===========================";
-	Escribir sin saltar "Introduce una temperatura:";
-	Leer temp;
-	Para indice<-0 Hasta 4 Hacer
-		Si temperatura[indice,1]=temp Entonces
-			Escribir "Día ",(indice+1);
-			existe_temperatura<-Verdadero;
+		indice<-indice+1;
+	FinMientras
+	// Alumnos mayores de edad
+	indice<-0;
+	Escribir "Alumnos mayores de edad";
+	Escribir "=======================";
+	Mientras nombre[indice]<>"*" Hacer
+		Si edad[indice]>=18 Entonces
+			Escribir nombre[indice];
 		FinSi
-	FinPara
-	Si no existe_temperatura Entonces
-		Escribir "No hay ningún dia con dicha temperatura.";
-	FinSi
-	
+		indice<-indice+1;
+	FinMientras
+	// Alumnos mayores 
+	indice<-0;
+	Escribir "Alumnos mayores";
+	Escribir "===============";
+	Mientras nombre[indice]<>"*" Hacer
+		Si edad[indice]=edad_max Entonces
+			Escribir nombre[indice];
+		FinSi
+		indice<-indice+1;
+	FinMientras
 	
 FinProceso

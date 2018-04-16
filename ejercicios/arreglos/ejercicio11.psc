@@ -1,14 +1,11 @@
-Proceso LadoExterno
+Proceso Diagonal
 	Definir matriz Como Entero;
-	Dimension matriz[5,15];
-	Definir TAMFILAS,TAMCOL como Entero;
+	Dimension matriz[5,5];
 	Definir fila,col como Entero;
 	Definir suma como Entero;
-	TAMFILAS<-5;
-	TAMCOL<-15;
-	Para fila<-0 hasta TAMFILAS-1 Hacer
-		Para col<-0 hasta TAMCOL-1 Hacer
-			Si fila=0 o fila=TAMFILAS-1 o col=0 o col= TAMCOL-1 Entonces
+	Para fila<-0 hasta 4 Hacer
+		Para col<-0 hasta 4 Hacer
+			Si fila=col o fila=4-col Entonces
 				matriz[fila,col]<-1;
 			SiNo
 				matriz[fila,col]<-0;
@@ -17,8 +14,8 @@ Proceso LadoExterno
 		FinPara
 	FinPara
 	
-	Para fila<-0 hasta TAMFILAS-1 Hacer
-		Para col<-0 hasta TAMCOL-1 Hacer
+	Para fila<-0 hasta 4 Hacer
+		Para col<-0 hasta 4 Hacer
 			Escribir Sin Saltar matriz[fila,col];
 		FinPara
 		Escribir "";
