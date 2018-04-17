@@ -30,17 +30,38 @@ Crear una subrutina llamada "Login", que recibe un nombre de usuario y una contr
 
 Crear un programa principal donde se pida un nombre de usuario y una contrseña y se intente hacer login, solamente tenemos tres oportuniaddes para intentarlo.
 
-### Ejercicio
+### Ejercicio 8
 
-calcular mcd por euclides
+Crear una función recursiva que permita calcular el factorial de un número. realiza un programa principal donde se lea un entero y se muestre el resultado del factorial.
 
-### Ejercicio
+### Ejercicio 9
 
-Horas
+Crear una función que calcule el MCD de dos número por el método de Euclides. El método de Euclide es el siguiente:
 
-### Ejercicio
+* Se divide el número mayor entre el menor.
+* Si la división es exacta, el divisor es el MCD.
+* Si la división no es exacta, dividimos el divisor entre el resto obtenido y se continúa de esta forma hasta obtener una división exacta, siendo el último divisor el MCD.
 
-dia juliano
+crea un programa principal que lea dos números enteros y muestre el MCD.
+
+### Ejercicio 10
+
+Escribir dos funciones que permitan calcular:
+
+* La cantidad de segundos en un tiempo dado en horas, minutos y segundos.
+* La cantidad de horas, minutos y segundos de un tiempo dado en segundos.
+
+Escribe un programa principal con un menú donde se pueda elegir la opción de convertir a segundos, convertir a horas,minutos y segundos o salir del programa.
+
+### Ejercicio 11
+
+El día juliano correspondiente a una fecha es un número entero que indica los días que han transcurrido desde el 1 de enero del año indicado. Queremos crear un programa principal que al introducir una fecha nos diga el día julianao que corresponde. Para ello podemos hacer las siguientes subrutinas:
+
+* `LeerFecha`: Nos permite leer por teclado una fecha (día, mes y año).
+* `DiasDelMes`: Recibe un mes y un año y nos dice los días de ese mes en ese año.
+* `EsBisiesto`: Recibe un año y nos dice si es bisiesto.
+* `Calcular_Dia_Juliano`: recibe una fecha y nos devuelve el día juliano.
+
 
 ### Ejercicio
 
