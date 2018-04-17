@@ -63,9 +63,9 @@ El día juliano correspondiente a una fecha es un número entero que indica los 
 * `Calcular_Dia_Juliano`: recibe una fecha y nos devuelve el día juliano.
 
 
-### Ejercicio
+### Ejercicio 12
 
-validar fecha
+vamos a mejorar el ejercicio anterior haciendo una función para validar la fecha. De tal forma que al leer una fecha se asegura que es válida.
 
 ### Ejercicio
 
