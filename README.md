@@ -27,13 +27,13 @@
 15. [Ejecución paso a paso](curso/u15)
 16. [Ejercicios estructura secuencial](curso/u16)
 
-### Pseudocódigo: Estrucutras alternativas
+### Pseudocódigo: Estructuras alternativas
 
 17. [Estructuras alternativas: Si](curso/u17)
 18. [Estructuras alternativas: Segun](curso/u18)
 19. [Ejercicios estructuras alternativas](curso/u19)
 
-### Pseudocódigo: Estrucutras repetitivas
+### Pseudocódigo: Estructuras repetitivas
 
 20. [Estructuras repetitivas: Mientras](curso/u20)
 21. [Estructuras repetitivas: Repetir-Hasta Que](curso/u21)
