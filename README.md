@@ -12,7 +12,7 @@
 
 4. [Introducción a PSeInt](curso/u4)
 
-### Pseudocódigo
+### Pseudocódigo: Introducción
 
 5. [Estructura del algoritmo](curso/u5)
 6. [Tipos de datos simples](curso/u6)
@@ -26,19 +26,31 @@
 14. [Nuestro primer pseudocódigo completo](curso/u14)
 15. [Ejecución paso a paso](curso/u15)
 16. [Ejercicios estructura secuencial](curso/u16)
+
+### Pseudocódigo: Estrucutras alternativas
+
 17. [Estructuras alternativas: Si](curso/u17)
 18. [Estructuras alternativas: Segun](curso/u18)
 19. [Ejercicios estructuras alternativas](curso/u19)
+
+### Pseudocódigo: Estrucutras repetitivas
+
 20. [Estructuras repetitivas: Mientras](curso/u20)
 21. [Estructuras repetitivas: Repetir-Hasta Que](curso/u21)
 22. [Estructuras repetitivas: Para](curso/u22)
 23. [Uso específico de variables: contadores, acumuladores e indicadores](curso/u23)
 24. [Ejercicios estructuras repetitivas](curso/u24)
 25. [Ejercicios cadenas de caracteres](curso/u25)
+
+### Pseudocódigo: Arreglos
+
 26. [Estructuras de datos: Arreglos (array)](curso/u26)
 27. [Arreglos unidimensionales: Vectores](curso/u27)
 28. [Arreglos multidimensionales: Tablas](curso/u28)
 29. [Ejercicios de arreglos](curso/u29)
+
+### Pseudocódigo: Programación estructurada
+
 30. [Programación estructurada](curso/u30)
 31. [Funciones y procedimientos](curso/u31)
 32. [Funciones recursivas](curso/u32)
