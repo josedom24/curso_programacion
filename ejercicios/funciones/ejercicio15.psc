@@ -66,12 +66,32 @@ FinFuncion
 Proceso ProgramaCola
 	Definir micola Como Caracter;
 	Dimension micola[10];
+	Definir elem Como Caracter;
+	Definir opcion Como Entero;
 	InicializarCola(micola);
-	AddCola("Hola",micola);
-	AddCola("Hola2",micola);
-	EscribirCola(micola);
-	AddCola("Hola3",micola);
-	Escribir SacarDeLaCola(micola);
-	EscribirCola(micola);
-	Escribir SacarDeLaCola(micola);
+	Repetir
+		Escribir "1.- Añadir elemento a la cola";
+		Escribir "2.- Sacar elemento de la cola";
+		Escribir "3.- Longitud de la cola";
+		Escribir "4.- Mostrar cola";
+		Escribir "5.- Salir";
+		Leer opcion;
+		Segun opcion Hacer
+			1:
+				Escribir sin Saltar "Dame la cadena para añadir a la cola:";
+				Leer elem;
+				AddCola(elem,micola);
+			2:
+				Escribir SacarDeLaCola(micola);
+			3:
+				Escribir "Longitud: ",LongitudCola(micola);
+			4:
+				EscribirCola(micola);
+			5:
+				
+			De Otro Modo:
+				Escribir "Opción incorrecta";
+		FinSegun
+		
+	Hasta Que opcion=5;
 FinProceso
