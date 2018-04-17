@@ -64,7 +64,7 @@ FinFuncion
 Proceso ProgramaPila
 	Definir mipila Como Caracter;
 	Dimension mipila[10];
-	definir elem Como Caracter;
+	Definir elem Como Caracter;
 	Definir opcion Como Entero;
 	InicializarPila(mipila);
 	Repetir
