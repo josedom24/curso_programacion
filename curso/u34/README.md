@@ -22,6 +22,14 @@ Realizar una aplicación que recoja por teclado la cantidad total a pagar y la c
 
 Realizar un algoritmo que permita descomponer un número en sus factores primos.
 
+### Ejercicio 5
+
+Vamos a realizar dos funciones: una que nos permita convertir un número entero a binario, y otra que nos permita convertir un numero binario a decimal.
+
+* `ConvertirABinario`: Función que recibe un número entero y devuelve una cadena con la representación del número en binario.
+* `ConvertirADecimal`: Función que recibe una cadena con la representación binaria de un número y devuelve el número en decimal.
+
+Crea un programa principal que permita convertir de decimal a binario y de binario a decimal.
 
 
 ### Ejercicio 4
