@@ -11,7 +11,7 @@ Proceso ContarPalabras
 	FinMientras
 	
 	
-	Para car<-car hasta Longitud(cad) Hacer
+	Para car<-car hasta Longitud(cad)-1 Hacer
 		Si Subcadena(cad,car,car)=" " Entonces
 			cont<-cont+1;
 			Mientras Subcadena(cad,car,car)=" " Y car<=Longitud(cad) Hacer

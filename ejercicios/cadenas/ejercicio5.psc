@@ -12,7 +12,7 @@ Proceso GenerarIniciales
 	FinMientras
 	
 	iniciales<-concatenar(iniciales,subcadena(cad,car,car));
-	Para car<-car hasta Longitud(cad) Hacer
+	Para car<-car hasta Longitud(cad)-1 Hacer
 		Si Subcadena(cad,car,car)=" " Entonces
 			Mientras Subcadena(cad,car,car)=" " Y car<=Longitud(cad) Hacer
 				car<-car+1;

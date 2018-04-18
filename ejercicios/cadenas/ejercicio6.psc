@@ -5,7 +5,7 @@ Proceso GenerarIniciales
 	Escribir Sin Saltar "Introduce una cadena:";
 	Leer cad;
 
-	Para car<-Longitud(cad) hasta 0 Con Paso -1 Hacer
+	Para car<-Longitud(cad)-1 hasta 0 Con Paso -1 Hacer
 		invertida<-concatenar(invertida,Subcadena(cad,car,car));
 	FinPara
 	Escribir "La cadena invertida es:",invertida;

@@ -5,7 +5,7 @@ Proceso ConvertirMayMin
 	Escribir Sin Saltar "Introduce una cadena:";
 	Leer cad;
 		
-	Para c<-0 hasta Longitud(cad) Hacer
+	Para c<-0 hasta Longitud(cad)-1 Hacer
 		Si Subcadena(cad,c,c)=Mayusculas(Subcadena(cad,c,c)) Entonces
 			newcad<-concatenar(newcad,Minusculas(Subcadena(cad,c,c)));
 		FinSi

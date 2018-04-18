@@ -14,7 +14,7 @@ Proceso SustituirCaracter
 	Hasta Que Longitud(car2)=1;
 	
 	
-	Para c<-0 hasta Longitud(cad) Hacer
+	Para c<-0 hasta Longitud(cad)-1 Hacer
 		Si Subcadena(cad,c,c)=car1 Entonces
 			newcad<-concatenar(newcad,car2);
 		SiNo

@@ -5,7 +5,7 @@ Proceso EscribirCaracteres
 	Definir i Como Entero;
 	Escribir "Introduce una cadena:";
 	Leer cad;
-	Para i<-0 hasta Longitud(cad) Hacer
+	Para i<-0 hasta Longitud(cad)-1 Hacer
 		Escribir Subcadena(cad,i,i);
 	FinPara
 FinProceso
