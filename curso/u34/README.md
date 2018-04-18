@@ -26,6 +26,9 @@ masermind
 
 ### Ejercicio ahorcado
 
+###
+
+Realice un programa que pregunte aleatoriamente una multiplicación. El programa debe indicar si la respuesta ha sido correcta o no (en caso que la respuesta sea incorrecta el programa debe indicar cuál es la correcta). Una vez preguntado por una multiplicación el programa debe preguntar si desea realizar otra. En caso afirmativo preguntará aleatoriamente otra multiplicación. En caso negativo el programa yterminará.
 
 
 # Ejercicios resueltos
