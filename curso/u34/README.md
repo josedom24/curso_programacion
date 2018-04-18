@@ -17,19 +17,19 @@ Realiza un programa principal que lea un DNI y valide que es correcto (se debe c
 
 Realizar una aplicación que recoja por teclado la cantidad total a pagar y la cantidad que se ha entregado. La aplicación debe calcular el cambio correspondiente con el menor número de monedas y/o billetes posibles.
 
-### Ejercicio 
+
+### Ejercicio 4
+
+Realizar un algoritmo que permita descomponer un número en sus factores primos.
+
+
+
+### Ejercicio 4
 
 Calendario
 
 
-### Ejercicio 19
 
-
-Devolucion de billetes y monedas
-
-### Ejercicio 20
-
-Algoritmo para descomponer un número en sus factores primos.
 
 ### Ejercicio
 
