@@ -31,22 +31,30 @@ Vamos a realizar dos funciones: una que nos permita convertir un número entero 
 
 Crea un programa principal que permita convertir de decimal a binario y de binario a decimal.
 
+### Ejercicio 6
 
-### Ejercicio 4
+Crear un programa que convierta un número entero (mayor que 1 y menor o igual que 1000) a número romano.
+
+### Ejercicio 7
+
+Diseñar un programa que permita adivinar al ordenador un determinado número entero y positivo para lo cual se deben leer los límites en los que está comprendido dicho número. El programa deberá ir mostrando números que recibirán las siguientes respuestas:
+1. 'S', si es correcto.
+2. 'A', si es más alto que el número a adivinar.
+3. 'B', si es más bajo.
+Al finalizar el programa, se deberá escribir el número de intentos realizados para acertar el número.
+
+
+### Ejercicio 8
 
 Calendario
 
+### Ejercicio 9
 
+mastermind
 
+### Ejercicio 10
 
-### Ejercicio
-
-masermind
-
-### Ejercicio ahorcado
-
-###
-
+Ahorcado
 
 
 # Ejercicios resueltos
