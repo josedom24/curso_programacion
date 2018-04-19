@@ -15,7 +15,6 @@
 //1.- Para tabla desde 1 hata 5
 //		2.-Para num deade 1 hasta 10
 //			3.- Mostrar tabla * num = (tabla*num)
-
 //################################################################################
 
 Proceso TablasDeMultiplicar
