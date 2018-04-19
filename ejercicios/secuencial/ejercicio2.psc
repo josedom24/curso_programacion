@@ -1,18 +1,18 @@
 //################################################################################
-//Calcular el perÃ­metro y Ã¡rea de un rectÃ¡ngulo dada su base y su altura.
+//Calcular el perí­metro y área de un rectángulo dada su base y su altura.
 //################################################################################
-//AnÃ¡lisis
-//Tenemos que leer la base y la altura del triangulo y calcular el perÃ­metro y el 
-Ã¡rea
+//Análisis
+//Tenemos que leer la base y la altura del triangulo y calcular el perí­metro y el 
+//áreea
 //Datos de entrada: base(real), altura(real)
-//InformaciÃ³n de salida: perimetro(real) y area(real)
+//Información de salida: perimetro(real) y area(real)
 //Variables: base, altura, perimetro y area (Real)
 //################################################################################
-//DiseÃ±o
+//Diseño
 //1. Leer base y altura
-//2. Calcular perÃ­metro(2*base + 2*altura)
-//3. Calcular Ã¡rea (base * altura
-//4. Mostrar perÃ­metro y Ã¡rea
+//2. Calcular perí­metro(2*base + 2*altura)
+//3. Calcular area (base * altura
+//4. Mostrar perí­metro y area
 //################################################################################
 
 Proceso Rectangulo
@@ -23,5 +23,5 @@ Proceso Rectangulo
 	Leer altura;
 	perimetro <- 2 * base + 2 * altura;
 	area <- base * altura;
-	Escribir "El perÃ­metro es ",perimetro," y el Ã¡rea es ",area;
+	Escribir "El perí­metro es ",perimetro," y el area es ",area;
 FinProceso

@@ -1,18 +1,18 @@
 //################################################################################
-//Dados los catetos de un triÃ¡ngulo rectÃ¡ngulo, calcular su hipotenusa.
+//Dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
 //################################################################################
-//AnÃ¡lisis
+//Análisis
 //Tenemos que leer la longitud de los dos catetos y calcular la hipotenusa. 
-//(Teorema de PitÃ¡goras)
+//(Teorema de Pitágoras)
 //Variables de entrada: cateto1(real), cateto2(real)
 //Variables de salida: hipotenusa(real)
 //################################################################################
-//DiseÃ±o
+//Diseño
 // 1. Leer la longitud de los catetos
-// 2. Calcular hipotenusa (En un triÃ¡ngulo rectÃ¡ngulo el cuadrado de la hipotenusa 
+// 2. Calcular hipotenusa (En un triángulo rectángulo el cuadrado de la hipotenusa 
 // es igual a la suma de los cuadrados de los catetos. )
-// Por lo tanto la hipotenusa es igual a la raÃ­z cuadrada de la suma de los 
-cuadrados de los catetos.
+// Por lo tanto la hipotenusa es igual a la raí­z cuadrada de la suma de los 
+// cuadrados de los catetos.
 // 3. Mostrar la hipotenusa
 //################################################################################
 

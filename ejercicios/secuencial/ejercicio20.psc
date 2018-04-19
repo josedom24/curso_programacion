@@ -1,16 +1,23 @@
-//Diseñar un algoritmo que nos diga el dinero que tenemos (en euros y céntimos) después de pedirnos cuantas monedas tenemos 
-//de 2e, 1e, 50 céntimos, 20 céntimos o 10 céntimos).
+//################################################################################
+//Diseñar un algoritmo que nos diga el dinero que tenemos (en euros y céntimos) 
+//después de pedirnos cuantas monedas tenemos de 2e, 1e, 50 céntimos, 20 céntimos 
+//o 10 céntimos).
+//################################################################################
 //Análisis
-//Se piden la cantidad de monedas que tenemos (de 2e, 1e, 50 céntimos, 20 céntimos o 10 céntimos) y calculamos el dinero que tenemos (euros y céntimos)
+//Se piden la cantidad de monedas que tenemos (de 2e, 1e, 50 céntimos, 
+//20 céntimos o 10 céntimos) y calculamos el dinero que tenemos (euros y céntimos)
 //Datos de entrada: monedas de 2e, 1e, 50 céntimos, 20 céntimos o 10 céntimos) (entero).
 //Información de salida: total de dinero: euros y céntimos (enteros)
 //Variables: euro2,euro1,cent50,cent20,cent10, total_euros, total_centimos (entero)
+//################################################################################
 //Diseño
 //1. Leer el monedas de 2e, 1e, 50 céntimos, 20 céntimos o 10 céntimos.
 //2. Calcular Euros (sumar monedas de 2 euros * 2 + monedas de 1 euro
-//3. Calcular céntimos (monedas de 50c * 50 + monedas de 30c * 30 + moneda de 20c * 20 + moneda de 10c * 10
+//3. Calcular céntimos 
+//	monedas de 50c * 50 + monedas de 30c * 30 + moneda de 20c * 20 + moneda de 10c * 10
 //4. Convertir céntimos a euros (división entera entre 100)
 //5. Mostrar euros y céntimos totales
+//################################################################################
 
 Proceso CalcularDinero
 	Definir euro2,euro1,cent50,cent20,cent10 como Entero;
