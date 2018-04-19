@@ -60,8 +60,16 @@ Por ejemplo, si el código que eligió el programa es el 2607, y el jugador prop
 
 ### Ejercicio 10
 
-Ahorcado
+Escribe un programa para jugar al ahorcado.
 
+* Un jugador introduce una palabra secreta y otro jugador tratará de adivinarla.
+* Aparecerá la palabra oculta (se mostrará un conjunto de asteriscos con la longitud de la palabra que hay que adivinar).
+* El programa te va pidiendo letras.
+* Si la letra está en la palbara, se mostrar la palabra mostrando las letras acertadas y los asteriscos en las letras que faltan por averiguar.
+* Cada vez que se introduce una letra se muetra las letras que has introducido anteriormente.
+* Si la letra no se encuentra en la palabra se suma un fallo. Según el número de fallos se mostrará uel dibujo del ahorcado cada vez ms completo. 
+* Si introduces todas las letras de la pabra has ganada y te mostrará el número de intentos que has necesitado.
+* Si produces 6 fallos, habrás perdido y se mostrará el dibjo del ahorcado completo.
 
 # Ejercicios resueltos
 
