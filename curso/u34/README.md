@@ -45,8 +45,9 @@ Al finalizar el programa, se deberá escribir el número de intentos realizados 
 
 
 ### Ejercicio 8
+Realizar un progrma que pida un mes y un año (superior a 1900) y muestre el calendario del mes de esta manera:
 
-Calendario
+Para ello es necesario averiguar que día de la semana (Lunes, Martes, ...) correponde con un fecha determinada. Hay muchas maneras de calcularlo: nostros vamos a contar los días que han trascurridos desde el año 1900 (podemos hacer uso de funciones que hemos utilizado en ejercicios anteriores), y unqa vez calculado le hacemos el módulo  7 y el número obtenido será el da de la semana (0: domingo, 1: lunes, ...) (NOTA: ten en cuanta que queremos realziar un calendario que empiece en lunes, no en domingo).
 
 ### Ejercicio 9
 
