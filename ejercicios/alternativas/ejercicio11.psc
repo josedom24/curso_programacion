@@ -1,9 +1,12 @@
-//Programa que lea 3 datos de entrada A, B y C. Estos corresponden a las dimensiones de los lados de un triángulo. 
-//El programa debe determinar que tipo de triangulo es, teniendo en cuenta los siguiente:
+//################################################################################
+//Programa que lea 3 datos de entrada A, B y C. Estos corresponden a las 
+//dimensiones de los lados de un triángulo. 
+//El programa debe determinar que tipo de triangulo es, teniendo en cuenta:
 //Si se cumple Pitágoras entonces es triángulo rectángulo
 //Si sólo dos lados del triángulo son iguales entonces es isósceles.
 //Si los 3 lados son iguales entonces es equilátero.
 //Si no se cumple ninguna de las condiciones anteriores, es escaleno.
+//################################################################################
 // Análisis
 // Pedir la medida de los tres lados de un triangulo:
 // Si se cumple el teorema de pitágoras es un triangulo rectángulo
@@ -13,16 +16,20 @@
 // Datos de entrada: los tres lados del triangulo (real)
 // Información de salida: Tipo de rectángulo
 // Variables: ladoA, ladoB, ladoC (real)
+//################################################################################
 // Diseño
 // 1.Leer ladoA, ladoB, ladoC
-// 2.Si se cumple el teorema de pitágoras ( tenemos que suponer que cualquier lado puede ser la hipotenusa) mostrar "Triangulo rectángulo"
+// 2.Si se cumple el teorema de pitágoras ( tenemos que suponer que cualquier 
+//lado puede ser la hipotenusa) mostrar "Triangulo rectángulo"
 // 3.Si tiene dos lados iguales y uno desigual mostrar "Triangulo Isósceles"
 // 4. En otro caso, si tiene los tres lados iguales, mostrar "Triangulo Equilátero"
 // 5. En otro caso, mostrar "Triangulo Escaleno"
-
+//################################################################################
 // Ejemplos
 //(3,4,5) rectangulo,escaleno
 //(7,7,9.8994949366117) rectángulo,isósceles
+//################################################################################
+
 
 Proceso TipoTriangulo
 	Definir ladoA,ladoB,ladoC Como Real;
