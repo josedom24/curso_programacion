@@ -1,26 +1,43 @@
+//################################################################################
+//Si tenemos una cadena con un nombre y apellidos, realizar un programa que 
+//muestre las iniciales en mayúsculas.
+//################################################################################
+//Análisis
+//Tengo que ir quedandome con las primeras letras de cada palabra (las voy 
+//concatenando en una variable cadena).
+//Me posiciono en la primera letra de la primera palabra, a continuación 
+//voy buscando un espacio, recorriendo los posibles espacios que hay entre palabras,
+// y quedandome con el primer caracter de la siguiente palabra.
+// Datos de entrada: Frase
+// Información de salida: Iniciales
+// Variables: cad, iniciales (Caracter), psoicion, cont (enteros)
+//################################################################################
 Proceso GenerarIniciales
 	Definir cad Como Caracter;
-	Definir car Como Entero;
+	Definir posicion Como Entero;
 	Definir iniciales Como Caracter;
 	iniciales <- "";
-	car<-0;
+	posicion<-0;
 	Escribir Sin Saltar "Introduce una cadena:";
 	Leer cad;
 	//Recorro los posibles espacios al principio de la cadena
-	Mientras Subcadena(cad,car,car)=" " Hacer
-		car<-car+1;
+	Mientras Subcadena(cad,posicion,posicion)=" " Hacer
+		posicion<-posicion+1;
 	FinMientras
 	
-	iniciales<-concatenar(iniciales,subcadena(cad,car,car));
-	Para car<-car hasta Longitud(cad)-1 Hacer
-		Si Subcadena(cad,car,car)=" " Entonces
-			Mientras Subcadena(cad,car,car)=" " Y car<=Longitud(cad) Hacer
-				car<-car+1;
+	//La primera incial es la primera letra de la primera palabra
+	iniciales<-concatenar(iniciales,subcadena(cad,posicion,posicion));
+	
+	//Desde el primer caracter distinto de espacio
+	Para posicion<-posicion hasta Longitud(cad)-1 Hacer
+		Si Subcadena(cad,posicion,posicion)=" " Entonces
+			//No tengo en cuanta los posibles espcaios que haya entre palabras
+			Mientras Subcadena(cad,posicion,posicion)=" " Y posicion<=Longitud(cad) Hacer
+				posicion<-posicion+1;
 			FinMientras
-			iniciales<-concatenar(iniciales,subcadena(cad,car,car));
+			//La siguiente inical es la primera letra de la siguiente palabra
+			iniciales<-concatenar(iniciales,subcadena(cad,posicion,posicion));
 		FinSi
 	FinPara
-	//Si no acaba en espacios tengo que contar la última palbra
-	
 	Escribir "Iniciales:",Mayusculas(iniciales);
 FinProceso
