@@ -1,29 +1,58 @@
+//################################################################################
 //Una empresa les paga a sus empleados con base en las horas trabajadas en la semana. 
-//Para esto, se registran los dÃ­as que trabajÃ³ y las horas de cada dÃ­a. 
+//Para esto, se registran los dí­as que trabajó y las horas de cada día. 
 //Realice un algoritmo para determinar el sueldo semanal de N trabajadores 
-//y ademÃ¡s calcule cuÃ¡nto pagÃ³ la empresa por los N empleados.
+//y además calcule cuánto pagó la empresa por los N empleados.
+//################################################################################
+//Análisis
+//Hay que calcular el sueldo de un número de trabajadores, por lo tanto 
+//necesitamos el número de trabajadores que tiene la empresa. También
+//necesitamos saber el sueldo por hora,y por cada trabajador hay que pedir
+//los días que ha trabajado en la semna y las horas que ha trabajado cada día.
+//Por cada trabajdor hay que mostrar el sueldo semanal y al finalizar el programa
+//mostramos el total de sueldos pagados.
+// Datos de entrada: Número de trabajadores, sueldo por hora, días trabajador por 
+//semana,horas trabajadas por cada trabajador.
+// Información de salida: Sueldo de cada trabajador, total pagado.
+// Variables:horas, horas_por_trabajador, horas_acum (entero), sueldo_por_hora (real)
+//           trabajadores,trabajador,dia(entero)
+//################################################################################
+//Diseño
+//1.- Incializo el acumulador de horas
+//2.- Leer el número de trabajadores
+//3.- Leer sueldo por hora
+//4.- Por cada trabajdor
+//		5.-	Incializar el acumulador de horas_por_trabajador
+//		6.-Por cad dia
+//			7.- Leer horas
+//			8.- Acumular horas trabajadaspor trabajador
+//		9.-Mostrar sueldo (horas_por_trabajador*sueldo_por_hora
+//10.- Mostrar total de pago (horas_acum*sueldo_por_hora)
+//################################################################################
+
 Proceso CalcularSalario2
 	Definir dias,horas Como Entero;
 	Definir horas_por_trabajador,horas_acum Como Entero;
 	Definir dia, trabajador Como Entero;
-	Definir sueldo_por_horas Como Real;
+	Definir sueldo_por_hora Como Real;
 	Definir trabajadores como Entero;
 	
-	Escribir Sin Saltar "Â¿Cuantos trabajadores tiene la empresa?:";
+	Escribir Sin Saltar "¿Cuántos trabajadores tiene la empresa?:";
 	Leer trabajadores;
 	Escribir Sin Saltar "Sueldo por hora:";
-	Leer sueldo_por_horas;
+	Leer sueldo_por_hora;
 	horas_acum<-0;
 	Para trabajador<-1 hasta trabajadores Hacer
 		horas_por_trabajador<-0;
-		Escribir Sin Saltar "Â¿CuantÃ¡s dÃ­as ha trabajado el trabajador ",trabajador," ?";
+		Escribir Sin Saltar "¿Cuántos dí­as ha trabajado el trabajador ",trabajador," ?";
 		Leer dias;
 		Para dia<-1 hasta dias Hacer
-			Escribir Sin Saltar "Â¿CuantÃ¡s horas ha trabajado el trabajador ",trabajador," el dia ",dia,"?:";
+			Escribir Sin Saltar "¿Cuantás horas ha trabajado el trabajador ",trabajador," el día ",dia,"?:";
 			Leer horas;
 			horas_por_trabajador<-horas_por_trabajador+horas;
 		FinPara
+		Escribir "El trabajador ",trabajador," tiene de sueldo ",horas_por_trabajador*sueldo_por_hora; 
 		horas_acum<-horas_acum+horas_por_trabajador;
 	FinPara
-	Escribir "El pago a los ",trabajadores," trabajadores es :",horas_acum*sueldo_por_horas;
+	Escribir "El pago a los ",trabajadores," trabajadores es :",horas_acum*sueldo_por_hora;
 FinProceso

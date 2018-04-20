@@ -40,7 +40,7 @@ Proceso CalcularSalario
 		Escribir Sin Saltar "¿Cuantás horas ha trabajado el trabajador ",trabajador," ?";
 		Leer horas_por_semana;
 		horas_acum<-horas_acum+horas_por_semana;
-		Escribir "El trabajador ",trabajdor," tiene de sueldo ",horas_por_semana*sueldo_por_hora; 
+		Escribir "El trabajador ",trabajador," tiene de sueldo ",horas_por_semana*sueldo_por_hora; 
 	FinPara
 	Escribir "El pago a los ",trabajadores," trabajadores es: ",horas_acum*sueldo_por_hora;
 FinProceso
