@@ -1,3 +1,19 @@
+//################################################################################
+//Suponiendo que hemos introducido una cadena por teclado que representa una frase 
+//(palabras separadas por espacios), realiza un programa que cuente cuantas 
+//palabras tiene.
+//################################################################################
+//Análisis
+
+// Datos de entrada:
+// Información de salida:
+// Variables:
+//################################################################################
+//Diseño
+
+
+//################################################################################
+
 Proceso ContarPalabras
 	Definir cad Como Caracter;
 	Definir car,cont Como Entero;

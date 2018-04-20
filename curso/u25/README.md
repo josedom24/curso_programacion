@@ -14,7 +14,7 @@ Pide una cadena y un carácter por teclado (valida que sea un carácter) y muest
 
 ### Ejercicio 4
 
-Suponiendo que hemos introducido una cadena por teclado que representa una frase (palabras separadas por espacio), realiza un programa que cuente cuantas palabras tiene.
+Suponiendo que hemos introducido una cadena por teclado que representa una frase (palabras separadas por espacios), realiza un programa que cuente cuantas palabras tiene.
 
 ### Ejercicio 5 
 
