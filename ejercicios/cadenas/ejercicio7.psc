@@ -9,7 +9,7 @@
 //sustituir un caracter por otro copiaré el segundo.
 // Datos de entrada: Cadena de caracteres, el carácter a buscar y a reemplazar.
 // Información de salida: Cadena con el carácter indicado cambiado por el segundo.
-// Variables:cad, newcad, car_buscar, car_sustituir (carácter)
+// Variables:cad, newcad, car_buscar, car_sustituir (carácter), posicion (entero)
 //################################################################################
 
 Proceso SustituirCaracter
