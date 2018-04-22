@@ -9,6 +9,7 @@
 // Información de salida: Cadena con el cambio de mayúsculas a minusculas y viceversa.
 // Variables:cad, newcad  (carácter), posicion (entero)
 //################################################################################
+
 Proceso ConvertirMayMin
 	Definir cad,newcad Como Caracter;
 	Definir posicion Como Entero;
