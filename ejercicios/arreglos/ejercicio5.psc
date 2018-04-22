@@ -14,11 +14,11 @@
 
 Proceso OrdenarVector
 	Definir vector Como Entero;
-	Dimension vector[5];
+	Dimension vector[10];
 	Definir cambios,aux Como Entero;
 	Definir indice Como Entero;
 	Definir tam_vector Como Entero;
-	tam_vector<-5;
+	tam_vector<-10;
 	//Incializo el vector con valores aleatorios.
 	Para indice<-0 hasta tam_vector-1 hacer
 		vector[indice]<-aleatorio(1,10);
