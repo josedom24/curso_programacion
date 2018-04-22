@@ -14,7 +14,7 @@
 
 Proceso SustituirCaracter
 	Definir cad,newcad, car_buscar,car_sustituir Como Caracter;
-	Definir c Como Entero;
+	Definir posicion Como Entero;
 	newcad<-"";
 	Escribir Sin Saltar "Introduce una cadena:";
 	Leer cad;
