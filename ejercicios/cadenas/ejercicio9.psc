@@ -13,7 +13,7 @@
 //################################################################################
 
 Proceso ContieneSubCadena
-	Definir cad, subcad,subcad_de_cadena Como Caracter;
+	Definir cad, subcad Como Caracter;
 	Definir num_subcadenas,nsubc Como Entero;
 	Definir indicador Como Logico;
 	indicador<-Falso;
@@ -23,8 +23,7 @@ Proceso ContieneSubCadena
 	Leer subcad;
 	num_subcadenas<- Longitud(cad)-Longitud(subcad)+1;
 	Para nsubc<-0 hasta num_subcadenas-1 Hacer
-		subcad_de_cadena<-Subcadena(cad,nsubc,nsubc+Longitud(subcad)-1);
-		Si subcad_de_cadena=subcad Entonces
+		Si Subcadena(cad,nsubc,nsubc+Longitud(subcad)-1)=subcad Entonces
 			indicador<-Verdadero;
 		FinSi
 	FinPara
