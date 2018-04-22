@@ -7,9 +7,9 @@
 //Análisis
 //Recorro un vector de 10 enteros y lo inicializo con valoreas aleatorios. 
 //A continuación lo recorro para mostrar los valores, el cuadrado y el cubo.
-// Datos de entrada:
-// Información de salida:
-// Variables:
+// Datos de entrada: Nada
+// Información de salida: 10 números, su cuadrado y su cubo.
+// Variables: vector_numeros (vector de 10 enteros)
 //################################################################################
 
 Proceso CuadradoCuboVector
