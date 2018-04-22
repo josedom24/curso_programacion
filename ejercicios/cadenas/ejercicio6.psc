@@ -1,4 +1,17 @@
-Proceso GenerarIniciales
+//################################################################################
+//Realizar un programa que dada una cadena de caracteres por caracteres, genere 
+//otra cadena resultado de invertir la primera.
+//################################################################################
+//Análisis
+//Leemos una cadena, la recorremos desde el final al principio y cada carácter 
+//lo vamos concatenando con una nueva cadena, que inicialmente tendrá como valor
+//la cadena vací­a.
+// Datos de entrada: Una cadena de caracteres.
+// Información de salida: La cadena invertida.
+// Variables: cad,invertida (Caracter)
+//################################################################################
+
+Proceso CadenaInvertida
 	Definir cad,invertida Como Caracter;
 	Definir car como Entero;
 	invertida<-"";
