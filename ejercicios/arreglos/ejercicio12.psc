@@ -27,7 +27,7 @@ Proceso LadoExterno
 	num_cols<-15;
 	Para fila<-0 hasta num_filas-1 Hacer
 		Para col<-0 hasta num_cols-1 Hacer
-			//Si estoy en el extremo izaquierdo, derecho, superior o inferior
+			//Si estoy en el extremo izquierdo, derecho, superior o inferior
 			Si fila=0 o fila=num_filas-1 o col=0 o col= num_cols-1 Entonces
 				//Incializo a 1
 				matriz[fila,col]<-1;
