@@ -77,6 +77,18 @@ Funcion AddCola(cad, cola Por Referencia,size_cola)
 	FinSi
 FinFuncion
 
+//################################################################################
+//Función SacarCola: Recibe un vector (cola), su tamaño y devuelve 
+//el elemento que se ha introducido en primer lugar, si no está vacía.
+//El índice de ese elemento será el 0. Lo demás elementos se desplazan hacía el 
+//primer elemento. Y el último elemento (el de la posición tamaño de la cola - 1)
+//se incializa a *.
+//Si está vacía, escribe un mensaje de error.
+//Parámetro de entrada:Tamaño del vector y el elemento.
+//Parámetros de entrada y salida: El vector (cola)
+//Dato devuelto: El elemento 
+//################################################################################
+
 Funcion cad <- SacarDeLaCola(cola Por Referencia,size_cola)
 	Definir cad Como Caracter;
 	definir i Como Entero;
@@ -92,6 +104,12 @@ Funcion cad <- SacarDeLaCola(cola Por Referencia,size_cola)
 	FinSi
 FinFuncion
 
+//################################################################################
+//Función EscribirCola: Recibe un vector (cola) y su tamaño. 
+//Muestra los elemntos del vector hasta que llegue al final o se encuentre un *.
+//Parámetros de entrada: Tamaño del vector, el vector (cola)
+//################################################################################
+
 Funcion EscribirCola(cola,size_cola)
 	Definir i Como Entero;
 	i<-0;
@@ -101,6 +119,10 @@ Funcion EscribirCola(cola,size_cola)
 	FinMientras
 	Escribir "";
 FinFuncion
+
+//################################################################################
+//Realiza un programa principal que nos permita usar funciones para manipular colas.
+//################################################################################
 
 Proceso ProgramaCola
 	Definir micola Como Caracter;

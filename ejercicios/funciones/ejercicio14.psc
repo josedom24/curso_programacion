@@ -77,6 +77,17 @@ Funcion AddPila(cad, pila Por Referencia,size_pila)
 	FinSi
 FinFuncion
 
+//################################################################################
+//Función SacarPila: Recibe un vector (pila), su tamaño y devuelve 
+//el elemento que se ha introducido en último lugar, si no está vacía.
+//El índice de ese elemento será la longitud de la pila - 1
+//El elemento en esa posición se vacía, es decir se incializa a "*".
+//Si está vacía, escribe un mensaje de error.
+//Parámetro de entrada:Tamaño del vector y el elemento.
+//Parámetros de entrada y salida: El vector (pila)
+//Dato devuelto: El elemento 
+//################################################################################
+
 Funcion cad <- SacarDeLaPila(pila Por Referencia,size_pila)
 	Definir cad Como Caracter;
 	Si no EstaVaciaPila(pila,size_pila) Entonces
@@ -88,6 +99,11 @@ Funcion cad <- SacarDeLaPila(pila Por Referencia,size_pila)
 	FinSi
 FinFuncion
 
+//################################################################################
+//Función EscribirPila: Recibe un vector (pila) y su tamaño. 
+//Muestra los elemntos del vector hasta que llegue al final o se encuentre un *.
+//Parámetros de entrada: Tamaño del vector, el vector (pila)
+//################################################################################
 
 Funcion EscribirPila(pila,size_pila)
 	Definir i Como Entero;
@@ -98,6 +114,10 @@ Funcion EscribirPila(pila,size_pila)
 	FinMientras
 	Escribir "";
 FinFuncion
+
+//################################################################################
+//Realiza un programa principal que nos permita usar funciones para manipular pilas.
+//################################################################################
 
 Proceso ProgramaPila
 	Definir mipila Como Caracter;
