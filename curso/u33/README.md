@@ -116,7 +116,7 @@ Realiza un programa principal que nos permita usar las funciones anterior, que n
 
 ### Ejercicio 15
 
-vamos a realizar un programa similar al anterior para trabajar con una cola. Una cola es una estructura de datos que nos permite guardar un conjunto de variables. La característica fundamental es que el primer elemento que se añade al conjunto es el primero que se puede sacar.
+Vamos a realizar un programa similar al anterior para trabajar con una cola. Una cola es una estructura de datos que nos permite guardar un conjunto de variables. La característica fundamental es que el primer elemento que se añade al conjunto es el primero que se puede sacar.
 
 En realizada nos sirven todas las funciones del ejercicio anterior menos la función `SacarDeLaCola` que es la que tienes que modificar.
 
