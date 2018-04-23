@@ -34,7 +34,7 @@ FinFuncion
 
 Funcion AddPila(cad, pila Por Referencia,size_pila)
 	Si no EstaLlenaPila(pila,size_pila) Entonces
-		pila[LongitudPila(pila)]<-cad;
+		pila[LongitudPila(pila,size_pila)]<-cad;
 	SiNo
 		Escribir "No se puede añadir elemento. La pila está llena";
 	FinSi
@@ -43,8 +43,8 @@ FinFuncion
 Funcion cad <- SacarDeLaPila(pila Por Referencia,size_pila)
 	Definir cad Como Caracter;
 	Si no EstaVaciaPila(pila,size_pila) Entonces
-		cad <- pila[LongitudPila(pila)-1];
-		pila[LongitudPila(pila)-1]<-"*";
+		cad <- pila[LongitudPila(pila,size_pila)-1];
+		pila[LongitudPila(pila,size_pila)-1]<-"*";
 	SiNo
 		Escribir "No se puede sacar elemento. La pila está vacia";
 		cad<-"";	
@@ -64,11 +64,11 @@ FinFuncion
 
 Proceso ProgramaPila
 	Definir mipila Como Caracter;
-	Dimension mipila[10];
+	Dimension mipila[3];
 	Definir tam_pila como Entero;
 	Definir elem Como Caracter;
 	Definir opcion Como Entero;
-	tam_pila<-10;
+	tam_pila<-3;
 	InicializarPila(mipila,tam_pila);
 	Repetir
 		Escribir "1.- Añadir elemento a la pila";
