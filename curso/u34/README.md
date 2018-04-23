@@ -3,7 +3,7 @@
 
 ### Ejercicio 1
 
-Realice un programa que pregunte aleatoria mente una multiplicación. El programa debe indicar si la respuesta ha sido correcta o no (en caso que la respuesta sea incorrecta el programa debe indicar cuál es la correcta). El programa preguntará 10 multiplicaciones,  y al finalizar mostrará el número de aciertos.
+Realice un programa que pregunte aleatoriamente una multiplicación. El programa debe indicar si la respuesta ha sido correcta o no (en caso que la respuesta sea incorrecta el programa debe indicar cuál es la correcta). El programa preguntará 10 multiplicaciones,  y al finalizar mostrará el número de aciertos.
 
 ### Ejercicio 2
 
@@ -47,14 +47,14 @@ Al finalizar el programa, se deberá escribir el número de intentos realizados 
 ### Ejercicio 8
 Realizar un programa que pida un mes y un año (superior a 1900) y muestre el calendario del mes de esta manera:
 
-Para ello es necesario averiguar que día de la semana (Lunes, Martes, ...) correponde con un fecha determinada. Hay muchas maneras de calcularlo: nostros vamos a contar los días que han trascurridos desde el año 1900 (podemos hacer uso de funciones que hemos utilizado en ejercicios anteriores), y unqa vez calculado le hacemos el módulo  7 y el número obtenido será el da de la semana (0: domingo, 1: lunes, ...) (NOTA: ten en cuanta que queremos realziar un calendario que empiece en lunes, no en domingo).
+Para ello es necesario averiguar que día de la semana (Lunes, Martes, ...) corresponde con un fecha determinada. Hay muchas maneras de calcularlo: nosotros vamos a contar los días que han trascurridos desde el año 1900 (podemos hacer uso de funciones que hemos utilizado en ejercicios anteriores), y una vez calculado le hacemos el módulo  7 y el número obtenido será el da de la semana (0: domingo, 1: lunes, ...) (NOTA: ten en cuanta que queremos realizar un calendario que empiece en lunes, no en domingo).
 
 ### Ejercicio 9
 
-Vamos a progrmar el juego "Mastermind", para ello el progrma debe "eligir" un número de cuatro cifras (sin cifras repetidas), que será el código que el jugador debe adivinar en la menor cantidad de intentos posibles. Cada intento consiste en una propuesta de un código posible que escribe el jugador, y una respuesta del programa. Las respuestas le darán pistas al jugador para que pueda deducir el código.
+Vamos a programar el juego "Mastermind", para ello el programa debe "eligir" un número de cuatro cifras (sin cifras repetidas), que será el código que el jugador debe adivinar en la menor cantidad de intentos posibles. Cada intento consiste en una propuesta de un código posible que escribe el jugador, y una respuesta del programa. Las respuestas le darán pistas al jugador para que pueda deducir el código.
 
 * Número de "MUERTOS": Es la cantidad de dígitos que están en el número secreto y en la misma posición,
-* Número de "HERIDOS:" Es la cantodad de dígitos que están en el número secreto pero no en la misma posición.
+* Número de "HERIDOS:" Es la cantidad de dígitos que están en el número secreto pero no en la misma posición.
 
 Por ejemplo, si el código que eligió el programa es el 2607, y el jugador propone el 1406, el programa le debe responder un MUERTO (el 0, que está en el código original en el mismo lugar, el tercero), y un HERIDO (el 6, que también está en el código original, pero en la segunda posición, no en el cuarto como fue propuesto). 
 
@@ -65,11 +65,11 @@ Escribe un programa para jugar al ahorcado.
 * Un jugador introduce una palabra secreta y otro jugador tratará de adivinarla.
 * Aparecerá la palabra oculta (se mostrará un conjunto de asteriscos con la longitud de la palabra que hay que adivinar).
 * El programa te va pidiendo letras.
-* Si la letra está en la palbara, se mostrar la palabra mostrando las letras acertadas y los asteriscos en las letras que faltan por averiguar.
-* Cada vez que se introduce una letra se muetra las letras que has introducido anteriormente.
-* Si la letra no se encuentra en la palabra se suma un fallo. Según el número de fallos se mostrará uel dibujo del ahorcado cada vez ms completo. 
-* Si introduces todas las letras de la pabra has ganada y te mostrará el número de intentos que has necesitado.
-* Si produces 6 fallos, habrás perdido y se mostrará el dibjo del ahorcado completo.
+* Si la letra está en la palabra, se mostrar la palabra mostrando las letras acertadas y los asteriscos en las letras que faltan por averiguar.
+* Cada vez que se introduce una letra se muestra las letras que has introducido anteriormente.
+* Si la letra no se encuentra en la palabra se suma un fallo. Según el número de fallos se mostrará el dibujo del ahorcado cada vez ms completo. 
+* Si introduces todas las letras de la palabra has ganada y te mostrará el número de intentos que has necesitado.
+* Si produces 6 fallos, habrás perdido y se mostrará el dibujo del ahorcado completo.
 
 # Ejercicios resueltos
 
