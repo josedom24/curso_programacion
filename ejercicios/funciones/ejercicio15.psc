@@ -46,7 +46,7 @@ Funcion cad <- SacarDeLaCola(cola Por Referencia,size_cola)
 		Para i <- 0 hasta size_cola-2 Hacer
 			cola[i]<-cola[i+1];
 		FinPara
-		cola[9]<-"*";
+		cola[size_cola-1]<-"*";
 	SiNo
 		Escribir "No se puede sacar elemento. La cola está vacia";
 		cad<-"";	
