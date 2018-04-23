@@ -44,6 +44,13 @@ Funcion resultado <- EstaVaciaPila(pila,size_pila)
 	FinSi
 FinFuncion
 
+//################################################################################
+//Función EstaLlenaPila: Recibe un vector (pila) y su tamaño. 
+//Devuelve un valor lógico indicando si la pila está llena.
+//Está llena si la longitud es igual al tamaño del vector.
+//Parámetros de entrada: Tamaño del vector, el vector (pila)
+//################################################################################
+
 Funcion resultado <- EstaLlenaPila(pila,size_pila)
 	Definir resultado Como Logico;
 	Si LongitudPila(pila,size_pila)=size_pila Entonces
@@ -53,6 +60,14 @@ Funcion resultado <- EstaLlenaPila(pila,size_pila)
 	FinSi
 FinFuncion
 
+//################################################################################
+//Procedimiento AddPila: Recibe un vector (pila), su tamaño y un elemento (cadena)
+//Si no esta llena, añade el elemento en la siguiente posición vacía,
+//cuyo indice es igual a la Longitud de la pila.
+//Si está llena, escribe un mensaje de error.
+//Parámetro de entrada:Tamaño del vector y el elemento.
+//Parámetros de entrada y salida: El vector (pila)
+//################################################################################
 
 Funcion AddPila(cad, pila Por Referencia,size_pila)
 	Si no EstaLlenaPila(pila,size_pila) Entonces

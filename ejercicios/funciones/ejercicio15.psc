@@ -44,6 +44,13 @@ Funcion resultado <- EstaVaciaCola(cola,size_cola)
 	FinSi
 FinFuncion
 
+//################################################################################
+//Función EstaLlenaCola: Recibe un vector (cola) y su tamaño. 
+//Devuelve un valor lógico indicando si la cola está llena.
+//Está llena si la longitud es igual al tamaño del vector.
+//Parámetros de entrada: Tamaño del vector, el vector (cola)
+//################################################################################
+
 Funcion resultado <- EstaLlenaCola(cola,size_cola)
 	Definir resultado Como Logico;
 	Si LongitudCola(cola,size_cola)=size_cola Entonces
@@ -52,6 +59,15 @@ Funcion resultado <- EstaLlenaCola(cola,size_cola)
 		resultado<-Falso;
 	FinSi
 FinFuncion
+
+//################################################################################
+//Procedimiento AddCola: Recibe un vector (cola), su tamaño y un elemento (cadena)
+//Si no esta llena, añade el elemento en la siguiente posición vacía,
+//cuyo indice es igual a la Longitud de la cola.
+//Si está llena, escribe un mensaje de error.
+//Parámetro de entrada:Tamaño del vector y el elemento.
+//Parámetros de entrada y salida: El vector (cola)
+//################################################################################
 
 Funcion AddCola(cad, cola Por Referencia,size_cola)
 	Si no EstaLlenaCola(cola,size_cola) Entonces
