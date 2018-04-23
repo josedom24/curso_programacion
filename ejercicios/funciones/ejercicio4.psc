@@ -2,7 +2,7 @@
 //Función ConverEspacioado: Revice una cadena de caracteres, y devuelve otra 
 //con los mismos caracteres separados con espacio.
 //Parámetros de entrada: Cadena de caracteres
-//Parámetros de salida: Cadena igual a la anerior pero con espacios entre los 
+//Dato devuelto: Cadena igual a la anerior pero con espacios entre los 
 //caracteres
 //################################################################################
 

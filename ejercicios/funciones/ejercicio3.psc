@@ -2,7 +2,7 @@
 //Función calcularTemperaturaMedia: Recibe dos números reales que representan 
 //dos temperaturas y devuelve la temperatura media.
 //Parámetros de entrada: dos temperaturas (real)
-//Parámetros de salida: La temperatura media (real)
+//Dato devuelto: La temperatura media (real)
 //################################################################################
 
 Funcion tmedia <- calcularTemperaturaMedia(temp1,temp2)

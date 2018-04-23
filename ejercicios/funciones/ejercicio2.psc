@@ -2,7 +2,7 @@
 //Función EsMultiplo: Recibe dos número e indica si el primero el múltiplo del 
 //segundo. Para ello calculo elresto de la división, si es 0 es múltiplo.
 //Parámetros de entrada: dos números
-//Parámetros de salida: multiplo: Valor lógico verdadero si el primero es múltiplo 
+//Dato devuelto: multiplo: Valor lógico verdadero si el primero es múltiplo 
 //del segundo, Falso en caso contrario.
 //################################################################################
 
