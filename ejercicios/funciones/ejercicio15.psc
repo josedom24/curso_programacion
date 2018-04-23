@@ -20,7 +20,6 @@ FinFuncion
 //Parámetros de entrada: Tamaño del vector, el vector (cola)
 //################################################################################
 
-
 Funcion size <- LongitudCola(cola,size_cola)
 	Definir size Como Entero;
 	size<-0;
@@ -28,6 +27,13 @@ Funcion size <- LongitudCola(cola,size_cola)
 		size<-size+1;
 	FinMientras
 FinFuncion
+
+//################################################################################
+//Función EstaVaciaCola: Recibe un vector (cola) y su tamaño. 
+//Devuelve un valor lógico indicando si la cola está vacía.
+//Está vacía si la longitud es 0.
+//Parámetros de entrada: Tamaño del vector, el vector (cola)
+//################################################################################
 
 Funcion resultado <- EstaVaciaCola(cola,size_cola)
 	Definir resultado Como Logico;

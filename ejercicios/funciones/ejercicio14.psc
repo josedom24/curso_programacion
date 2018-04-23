@@ -28,6 +28,13 @@ Funcion size <- LongitudPila(pila,size_pila)
 	FinMientras
 FinFuncion
 
+//################################################################################
+//Función EstaVaciaPila: Recibe un vector (pila) y su tamaño. 
+//Devuelve un valor lógico indicando si la pila está vacía.
+//Está vacía si la longitud es 0.
+//Parámetros de entrada: Tamaño del vector, el vector (pila)
+//################################################################################
+
 Funcion resultado <- EstaVaciaPila(pila,size_pila)
 	Definir resultado Como Logico;
 	Si LongitudPila(pila,size_pila)=0 Entonces
