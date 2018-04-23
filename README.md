@@ -1,4 +1,4 @@
-# Curso de introducción a la programación
+n# Curso de introducción a la programación
 
 0. Introducción al curso
 
@@ -59,14 +59,14 @@
 
 ### Lenguajes de Programación
 
-* Introducción a los lenguajes de programación
+35.Introducción a los lenguajes de programación
 	* Definición
 	* Tipos
 	* Ejemplos de lenguajes de programación
-* Traductores
+36. Traductores
 	* Compiladores, interpretes, máquinas virtuales
-* Ejecución y validación de programas
-* Ejemplos de códigos fuentes
-* Ejecución de programas
+37. Ejecución y validación de programas
+38. Ejemplos de códigos fuentes
+
 
 
