@@ -2,7 +2,7 @@
 
 ### Ejercicio 1
 
-Crea un procedimiento EscribirCentrado, que reciba como parámetro un texto y lo escriba centrado en pantalla (suponiendo una anchura de 80 columnas; pista: deberás escribir 40 - longitud/2 espacios antes del texto). Además subraya el mansaje utilizando el carácter `=`.
+Crea un procedimiento EscribirCentrado, que reciba como parámetro un texto y lo escriba centrado en pantalla (suponiendo una anchura de 80 columnas; pista: deberás escribir 40 - longitud/2 espacios antes del texto). Además subraya el mensaje utilizando el carácter `=`.
 
 ### Ejercicio 2
 
@@ -18,7 +18,7 @@ Crea un función "ConvertirEspaciado", que reciba como parámetro un texto y dev
 
 ### Ejercicio 5
 
-Crea una función "calcularMaxMin" que recibe una arreglo con valores númerico y devuelve el valor máximo y el mínimo. Crea un programa que pida números por teclado y muestre el máximo y el mínimo, utilizando la función anterior.
+Crea una función "calcularMaxMin" que recibe una arreglo con valores numérico y devuelve el valor máximo y el mínimo. Crea un programa que pida números por teclado y muestre el máximo y el mínimo, utilizando la función anterior.
 
 ### Ejercicio 6
 
@@ -32,7 +32,7 @@ Crear un programa principal donde se pida un nombre de usuario y una contraseña
 
 ### Ejercicio 8
 
-Crear una función recursiva que permita calcular el factorial de un número. realiza un programa principal donde se lea un entero y se muestre el resultado del factorial.
+Crear una función recursiva que permita calcular el factorial de un número. Realiza un programa principal donde se lea un entero y se muestre el resultado del factorial.
 
 ### Ejercicio 9
 
@@ -76,11 +76,11 @@ Vamos a crear las siguientes funciones para trabajar con funciones:
 * `Leer_fracción`: La tarea de esta función es leer por teclado el numerador y el denominador. Cuando leas una fracción debes simplificarla.
 * `Escribir_fracción`: Esta función escribe en pantalla la fracción. Si el dominador es 1, se muestra sólo el numerador.
 * `Calcular_mcd`:  Esta función recibe dos número y devuelve el máximo común divisor.
-* `Simplificar_fracción`: Esta función simplifica la fracción, para ello hay que dividir numerador y dominador por el mcd del numerador y denominador. 
+* `Simplificar_fracción`: Esta función simplifica la fracción, para ello hay que dividir numerador y dominador por el MCD del numerador y denominador. 
 * `Sumar_fracciones`: Función que recibe dos funciones n1/d1 y n2/d2, y calcula la suma de las dos fracciones. La suma de dos fracciones es otra fracción cuyo `numerador=n1*d2+d1*n2` y `denominador=d1*d2`. Se debe simplificar la fracción resultado.
-* `Restar_fracciones`: Función que resta dos fracciones:  `numerador=n1*d2-d1*n2` y `denominador=d1*d2`. Se debe simplicar la fracción resultado.
-* `Multiplicar_fracciones`: Función que recibe dos fracciones y calcula el producto, para ello `numerador=n1*n2` y `denominador=d1*d2`. Se debe simplicar la fracción resultado.
-* `Dividir_fracciones`: Función que recibe dos fracciones y calcula el cociente, para ello `numerador=n1*d2` y `denominador=d1*n2`. Se debe simplicar la fracción resultado.
+* `Restar_fracciones`: Función que resta dos fracciones:  `numerador=n1*d2-d1*n2` y `denominador=d1*d2`. Se debe simplificar la fracción resultado.
+* `Multiplicar_fracciones`: Función que recibe dos fracciones y calcula el producto, para ello `numerador=n1*n2` y `denominador=d1*d2`. Se debe simplificar la fracción resultado.
+* `Dividir_fracciones`: Función que recibe dos fracciones y calcula el cociente, para ello `numerador=n1*d2` y `denominador=d1*n2`. Se debe simplificar la fracción resultado.
 
 Crear un programa que utilizando las funciones anteriores muestre el siguiente menú:
 
@@ -98,7 +98,7 @@ Para representar una pila vamos a utilizar un arreglo (vector) de cadena de cara
 
 Vamos a crear varias funciones para trabajar con la pila:
 
-* `IncializarPila`: Como tenemos un arreglo de 10 elementos de cadenas tenemos que incializarlo e introducir un carácter (por ejemplo un `*` que indique que ese elemento del arreglo no corresponde con un dato de la pila. Esta función inicializa el vector con ese carácter.
+* `IncializarPila`: Como tenemos un arreglo de 10 elementos de cadenas tenemos que inicializarlo e introducir un carácter (por ejemplo un `*` que indique que ese elemento del arreglo no corresponde con un dato de la pila. Esta función inicializa el vector con ese carácter.
 * `LongitudPila`: Función que recibe una pila y devuelve el número de elementos que tiene.
 * `EstaVaciaPila`: Función que recibe una pila y que devuelve si la pila está vacía, no tiene elementos.
 * `EstaLlenaPila`: Función que recibe una pila y que devuelve si la pila está llena.
