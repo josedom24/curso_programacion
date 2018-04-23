@@ -9,12 +9,10 @@
 //Recorro la tabla: si el indice de fila = indice de columna (diagonal principal)
 //o indice de fila = numero de filas - 1 - indice de columnas (la otra diagonal)
 // guardo un 1 sino guardo un 0.
-//Recorro la tabla por columnas y filas y voy acumulando el valor de lo elementos
-//de cada fila.
-// Datos de entrada: Los elementos de la tabla.
-// Información de salida: La suma por cada columna, y la suma por cada fila
+//Recorro la tabla para msotrarla.
+// Datos de entrada: Nada
+// Información de salida: Los valores de la tabla
 // Variables: matriz (tabla de 5 x 5 enteros),fila,col,num_filas,num_cols (enteros)
-//            suma (entero)
 //################################################################################
 
 Proceso Diagonal
