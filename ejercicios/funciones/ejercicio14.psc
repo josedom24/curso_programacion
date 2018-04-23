@@ -1,9 +1,24 @@
+//################################################################################
+//Procedimiento IncializarPila: Recibe un vector (pila) y su tamaño. 
+//Recorre el vector e incializa sus elementos a *. 
+//El * representa que el elemento está vacío.
+//Parámetros de entrada: Tamaño del vector
+//Parámetros de entrada y salida: El vector (pila)
+//################################################################################
+
 Funcion InicializarPila(pila Por Referencia,size_pila)
 	Definir i Como Entero;
 	Para i<-0 hasta size_pila-1 Hacer
 		pila[i]<-"*";
 	FinPara
 FinFuncion
+
+//################################################################################
+//Función LongitudPila: Recibe un vector (pila) y su tamaño. 
+//Devuelve un contador con los elementos de la pila.
+//Recorre el vector mientras no encuentre un * o llegue al final.
+//Parámetros de entrada: Tamaño del vector, el vector (pila)
+//################################################################################
 
 Funcion size <- LongitudPila(pila,size_pila)
 	Definir size Como Entero;

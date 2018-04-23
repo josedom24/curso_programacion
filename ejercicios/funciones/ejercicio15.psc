@@ -1,9 +1,26 @@
+//################################################################################
+//Procedimiento IncializarCola: Recibe un vector (cola) y su tamaño. 
+//Recorre el vector e incializa sus elementos a *. 
+//El * representa que el elemento está vacío.
+//Parámetros de entrada: Tamaño del vector
+//Parámetros de entrada y salida: El vector (cola)
+//################################################################################
+
 Funcion InicializarCola(cola Por Referencia,size_cola)
 	Definir i Como Entero;
 	Para i<-0 hasta size_cola-1 Hacer
 		cola[i]<-"*";
 	FinPara
 FinFuncion
+
+//################################################################################
+//Función LongitudCola: Recibe un vector (cola) y su tamaño. 
+//Devuelve un contador con los elementos de la cola.
+//Recorre el vector mientras no encuentre un * o llegue al final.
+//Parámetros de entrada: Tamaño del vector, el vector (cola)
+//################################################################################
+
+
 Funcion size <- LongitudCola(cola,size_cola)
 	Definir size Como Entero;
 	size<-0;
