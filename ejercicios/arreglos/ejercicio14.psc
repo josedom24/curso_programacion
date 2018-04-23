@@ -32,14 +32,14 @@ Proceso Sucursales
    
    // Leer Precios
    Para indice_art<-0 Hasta 4 Hacer
-      Escribir 'Ingrese Precio Articulo ',indice_art+1,':';
+      Escribir 'Ingrese Precio Articulo ',indice_art+1,': ';
       Leer Precio[indice_art];
    FinPara
    
    // Leer Cantidades
    Para indice_sucursal<-0 Hasta 3 Hacer
       Para indice_art<-0 Hasta 4 Hacer
-         Escribir 'Ingrese Cant. de Articulo ',indice_art+1,', en Sucursal ',indice_sucursal+1,':';
+         Escribir 'Ingrese Cant. de Articulo ',indice_art+1,', en Sucursal ',indice_sucursal+1,': ';
          Leer Cantidad[indice_sucursal,indice_art];
       FinPara
    FinPara
@@ -48,7 +48,7 @@ Proceso Sucursales
    Escribir 'Cantidades por articulos:';
    Para indice_art<-0 Hasta 4 Hacer
       Suma<-Cantidad[0,indice_art]+Cantidad[1,indice_art]+Cantidad[2,indice_art]+Cantidad[3,indice_art];
-      Escribir 'Total articulo ',indice_art+1,':',Suma;
+      Escribir 'Total articulo ',indice_art+1,': ' ,Suma;
    FinPara
    
    // Informar Total de Articulos Sucursal 2
@@ -59,7 +59,7 @@ Proceso Sucursales
    Escribir 'Total Sucursal 2:',Ariculos_Sucursal2;
    
    // Informar Sucursal 1, Articulo 3:
-   Escribir 'Sucursal 1, Articulo 3:',Cantidad[0,2];
+   Escribir 'Sucursal 1, Articulo 3: ',Cantidad[0,2];
    
    // Acumular total de cada sucursal (TotalSucursal) y
    // total de la empresa (TotalEmpresa)
@@ -71,7 +71,7 @@ Proceso Sucursales
       Para indice_art<-0 Hasta 4 Hacer
          TotalSucursal<-TotalSucursal+(Cantidad[indice_sucursal,indice_art]*Precio[indice_art]);
       FinPara
-      Escribir 'Recaudaciones Sucursal ',indice_sucursal,':',TotalSucursal;
+      Escribir 'Recaudaciones Sucursal ',indice_sucursal+1,': ',TotalSucursal;
 	  //Calculo la sucursal con mayor recaudación
       Si TotalSucursal>MayorRec entonces 
 		  MayorRec<-TotalSucursal; 
@@ -79,8 +79,8 @@ Proceso Sucursales
       FinSi
       TotalEmpresa<-TotalEmpresa+TotalSucursal;
    FinPara
-   Escribir 'Recaudacion total de la empresa:',TotalEmpresa;
-   Escribir 'Sucursal de Mayor Recaudacion:',NumMayor;
+   Escribir 'Recaudacion total de la empresa: ',TotalEmpresa;
+   Escribir 'Sucursal de Mayor Recaudacion: ',NumMayor;
 
 FinProceso
 
