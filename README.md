@@ -1,4 +1,4 @@
-n# Curso de introducción a la programación
+# Curso de introducción a la programación
 
 0. Introducción al curso
 
