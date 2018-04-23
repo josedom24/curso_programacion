@@ -65,7 +65,7 @@ El día juliano correspondiente a una fecha es un número entero que indica los 
 
 ### Ejercicio 12
 
-vamos a mejorar el ejercicio anterior haciendo una función para validar la fecha. De tal forma que al leer una fecha se asegura que es válida.
+Vamos a mejorar el ejercicio anterior haciendo una función para validar la fecha. De tal forma que al leer una fecha se asegura que es válida.
 
 ### Ejercicio 13
 
