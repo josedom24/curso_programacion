@@ -59,7 +59,7 @@ n# Curso de introducción a la programación
 
 ### Lenguajes de Programación
 
-35.Introducción a los lenguajes de programación
+35. Introducción a los lenguajes de programación
 	* Definición
 	* Tipos
 	* Ejemplos de lenguajes de programación
