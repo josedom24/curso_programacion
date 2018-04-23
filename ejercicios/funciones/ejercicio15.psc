@@ -65,11 +65,11 @@ FinFuncion
 
 Proceso ProgramaCola
 	Definir micola Como Caracter;
-	Dimension micola[10];
+	Dimension micola[3];
 	Definir tam_cola como Entero;
 	Definir elem Como Caracter;
 	Definir opcion Como Entero;
-	tam_cola<-10;
+	tam_cola<-3;
 	InicializarCola(micola,tam_cola);
 	Repetir
 		Escribir "1.- Añadir elemento a la cola";
