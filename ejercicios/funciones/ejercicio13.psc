@@ -36,6 +36,13 @@ Funcion mcd <- CalcularMCD(num1,num2)
 	FinSi
 FinFuncion
 
+//################################################################################
+//Procedimiento LeerFracion: Lee por teclado una fracción (numerador y denominador)
+// y lo devuelve como parámetro de entrada y salida.
+//Este procedimiento usa SimplificarFraccion para simplificar la fracción leida.
+//Parámetros de entrada y salida: numerador y denominador 
+//################################################################################
+
 Funcion LeerFraccion(num Por Referencia,den Por Referencia)
 	Escribir sin Saltar "Numerador:";
 	Leer num;
@@ -44,12 +51,27 @@ Funcion LeerFraccion(num Por Referencia,den Por Referencia)
 	SimplificarFraccion(num,den);
 FinFuncion
 
+//################################################################################
+//Procedimiento SimplificarFracion: Recibe una fracción (numerador y denominador)
+// y lo devuelve la fracción simplificada como parámetro ed entrada y salida.
+//Para simplificar hay que dividir numerador y dominador por el MCD del numerador 
+//y denominador. 
+//Parámetros de entrada y salida: numerador y denominador 
+//################################################################################
+
 Funcion SimplificarFraccion(num Por Referencia,den Por Referencia)
 	Definir mcd como Entero;
 	mcd <- CalcularMCD(num,den);
 	num <- num / mcd;
 	den <- den / mcd;
 FinFuncion
+
+//################################################################################
+//Procedimiento EscribirFracion: Recibe una fracción (numerador y denominador)
+// y lo muestra por pantalla. Muestra numerador partido por denominador. Si el
+//denominador es 1 sólo muestra el numerador.
+//Parámetros de entrada: numerador y denominador 
+//################################################################################
 
 Funcion EscribirFraccion(num,den)
 	Si den<> 1 Entonces
@@ -63,28 +85,74 @@ Funcion EscribirFraccion(num,den)
 	FinSi
 FinFuncion
 
+//################################################################################
+//Procedimiento SumarFracciones: Recibe dos fracciones (numerador y denominador)
+// y devuelve otra fracción que es la suma de la primera y la segunda.
+//La suma de dos fracciones es otra fracción cuyo `numerador=n1*d2+d1*n2` 
+//y `denominador=d1*d2`.
+//Este procedimiento usa SimplificarFraccion para simplificar la fracción calculada.
+//Parámetros de entrada: numerador1 y denominador1, numerador2 y denominador2
+//Parámetros de entrada y salida: numerador y denominador de la fracción resultado
+//################################################################################
+
 Funcion SumarFracciones(n1,d1,n2,d2,nr Por Referencia,dr Por Referencia)
 	nr <- n1*d2 + d1*n2;
 	dr <- d1 * d2;
 	SimplificarFraccion(nr,dr);
 FinFuncion
 
+//################################################################################
+//Procedimiento RestarFracciones: Recibe dos fracciones (numerador y denominador)
+// y devuelve otra fracción que es la resta de la primera y la segunda.
+//La resta de dos fracciones es otra fracción cuyo `numerador=n1*d2-d1*n2` 
+//y `denominador=d1*d2`.
+//Este procedimiento usa SimplificarFraccion para simplificar la fracción calculada.
+//Parámetros de entrada: numerador1 y denominador1, numerador2 y denominador2
+//Parámetros de entrada y salida: numerador y denominador de la fracción resultado
+//################################################################################
+
 Funcion RestarFracciones(n1,d1,n2,d2,nr Por Referencia,dr Por Referencia)
 	nr <- n1*d2 - d1*n2;
 	dr <- d1 * d2;
 	SimplificarFraccion(nr,dr);
 FinFuncion
+
+//################################################################################
+//Procedimiento MultiplicarFracciones: Recibe dos fracciones (numerador y denominador)
+// y devuelve otra fracción que es el producto de la primera y la segunda.
+//La resta de dos fracciones es otra fracción cuyo `numerador=n1*n2` 
+//y `denominador=d1*d2`
+//Este procedimiento usa SimplificarFraccion para simplificar la fracción calculada.
+//Parámetros de entrada: numerador1 y denominador1, numerador2 y denominador2
+//Parámetros de entrada y salida: numerador y denominador de la fracción resultado
+//################################################################################
+
 Funcion MultiplicarFracciones(n1,d1,n2,d2,nr Por Referencia,dr Por Referencia)
 	nr <- n1 * n2;
 	dr <- d1 * d2;
 	SimplificarFraccion(nr,dr);
 FinFuncion
 
+//################################################################################
+//Procedimiento DividirFracciones: Recibe dos fracciones (numerador y denominador)
+// y devuelve otra fracción que es la división de la primera y la segunda.
+//La resta de dos fracciones es otra fracción cuyo `numerador=n1*d2` 
+//y `denominador=d1*n2`
+//Este procedimiento usa SimplificarFraccion para simplificar la fracción calculada.
+//Parámetros de entrada: numerador1 y denominador1, numerador2 y denominador2
+//Parámetros de entrada y salida: numerador y denominador de la fracción resultado
+//################################################################################
+
 Funcion DividirFracciones(n1,d1,n2,d2,nr Por Referencia,dr Por Referencia)
 	nr <- n1 * d2;
 	dr <- d1 * n2;
 	SimplificarFraccion(nr,dr);
 FinFuncion
+
+//################################################################################
+//Crear un programa que utilizando las funciones anteriores muestre un menú para 
+//operar con fracciones.
+//################################################################################
 
 Proceso Fracciones
 	Definir num1,den1,num2,den2,numr,denr como Entero;
