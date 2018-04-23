@@ -64,11 +64,11 @@ FinFuncion
 
 Proceso ProgramaPila
 	Definir mipila Como Caracter;
-	Dimension mipila[3];
+	Dimension mipila[10];
 	Definir tam_pila como Entero;
 	Definir elem Como Caracter;
 	Definir opcion Como Entero;
-	tam_pila<-3;
+	tam_pila<-10;
 	InicializarPila(mipila,tam_pila);
 	Repetir
 		Escribir "1.- Añadir elemento a la pila";
