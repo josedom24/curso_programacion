@@ -7,6 +7,7 @@
 //Parámetros de entrada y salida: intentos
 //Dato devuelto: Valor lógico indicando si ha hecho login
 //################################################################################
+
 Funcion eslogin<-Login(nombre,pass,intentos por referencia)
 	Definir eslogin Como Logico;
 	Si nombre="usuario1" Y pass="asdasd" Entonces
