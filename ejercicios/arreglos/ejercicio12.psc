@@ -18,7 +18,6 @@
 // Variables: matriz (tabla de 5 x 5 enteros),fila,col,num_filas,num_cols (enteros)
 //################################################################################
 
-
 Proceso LadoExterno
 	Definir matriz Como Entero;
 	Dimension matriz[5,15];
