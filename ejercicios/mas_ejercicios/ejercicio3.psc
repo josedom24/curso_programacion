@@ -3,45 +3,53 @@ Funcion vuelta <- CalcularVuelta(dinero Por Referencia,cantidad)
 	vuelta<-Trunc(dinero/cantidad);
 	dinero<-dinero - vuelta*cantidad;
 FinFuncion
+
+Funcion InicializaBilletesMonedas(cantidades Por Referencia)
+	cantidades[0]<-500;
+	cantidades[1]<-200;
+	cantidades[2]<-100;
+	cantidades[3]<-50;
+	cantidades[4]<-20;
+	cantidades[5]<-10;
+	cantidades[6]<-5;
+	cantidades[7]<-2;
+	cantidades[8]<-1;
+	cantidades[9]<-0.50;
+	cantidades[10]<-0.20;
+	cantidades[11]<-0.10;
+	cantidades[12]<-0.05;
+	cantidades[13]<-0.02;
+	cantidades[14]<-0.01;
+FinFuncion
+
+Funcion EscribirVuelta(vuelta,cantidad)
+	Si vuelta>0 Entonces
+		Si cantidad>2 Entonces
+			Escribir vuelta, " billetes de ",cantidad," euros.";
+		SiNo
+			Si cantidad>=1 Entonces
+				Escribir vuelta, " monedas de ",cantidad," euros.";
+			SiNo
+				Escribir vuelta, " monedas de ",cantidad*100," centimos.";
+			FinSi
+		FinSi
+	FinSi
+FinFuncion
+
 Proceso Devolucion
 	Definir dinero,total,entregada Como Real;
-	Definir cantidad como Real;
-	Definir vuelta,i como Entero;
-	Dimension cantidad[15];
-	cantidad[0]<-500;
-	cantidad[1]<-200;
-	cantidad[2]<-100;
-	cantidad[3]<-50;
-	cantidad[4]<-20;
-	cantidad[5]<-10;
-	cantidad[6]<-5;
-	cantidad[7]<-2;
-	cantidad[8]<-1;
-	cantidad[9]<-0.50;
-	cantidad[10]<-0.20;
-	cantidad[11]<-0.10;
-	cantidad[12]<-0.05;
-	cantidad[13]<-0.02;
-	cantidad[14]<-0.01;
+	Definir cantidades como Real;
+	Definir vuelta,indice como Entero;
+	Dimension cantidades[15];
 	
 	Escribir sin saltar "Dinero a pagar:";
 	Leer total;
 	Escribir sin saltar "Dinero pagado:";
 	Leer entregada;
+	InicializaBilletesMonedas(cantidades);
 	dinero<-entregada-total;
-	Para i<-0 hasta 14 Hacer
-		vuelta<- CalcularVuelta(dinero,cantidad[i]);
-		Si vuelta>0 Entonces
-			Si i<7 Entonces
-				Escribir vuelta, " billetes de ",cantidad[i]," euros.";
-			SiNo
-				Si i<9 Entonces
-					Escribir vuelta, " monedas de ",cantidad[i]," euros.";
-				SiNo
-					Escribir vuelta, " monedas de ",cantidad[i]*100," centimos.";
-				FinSi
-			FinSi
-		FinSi
+	Para indice<-0 hasta 14 Hacer
+		vuelta<- CalcularVuelta(dinero,cantidades[indice]);
+		EscribirVuelta(vuelta,cantidades[indice]);
 	FinPara
-	
 FinProceso
