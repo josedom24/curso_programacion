@@ -10,7 +10,7 @@
 //puedo contar 1.
 // Datos de entrada: Frase
 // Información de salida: contador de palabras
-// Variables: cad (Caracter), psoicion, cont (enteros)
+// Variables: cad (Caracter), posicion, cont (enteros)
 //################################################################################
 
 Proceso ContarPalabras

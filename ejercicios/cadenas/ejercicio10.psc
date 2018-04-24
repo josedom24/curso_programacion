@@ -4,10 +4,10 @@
 //################################################################################
 //Análisis
 //Leo una cadena. Creo una nueva cadena invirtiendo la cadena leída. Si so iguales 
-//la cadena proginal y la invertida-> Es un palíndromo. No hemos tenido en cuanta 
+//la cadena original y la inversa-> Es un palíndromo. No hemos tenido en cuanta 
 //las mayúsculas y minúsculas.
 // Datos de entrada: Cadena de caracteres 
-// Información de salida: Mensaje indicadndo si es palíndromo o no.
+// Información de salida: Mensaje indicando si es palíndromo o no.
 // Variables:cad1, cad2  (carácter), posicion (entero), 
 //################################################################################
 

@@ -6,7 +6,7 @@
 //Leo un cadena, la recorro y voy copiando cada carácter a otra cadena, teniendo en 
 // cuenta que si es mayúsculas la convierto a minúsculas y viceversa.
 // Datos de entrada: Cadena de caracteres
-// Información de salida: Cadena con el cambio de mayúsculas a minusculas y viceversa.
+// Información de salida: Cadena con el cambio de mayúsculas a minúsculas y viceversa.
 // Variables:cad, newcad  (carácter), posicion (entero)
 //################################################################################
 

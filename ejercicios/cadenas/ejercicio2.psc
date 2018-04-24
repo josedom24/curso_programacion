@@ -3,7 +3,7 @@
 //una subcadena introducida por teclado.
 //################################################################################
 //Análisis
-//Leo una cadena y una subcadena por teclado. Obtengo la subacdena de la primera
+//Leo una cadena y una subcadena por teclado. Obtengo la subcadena de la primera
 //cadena con la misma longitud que la segunda cadena (uso la función subcadena). 
 //Si son iguales significa que la primera cadena comienza por la segunda.
 // Datos de entrada: Dos cadenas

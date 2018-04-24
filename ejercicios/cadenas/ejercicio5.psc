@@ -3,15 +3,16 @@
 //muestre las iniciales en mayúsculas.
 //################################################################################
 //Análisis
-//Tengo que ir quedandome con las primeras letras de cada palabra (las voy 
+//Tengo que ir quedándome con las primeras letras de cada palabra (las voy 
 //concatenando en una variable cadena).
 //Me posiciono en la primera letra de la primera palabra, a continuación 
 //voy buscando un espacio, recorriendo los posibles espacios que hay entre palabras,
-// y quedandome con el primer caracter de la siguiente palabra.
+// y quedándome con el primer carácter de la siguiente palabra.
 // Datos de entrada: Frase
 // Información de salida: Iniciales
-// Variables: cad, iniciales (Caracter), psoicion, cont (enteros)
+// Variables: cad, iniciales (Caracter), posicion, cont (enteros)
 //################################################################################
+
 Proceso GenerarIniciales
 	Definir cad Como Caracter;
 	Definir posicion Como Entero;

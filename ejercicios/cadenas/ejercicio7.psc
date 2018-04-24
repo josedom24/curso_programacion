@@ -4,9 +4,9 @@
 //################################################################################
 //Análisis
 //Leo un cadena y dos caracteres, recorro la cadena, si encuentro un carácter 
-//igual al primer carácter que he leido lo sustituyo por el segundo. Para ello voy 
+//igual al primer carácter que he leído lo sustituyo por el segundo. Para ello voy 
 //a ir copiando los caracteres de la cadena a otra cadena, cuando tenga que 
-//sustituir un caracter por otro copiaré el segundo.
+//sustituir un carácter por otro copiaré el segundo.
 // Datos de entrada: Cadena de caracteres, el carácter a buscar y a reemplazar.
 // Información de salida: Cadena con el carácter indicado cambiado por el segundo.
 // Variables:cad, newcad, car_buscar, car_sustituir (carácter), posicion (entero)

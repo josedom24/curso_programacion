@@ -5,7 +5,7 @@
 //Análisis
 //Leemos una cadena, la recorremos desde el final al principio y cada carácter 
 //lo vamos concatenando con una nueva cadena, que inicialmente tendrá como valor
-//la cadena vací­a.
+//la cadena vacía­.
 // Datos de entrada: Una cadena de caracteres.
 // Información de salida: La cadena invertida.
 // Variables: cad,invertida (Caracter)
