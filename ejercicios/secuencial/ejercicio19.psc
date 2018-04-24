@@ -5,7 +5,7 @@
 //################################################################################
 //Análisis
 //Se piden la cantidad de respuestas correctas, incorrectas. Calculamos la nota 5:
-// 5 puntos por respuesta correcta, -1 por incorecta.
+// 5 puntos por respuesta correcta, -1 por incorrecta.
 //Datos de entrada:respuesta correctas, incorrectas y en blanco(entero).
 //Información de salida: puntos (entero)
 //Variables: correctas, incorrectas, puntos (entero)

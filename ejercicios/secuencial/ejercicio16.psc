@@ -31,5 +31,5 @@ Proceso CalcularAdelantamiento
 	Leer distancia;
 	tiempo <- distancia / (velocidad1 - velocidad2);
 	tiempo<- tiempo * 60;
-	Escribir "Lo alcanza en ",tiempo, " minútos.";
+	Escribir "Lo alcanza en ",tiempo, " minutos.";
 FinProceso

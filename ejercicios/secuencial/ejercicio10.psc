@@ -17,7 +17,7 @@
 //Diseño
 //1. Leer las notas parciales, del examen final y del trabajo.
 //2. Calculamos la nota 55% de la media de las notas parciales, 
-//   más el 30% de la nota del examen mas 15% de la nta del trabajo.
+//   más el 30% de la nota del examen mas 15% de la nota del trabajo.
 //3. Mostrar nota final
 //################################################################################
 

@@ -12,7 +12,7 @@
 //################################################################################
 //Diseño
 //1. Leer el número.
-//2. Calular raíz cuadrada: tenemos una función
+//2. Calcular raíz cuadrada: tenemos una función
 //3. Calcular raíz cúbica: es igual que elevar el número a 1/3
 //4. Mostrar las raíces
 //################################################################################
