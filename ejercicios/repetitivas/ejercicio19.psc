@@ -4,14 +4,14 @@
 //################################################################################
 //Análisis
 //La realización del menú la hacemos con un bucle repetir y una alternativa "según"
-//En el bucle se realiza las siguinetes acciones:
+//En el bucle se realiza las siguientes acciones:
 // * Mostrar el menú con las distintas opciones
-// * Leer opcion
-// * Según opcion ejeuctamos las instrucciones necesarias.
+// * Leer opción
+// * Según opción ejecutamos las instrucciones necesarias.
 // * En otro caso (opción incorrecta): Mostramos opción incorrecta
 // La opción de "salir" la podemos dejar vacía (no ejecutar ninguna instrucción).
 // Se repetir el bucle hasta que elijamos la opción de salir.
-// Datos de entrada: opcion
+// Datos de entrada: opción
 // Información de salida: Según la opción escogida
 // Variables: opcion(entero)
 //################################################################################

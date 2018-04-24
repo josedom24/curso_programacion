@@ -3,7 +3,7 @@
 //################################################################################
 //Análisis
 //Necesito realizar 3 bucles anidados: el más interno es que me permite recorrer
-//los segundos, el intermedio me permite recorrer los mínutos y el más externo
+//los segundos, el intermedio me permite recorrer los minutos y el más externo
 // recorre las horas. 
 // Datos de entrada: Nada
 // Información de salida: La hora (hora, minutos y segundos)

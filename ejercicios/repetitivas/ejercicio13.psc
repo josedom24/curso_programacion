@@ -15,8 +15,8 @@
 //Diseño
 //1.- Incializo las horas acumuladas
 //2.- Leer sueldo por hora (sueldo)
-//3.- Desde el dia 1 al 6
-//		4.- Leer horas tranajadas
+//3.- Desde el día 1 al 6
+//		4.- Leer horas trabajadas
 //		5.- Acumular las horas trabajadas
 //6.- Mostrar Las horas acumuladas
 //7.- Mostrar el sueldo -> horas acumuladas * sueldo por hora
@@ -30,7 +30,7 @@ Proceso CalcularSueldo
 	Escribir sin saltar "Introduce el sueldo por hora:";
 	Leer sueldo_por_hora;
 	Para dia<-1 hasta 6 Hacer
-		Escribir "¿Cuántas horas has trabajado el dia ",dia,"?:";
+		Escribir "¿Cuántas horas has trabajado el día ",dia,"?:";
 		Leer horas;
 		horas_acum <- horas_acum + horas;
 	FinPara

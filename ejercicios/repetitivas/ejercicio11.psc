@@ -8,7 +8,7 @@
 //Leemos un número y vamos comprobando si es divisible entre 2 hasta la raíz
 //cuadrada del número. Si es divisible por algún número no es primo.
 //Si no es divisible por ningún número es primo.
-//Para saber si es divisble usamos el operador módulo.
+//Para saber si es divisible usamos el operador módulo.
 // Datos de entrada: el número a comprobar si es primo o no
 // Información de salida: Un mensaje diciendo si es primo o no
 // Variables: numero_es_primo (entero), num (entero) contador desde 2 hasta 
@@ -17,7 +17,7 @@
 //Diseño
 //1.- Supongo que el número es primo -> es_primo<-Verdadero
 //2.-Leer num_es_primo
-//3.- Desde num = 2 hasta raiz(numero_es_rpimo)
+//3.- Desde num = 2 hasta raíz(numero_es_rpimo)
 //		4.- Si numero_es_primo es divisible entre num -> es_primo<-Falso
 //5.- Si es_primo -> Mostrar "Es primo"
 //6.- Si no -> Mostrar "No es primo"

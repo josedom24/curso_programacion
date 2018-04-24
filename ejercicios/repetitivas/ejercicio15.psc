@@ -12,7 +12,7 @@
 // Variables: Pago, pago_acum (real), mes (entero)
 //################################################################################
 //Diseño
-//1.- Inicalizo las variables -> pago_acum<-20; pago<-10
+//1.- Inicializo las variables -> pago_acum<-20; pago<-10
 //2.- Desde el mes 1 hasta el 20
 //		3.- Acumulo el pago
 //		4.- Doblo el pago

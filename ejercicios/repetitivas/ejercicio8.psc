@@ -8,13 +8,13 @@
 //	* He informa si hemos introducido algún número igual a los límites del intervalo.
 //################################################################################
 //Análisis
-//Pedimos un intervalo (límite inferior y superio)
-//Nos tenemos que asegurarque el límite inferior sea menor que el superior.
+//Pedimos un intervalo (límite inferior y superior)
+//Nos tenemos que asegurar que el límite inferior sea menor que el superior.
 //Se van pidiendo números hasta que se introduzca el 0.
 //Si el numero pertenece al intervalo -> lo voy sumando (necesito un acumulador)
-//Si el numéro no pertenece al intervalo, lo cuento (necesito un contador)
+//Si el número no pertenece al intervalo, lo cuento (necesito un contador)
 //Si el número es igual a algún límite, lo índico (necesito un indicador)
-//Al ginal muetro la suma de los números que pertenecen al intervalo.
+//Al final muestro la suma de los números que pertenecen al intervalo.
 //Muestro el contador de número que no pertenecen al intervalo.
 //Indico si hemos introducido un número igual a algún límite
 // Datos de entrada:límite superior e inferior del intervalo y números.
@@ -25,11 +25,11 @@
 //			 igual_limites (Lógico)
 //################################################################################
 //Diseño
-//1.- Incializo el acumulador, el contador y el indicado
+//1.- Inicializo el acumulador, el contador y el indicado
 //2.-Repetir -> ller lim_inf y lim_sup hasta que lim_inf<lim_sup
 //3.-Leer num
 //4.- Mientras num sea distinto de 0
-//		5.-Si num pertenece al intevalo -> acumula la suma
+//		5.-Si num pertenece al intervalo -> acumula la suma
 //		6.-Sino -> incremento contador
 //		7.- Si es igual a algún intervalo -> Lo indico (indicador a Verdadero)
 //		8.- Leer num

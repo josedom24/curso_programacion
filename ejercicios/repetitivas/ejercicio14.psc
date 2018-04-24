@@ -7,14 +7,14 @@
 //Análisis
 //tengo que calcular en que km se van a encontrar los coches. sabemos que van en
 //sentido opuesto por lo tanto, si llevan la misma velocidad, el primero va a ir
-//incrementando el km donde se encuentra y el segundo va a ir decrementandolo.
-//Cuando coinicdan en el mismo km, podemos considerar que se han encontrado.
-// Datos de entrada: Nada, vamos a inicializar las varianles donde guardamos los km 
+//incrementando el km donde se encuentra y el segundo va a ir decrementándolo.
+//Cuando coincidan en el mismo km, podemos considerar que se han encontrado.
+// Datos de entrada: Nada, vamos a inicializar las variables donde guardamos los km 
 // Información de salida: El km donde se encuentran.
 // Variables: km1,km2 (enteros)
 //################################################################################
 //Diseño
-//1.- Incializao las variables kms
+//1.- Inicializao las variables kms
 //2.- Mientras km1<>km2
 //		3.- Incremento km1
 //		4.- Incremento km2

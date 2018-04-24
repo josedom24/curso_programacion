@@ -5,7 +5,7 @@
 //################################################################################
 //Análisis
 //Leo la base y el exponente de una potencia. 
-//El exponente me tengo que aegurar que es positivo.
+//El exponente me tengo que asegurar que es positivo.
 //Para realizar la potencio tengo que acumular el productor de la base tantas veces
 //como indique el exponente.
 // Datos de entrada: La base y el exponente
@@ -13,7 +13,7 @@
 // Variables:base,potencia(Real), exponente(entero), i (indice del bucle para)
 //################################################################################
 //Diseño
-//1.- Incializo el acumulador para multiplicación -> potencia <- 1
+//1.- Inicializo el acumulador para multiplicación -> potencia <- 1
 //2.- Leer base
 //3.- Repetir -> Leer exponente -> hasta que exponente sea positivo
 //4.- Desde 1 hasta el exponente

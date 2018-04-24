@@ -5,16 +5,16 @@
 //################################################################################
 //Análisis
 //se debe calcular cuanto a ahorrado en un año, indicando las cantidades que ahorra
-//cada mes. Por lo tanto tendremos que hacer un bucle que se repita 12 vecese ir 
+//cada mes. Por lo tanto tendremos que hacer un bucle que se repita 12 veces e ir 
 //acumulando dichas cantidades. 
-//Se debe mostrar el valor del acumulador en cada teración (para indicar lo que 
+//Se debe mostrar el valor del acumulador en cada iteración (para indicar lo que 
 //lleva ahorrado en cada mes.
 // Datos de entrada: La cantidad de dinero ahorrado cada mes.
 // Información de salida: En cada mes lo que lleva ahorrado.
 // Variables: cant_mensaul (real), ahooro_acum (real), mes (entero)
 //################################################################################
 //Diseño
-//1.- Incializo el acumulador -> ahorro_acum<-0
+//1.- Inicializo el acumulador -> ahorro_acum<-0
 //2.- Desde el mes 1 hasta el 12
 //		3.- Leer cantidad ahorrada en el mes
 //		4.- Acumular la cantidad

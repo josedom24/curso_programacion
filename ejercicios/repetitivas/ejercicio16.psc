@@ -8,7 +8,7 @@
 //necesitamos el número de trabajadores que tiene la empresa. También
 //necesitamos saber el sueldo por hora,y por cada trabajador hay que pedir
 //las horas que ha trabajado en la semana.
-//Por cada trabajdor hay que mostrar el sueldo semanal y al finalizar el programa
+//Por cada trabajador hay que mostrar el sueldo semanal y al finalizar el programa
 //mostramos el total de sueldos pagados.
 // Datos de entrada: Número de trabajadores, sueldo por hora, horas trabajadas por 
 //cada trabajador.
@@ -17,10 +17,10 @@
 //           trabajadores,trabajador(entero)
 //################################################################################
 //Diseño
-//1.- Incializo el acumulador de horas
+//1.- Inicializo el acumulador de horas
 //2.- Leer el número de trabajadores
 //3.- Leer sueldo por hora
-//4.- Por cada trabajdor
+//4.- Por cada trabajador
 //		5.- Leer horas trabajadas por semana
 //		6.- Mostrar sueldo (horas_por_semana*sueldo_por_hora
 //		7.- Acumular horas trabajadas
@@ -37,7 +37,7 @@ Proceso CalcularSalario
 	Escribir Sin Saltar "Sueldo por hora:";
 	Leer sueldo_por_hora;
 	Para trabajador<-1 hasta trabajadores Hacer
-		Escribir Sin Saltar "¿Cuantás horas ha trabajado el trabajador ",trabajador," ?";
+		Escribir Sin Saltar "¿Cuántas horas ha trabajado el trabajador ",trabajador," ?";
 		Leer horas_por_semana;
 		horas_acum<-horas_acum+horas_por_semana;
 		Escribir "El trabajador ",trabajador," tiene de sueldo ",horas_por_semana*sueldo_por_hora; 

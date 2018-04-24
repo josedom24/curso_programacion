@@ -5,10 +5,10 @@
 //Por ejemplo 5! = 1x2x3x4x5=120)
 //################################################################################
 //Análisis
-// Necesito acumular las sucesivas multiplicaciones, empezano por 2 hasta el 
+// Necesito acumular las sucesivas multiplicaciones, empezando por 2 hasta el 
 // número indicado.
-// Datos de entrada: número al que culcular el factorial
-//					 contador para in contando los numeros desde 2 al número
+// Datos de entrada: número al que calcular el factorial
+//					 contador para in contando los números desde 2 al número
 // Información de salida:El resultado del factorial
 // Variables:num,contador(entero), resultado (real)
 //################################################################################

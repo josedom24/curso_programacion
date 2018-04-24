@@ -15,11 +15,11 @@
 // Leo un número
 // Lo comparo con el número generado (digo si es mayor o menor)
 // Pido otro numero
-// Puedo terminar el bucle por dos razones: si he adivindao el numero (he ganado)
+// Puedo terminar el bucle por dos razones: si he adivinado el numero (he ganado)
 // y muestro los intentos que he necesitado.
-// sino he perdido, he utilizado los 10 intentos y muetro el número generado.
+// sino he perdido, he utilizado los 10 intentos y muestro el número generado.
 // Datos de entrada: número pedido al usuario.
-// Información de salida: Has ganado y los intentos, o has perdido y el núemero. 
+// Información de salida: Has ganado y los intentos, o has perdido y el número. 
 // Variables: num_screto, num_ingresado, intentos (entero)
 //################################################################################
 //Diseño

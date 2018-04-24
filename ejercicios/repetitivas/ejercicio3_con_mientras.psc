@@ -3,10 +3,10 @@
 // y la media de todos los números introducidos.
 //################################################################################
 //Análisis
-//Vamos piediendo números hasta introducir un 0.
+//Vamos pidiendo números hasta introducir un 0.
 //Necesitamos un acumulador para ir realizando las sumas intermedias.
 //Además necesitamos un contador, para calcular la media (suma/cantidad)
-// Datos de entrada: numeros, un acumulador para sumar y un contador
+// Datos de entrada: números, un acumulador para sumar y un contador
 // Información de salida:La suma y la media
 // Variables:num, suma, cont (enteros)
 //################################################################################
@@ -37,7 +37,7 @@ Proceso CalcularSumaMedia
 		Escribir "Número (0 para salir):";
 		Leer num;
 	FinMientras
-	//Si cont=0 no puedo realziar la división
+	//Si cont=0 no puedo realizar la división
 	Si cont>0 Entonces
 		media <- suma / cont;
 	SiNo

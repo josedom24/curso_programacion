@@ -4,15 +4,15 @@
 //son mayores que 0, menores que 0 e iguales a 0.
 //################################################################################
 //Análisis
-//Se piede la cantidad de números que se van a leer. Vamos introduciendo números.
+//Se pide la cantidad de números que se van a leer. Vamos introduciendo números.
 //Tenemos que contar los positivos, negativos y 0.
 // Datos de entrada:Cantidad de números, los números.
 // Información de salida: Cantidad de positivos, de negativos y de 0.
 // Variables:cantidad_num,num,cont_positivos,cant_negativos,cantidad_ceros(entero)
 //################################################################################
 //Diseño
-//1.- Incializao los contadores
-//2.- Leer cantidad de númeores
+//1.- Inicializo los contadores
+//2.- Leer cantidad de números
 //3.- Desde 1 hasta cantidad de números
 //		4.- Leer num
 //		5.- Si num> 0-> incremento cont_positivos

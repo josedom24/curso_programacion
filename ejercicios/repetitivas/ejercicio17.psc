@@ -8,8 +8,8 @@
 //Hay que calcular el sueldo de un número de trabajadores, por lo tanto 
 //necesitamos el número de trabajadores que tiene la empresa. También
 //necesitamos saber el sueldo por hora,y por cada trabajador hay que pedir
-//los días que ha trabajado en la semna y las horas que ha trabajado cada día.
-//Por cada trabajdor hay que mostrar el sueldo semanal y al finalizar el programa
+//los días que ha trabajado en la semana y las horas que ha trabajado cada día.
+//Por cada trabajador hay que mostrar el sueldo semanal y al finalizar el programa
 //mostramos el total de sueldos pagados.
 // Datos de entrada: Número de trabajadores, sueldo por hora, días trabajador por 
 //semana,horas trabajadas por cada trabajador.
@@ -18,14 +18,14 @@
 //           trabajadores,trabajador,dia(entero)
 //################################################################################
 //Diseño
-//1.- Incializo el acumulador de horas
+//1.- Inicializo el acumulador de horas
 //2.- Leer el número de trabajadores
 //3.- Leer sueldo por hora
-//4.- Por cada trabajdor
-//		5.-	Incializar el acumulador de horas_por_trabajador
-//		6.-Por cad dia
+//4.- Por cada trabajador
+//		5.-	Inicializar el acumulador de horas_por_trabajador
+//		6.-Por cada día
 //			7.- Leer horas
-//			8.- Acumular horas trabajadaspor trabajador
+//			8.- Acumular horas trabajadas por trabajador
 //		9.-Mostrar sueldo (horas_por_trabajador*sueldo_por_hora
 //10.- Mostrar total de pago (horas_acum*sueldo_por_hora)
 //################################################################################
@@ -47,7 +47,7 @@ Proceso CalcularSalario2
 		Escribir Sin Saltar "¿Cuántos dí­as ha trabajado el trabajador ",trabajador," ?";
 		Leer dias;
 		Para dia<-1 hasta dias Hacer
-			Escribir Sin Saltar "¿Cuantás horas ha trabajado el trabajador ",trabajador," el día ",dia,"?:";
+			Escribir Sin Saltar "¿Cuántas horas ha trabajado el trabajador ",trabajador," el día ",dia,"?:";
 			Leer horas;
 			horas_por_trabajador<-horas_por_trabajador+horas;
 		FinPara
