@@ -174,8 +174,10 @@ FinFuncion
 
 Proceso ProgramaCalendario
 	Definir month,year como Entero;
-	Escribir Sin Saltar "Mes:";
-	Leer month;
+	Repetir
+		Escribir Sin Saltar "Mes:";
+		Leer month;
+	Hasta Que month>=1 Y month<=12;
 	Escribir Sin Saltar "Año:";
 	Leer year;
 	Calendario(month,year);
