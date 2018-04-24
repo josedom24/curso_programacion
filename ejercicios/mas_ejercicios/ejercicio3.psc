@@ -46,8 +46,8 @@ Proceso Devolucion
 	Leer total;
 	Escribir sin saltar "Dinero pagado:";
 	Leer entregada;
-	InicializaBilletesMonedas(cantidades);
 	dinero<-entregada-total;
+	InicializaBilletesMonedas(cantidades);
 	Para indice<-0 hasta 14 Hacer
 		vuelta<- CalcularVuelta(dinero,cantidades[indice]);
 		EscribirVuelta(vuelta,cantidades[indice]);
