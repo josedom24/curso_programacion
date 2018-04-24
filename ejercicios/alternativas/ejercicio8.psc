@@ -18,7 +18,7 @@
 // 1. Leer la nota, la edad y el sexo
 // 2. si nota>=5, edad>=18 
 // 3. si sexo="F" mostrar "ACEPTADA"
-// 4. si sexo="M" msotrar "POSIBLE"
+// 4. si sexo="M" mostrar "POSIBLE"
 // 5. En caso contrario, mostrar "NO ACEPTADA"
 //################################################################################
 

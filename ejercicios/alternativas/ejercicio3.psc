@@ -2,7 +2,7 @@
 // Escribe un programa que lea un número e indique si es par o impar.
 //################################################################################
 // Análisis
-// Tenenemos que pedir un número por teclado, y comprobar si es par o impar.
+// Tenemos que pedir un número por teclado, y comprobar si es par o impar.
 // Datos de entrada: número (entero)
 // Información de salida: Un mensaje de texto indicando si el número es par o impar.
 // Variables: num (enteros)
@@ -14,10 +14,9 @@
 //################################################################################
 Proceso CalcularParImpar
 	Definir num Como Entero;
-	Definir num Como Numerica;
 	Escribir 'Dime el número :';
 	Leer num;
-	Si num MOD 2=0 Entonces
+	Si num MOD 2 = 0 Entonces
 		Escribir 'Es Par';
 	SiNo
 		Escribir 'Es impar';

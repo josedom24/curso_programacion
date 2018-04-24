@@ -2,7 +2,7 @@
 //Algoritmo que pida un número y diga si es positivo, negativo o 0.
 //################################################################################
 //Análisis
-//Tenenemos que pedir un número por teclado, compararlo con 0, e indicar si es igual, 
+//Tenemos que pedir un número por teclado, compararlo con 0, e indicar si es igual, 
 //mayor o menor que 0.
 //Datos de entrada: número (entero)
 //Información de salida: Un mensaje de texto indicando si el número es igual, 

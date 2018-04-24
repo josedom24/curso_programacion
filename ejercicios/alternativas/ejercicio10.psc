@@ -30,7 +30,7 @@
 //"Circunferencias tangentes interiores"
 // 8. Si distancia >0 y distancia < que el valor absoluto de la resta de los 
 //radios mostrar "Circunferencias interiores"
-// 9. Si distancia = 0  mostrar "Circunferencias concentricas"
+// 9. Si distancia = 0  mostrar "Circunferencias concéntricas"
 //################################################################################
 
 
@@ -69,16 +69,16 @@ Proceso PosicionCircunferencias
 	// Circunferencias tangentes interiores
 	//La distancia entre los centros es igual a la diferencia entre los radios.
 	Si distancia = abs(r1-r2) Entonces
-		Escribir "Circunferencias tengentes interiores";
+		Escribir "Circunferencias tangentes interiores";
 	FinSi
 	// Circunferencias interiores
 	//La distancia entre los centros es mayor que cero y menor que la diferencia entre los radios. 
 	Si distancia>0 Y distancia<abs(r1-r2) Entonces
 		Escribir "Circunferencias interiores";
 	FinSi
-	// Circunferencias concetricas
+	// Circunferencias concétricas
 	// La distancia = 0.
 	Si distancia=0 Entonces
-		Escribir "Circunferencias concetricas";
+		Escribir "Circunferencias concétricas";
 	FinSi
 FinProceso

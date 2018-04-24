@@ -18,7 +18,7 @@
 
 Proceso DiaDeLaSemana
 	Definir dia Como Entero;
-	Escribir Sin Saltar "Dimé un día de la semana (1-7):";
+	Escribir Sin Saltar "Dime un día de la semana (1-7):";
 	Leer dia;
 	Segun dia Hacer
 		1:

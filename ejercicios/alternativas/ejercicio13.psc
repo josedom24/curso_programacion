@@ -2,12 +2,12 @@
 //Escribe un programa que pida una fecha (día, mes y año) y diga si es correcta.
 //################################################################################
 // Análisis
-// Pedir un dia,mes y año y comprobar si corresponde a una fecha correcta.
+// Pedir un día,mes y año y comprobar si corresponde a una fecha correcta.
 // Para que una fecha sea correcta:
 // * El día debe ser mayor que 1 y menor que los días que tiene el mes indicado.
 // * Los días del mes de febrero dependerán de si el año es bisiesto o no.
 // * El mes indicado debe ser mayor o igual que 1 y menor o igual a 12.
-// Datos de entrada: una fecha: dia,mes y año (entero)
+// Datos de entrada: una fecha: día,mes y año (entero)
 // Información de salida: Si la fecha es correcta o no.
 // Variables: dia,mes,year (entero), 
 //	dias_del_mes (entero) donde guardamos los días que tiene el mes indicado.

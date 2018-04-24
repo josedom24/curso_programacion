@@ -18,7 +18,7 @@
 // 1. Leer la base y el exponente
 // 2. Si el exponente es igual a 0 se calcula y muestra el resultado de la potencia
 // 3. En caso contrario, si es igual a 0, el resultado de la potencia es 1.
-// 4. En caso contrario,el resultadode la potencia es 1/potencia 
+// 4. En caso contrario,el resultado de la potencia es 1/potencia 
 //(con el exponente positivo).
 //################################################################################
 
