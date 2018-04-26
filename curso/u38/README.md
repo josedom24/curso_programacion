@@ -1,13 +1,13 @@
 # Compilación e interpretación de un programa Java
 
-A la hora de instalar Java tenemos que tener en cunta que tenemos dos componentes diferentes:
+A la hora de instalar Java tenemos que tener en cuenta que tenemos dos componentes diferentes:
 
 * **Java Runtime Environment (JRE)** son el conjunto de aplicaciones que se instalan en un equipo para que puedan ejecutarse en él aplicaciones java. Los dos componentes principales de un JRE son:
 
 	* Java Virtual Machine: Aplicación que ejecuta el código java en bytecode y que está adaptada a la plataforma sobre la que opera.
 	* Bibliotecas Java
 
-* **Java Development Kit (JDK)** son el conjunto de programas para desarrollar aplicaciones y entre otros incluye el compilador javac que convierte un programa fuente java a bytecode. Al instlar el JDK se instala también el componente JRE.
+* **Java Development Kit (JDK)** son el conjunto de programas para desarrollar aplicaciones y entre otros incluye el compilador javac que convierte un programa fuente java a bytecode. Al instalar el JDK se instala también el componente JRE.
 
 ## Instalación de JDK 
 
