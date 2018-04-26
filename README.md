@@ -60,7 +60,7 @@
 ### Lenguajes de Programación
 
 35. [Introducción a los lenguajes de programación](curso/u35)
-36. [Traductores](curso/u36)
+36. [Programas traductores](curso/u36)
 37. [Compilación y ejecución de un lenguaje compilado: C](curso/u37)
 38. [Compilación e interpretación de un programa Java](curso/u38)
 39. [Ejecución de programas interpretados con Puthon](curso/u39)
