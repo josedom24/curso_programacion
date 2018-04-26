@@ -1,6 +1,6 @@
 # Compilación y ejecución de un lenguaje compilado: C++
 
-Lo primero que vamos a hacer es escribir el **código fuente**. Para ello vamos a utilizar un **IDE** (Entorno de desarrollo integrado) llamado Zinjai utilizando el sistema operativo Linux. El fichero `adivina.cpp` tendría el siguiente contenido:
+Lo primero que vamos a hacer es escribir el **código fuente**. Para ello vamos a utilizar un **IDE** (Entorno de desarrollo integrado) llamado [Zinjai](http://zinjai.sourceforge.net/) utilizando el sistema operativo Linux. El fichero `adivina.cpp` tendría el siguiente contenido:
 
 	#include <iostream>
 	using namespace std;	
