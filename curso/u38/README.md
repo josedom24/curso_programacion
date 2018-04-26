@@ -55,4 +55,5 @@ A continuación compilamos la aplicación:
 y se creará un fichero bytecode `Adivina.class`. Este fichero es portable, por lo tanto podemos ejecutarlo tanto en Linux como en Windows con la siguiente instrucción:
 
 	java Adivina
-
+	Introduce un número:
+	...
