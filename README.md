@@ -59,14 +59,11 @@
 
 ### Lenguajes de Programación
 
-35. Introducción a los lenguajes de programación
-	* Definición
-	* Tipos
-	* Ejemplos de lenguajes de programación
-36. Traductores
-	* Compiladores, interpretes, máquinas virtuales
-37. Ejecución y validación de programas
-38. Ejemplos de códigos fuentes
+35. [Introducción a los lenguajes de programación](curso/u35)
+36. [Traductores](curso/u36)
+37. [Compilación y ejecución de un lenguaje compilado: C](curso/u37)
+38. [Compilación e interpretación de un programa Java](curso/u38)
+39. [Ejecución de programas interpretados con Puthon](curso/u39)
 
 
 
