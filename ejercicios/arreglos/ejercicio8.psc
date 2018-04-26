@@ -7,7 +7,7 @@
 // * Los alumnos mayores (los que tienen más edad)
 //################################################################################
 //Análisis
-//Incializo los vectores hasta que introduzca un "*" o llegue a final del vector.
+//Inicializo los vectores hasta que introduzca un "*" o llegue a final del vector.
 //El * me sirve para indicar el final del vector. 
 //Hago un recorrido para mostrar los alumnos mayores de edad.
 //Hago un recorrido (hasta encontrar un * o llega al final) para calcular la edad
@@ -28,7 +28,7 @@ Proceso InformacionAlumnos
 	Definir indice,tam_vector como Entero;
 	indice<-0;
 	tam_vector<-30;
-	//Incializo los vectores hasta que introduzca un "*" o llegue a final del vector
+	//Inicializo los vectores hasta que introduzca un "*" o llegue a final del vector
 	//El * me sirve para indicar el final del vector
 	Repetir
 		Escribir Sin Saltar "Dime el nombre de un alumno:";

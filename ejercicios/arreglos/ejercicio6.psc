@@ -7,7 +7,7 @@
 //Guardo en un vector de 12 posiciones los días correspondiente a cada mes.
 //Del mismo modo guardo en otro vector los nombres de los meses
 //Leo el número de un mes (valido que sea entre 1 a 12) y hago coincide el número
-//del mes cojn el índice de los vectores.
+//del mes con el índice de los vectores.
 // Datos de entrada: Número del mes
 // Información de salida: Días y nombre del mes.
 // Variables: dias (vector de 12 enteros), nombre_mes (vector de 12 cadenas),

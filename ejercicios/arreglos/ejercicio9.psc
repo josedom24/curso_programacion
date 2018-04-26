@@ -16,15 +16,15 @@
 //temperatura máxima es igual a la temperatura indicada, o un mensaje diciendo que 
 //no existe día con dicha temperatura.
 // Datos de entrada: Para los cinco días introducimos temperatura máxima y mínima.
-//Y al final introducimos una tempertura para buscar los días con tempertura máxima.
-// Información de salida: La tempertura media de cada día, los días con temperatura 
-//mínima,los días con temperturas máxima la indicada por teclado o un mensaje 
+//Y al final introducimos una temperatura para buscar los días con temperatura máxima.
+// Información de salida: La temperatura media de cada día, los días con temperatura 
+//mínima,los días con temperaturas máxima la indicada por teclado o un mensaje 
 //informando que no existe días con dicha temperatura máxima.
 // Variables: temperatura (tabla de 5 x 2 enteros), existe_temperatura (lógico)
 //            indice, cant_dias (entero), temp_max, temp_min (entero)
 //################################################################################
 
-Proceso Temperatuas
+Proceso Temperaturas
 	Definir temperatura Como Real;
 	Dimension temperatura[5,2];
 	Definir existe_temperatura Como Logico;
@@ -72,6 +72,6 @@ Proceso Temperatuas
 		FinSi
 	FinPara
 	Si no existe_temperatura Entonces
-		Escribir "No hay ningún dia con dicha temperatura.";
+		Escribir "No hay ningún día con dicha temperatura.";
 	FinSi
 FinProceso

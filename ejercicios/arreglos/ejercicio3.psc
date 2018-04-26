@@ -5,7 +5,7 @@
 //################################################################################
 //Análisis
 //Leo 5 notas (valido que sean >=0 y <=10). Guardo las notas en un vector.
-//Recorro de nuevo el vector para acumular las notas, cálcular la nota máxima 
+//Recorro de nuevo el vector para acumular las notas, calcular la nota máxima 
 //y la nota mínima. Finalmente calculo la media y muestro los valores.
 // Datos de entrada:5 notas.
 // Información de salida:Las notas, la nota media, nota máxima y nota mínima.

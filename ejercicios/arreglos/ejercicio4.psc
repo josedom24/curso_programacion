@@ -4,13 +4,13 @@
 //Entonces se debe imprimir el vector (sólo los elementos introducidos).
 //################################################################################
 //Análisis
-//Recorro el vector y voy incializando sus elementos. Si introduzco un número 
-//negativo salimos del bucle.Tembién termino el bucle si introduzco todos los 
+//Recorro el vector y voy inicializando sus elementos. Si introduzco un número 
+//negativo salimos del bucle. También termino el bucle si introduzco todos los 
 //elementos de vector. El número negativo me sirve de indicador de que hasta 
 //esa posición el vector tiene elementos. 
-//Recorro hasta el tamaño del vector o encuentre un número negativo para mostar 
+//Recorro hasta el tamaño del vector o encuentre un número negativo para mostrar 
 //los elementos del vector.
-// Datos de entrada: Leo número psoitivos y los guardo en el vector, hasta que lea 
+// Datos de entrada: Leo número positivos y los guardo en el vector, hasta que lea 
 //un número negativo o lea todos los elementos del vector.
 // Información de salida:Los elementos (números positivos) guardados en el vector.
 // Variables: vector (vector de 10 enteros), tam_vector,indice,num (Entero)
@@ -22,9 +22,9 @@ Proceso VectorPositivo
 	Definir tam_vector,indice,num como Entero;
 	indice<-0;
 	tam_vector<-10;
-	//Recorro el vector y voy incializando sus elementos
+	//Recorro el vector y voy inicializando sus elementos
 	//No uso un para, porque si introduzco un número negativo salimos del bucle.
-	//Tembién termino el bucle si introduzco todos los elementos de vector.
+	//También termino el bucle si introduzco todos los elementos de vector.
 	//El número negativo me sirve de indicador de que hasta esa posición el vector tiene elemento-
 	Repetir
 		Escribir Sin Saltar "Introduce un número en el vector. Número ",indice+1;

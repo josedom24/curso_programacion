@@ -11,7 +11,7 @@
 // o índice de fila = número de filas -1 (extremo derecho)
 // o índice de columnas = 0 (extremo superior)
 // o índice de columnas = de columnas columnas -1 (extremo inferior)
-// inicalizo a 1, sino incializo a 0.
+// inicializo a 1, sino inicializo a 0.
 //Recorro la tabla por filas y columnas para mostrar los valores.
 // Datos de entrada: Nada
 // Información de salida: Los valores de la tabla
@@ -29,10 +29,10 @@ Proceso LadoExterno
 		Para col<-0 hasta num_cols-1 Hacer
 			//Si estoy en el extremo izquierdo, derecho, superior o inferior
 			Si fila=0 o fila=num_filas-1 o col=0 o col= num_cols-1 Entonces
-				//Incializo a 1
+				//Inicializo a 1
 				matriz[fila,col]<-1;
 			SiNo
-				//SiNo incializo a 0
+				//SiNo inicializo a 0
 				matriz[fila,col]<-0;
 			FinSi
 			

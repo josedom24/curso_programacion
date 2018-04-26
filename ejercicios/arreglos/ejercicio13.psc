@@ -13,10 +13,10 @@
 ////Leo el número de conductores. Número de datos que voy a guardar en los arrays
 //El número indicado debe ser menor que el máximo tamaño de los arrays
 //Recorro los vectores hasta el número de conductores indicados (lo guardo en un 
-//vector), leyendo el nombre  y los kms por días (lo gaurdo en una tabla).
-//Recorro la tabla acumulando los kilometros realizados en la última columna de 
+//vector), leyendo el nombre  y los kms por días (lo guardo en una tabla).
+//Recorro la tabla acumulando los kilómetros realizados en la última columna de 
 //la tabla.
-//Finalmente vualvo a recorrer para mostrar los nombres y los km acumulados.
+//Finalmente vuelvo a recorrer para mostrar los nombres y los km acumulados.
 // Datos de entrada: El número de conductores, sus nombres y kms realizados por día
 // Información de salida: Los nombres de los conductores y el total de kms realizados
 // Variables: kms (tabla de 10 x 8 enteros), nombre (vector de 10 cadenas)
@@ -43,7 +43,7 @@ Proceso CalcularKilometros
 	dias[6]<-"Domingo";
 	//Leo el número de conductores. Número de datos que voy a guardar en los arrays
 	Repetir
-		Escribir sin saltar "¿Cuantós conductores tiene la empresa?:";
+		Escribir sin saltar "¿Cuántos conductores tiene la empresa?:";
 		Leer num_conductores;
 		//El número indicado debe ser menor que el máximo tamaño de los arrays
 		Si num_conductores>tam_conductores_max Entonces
@@ -57,13 +57,13 @@ Proceso CalcularKilometros
 		Leer nombre[indice_cond];
 		//Leo los km realizados para cada día
 		Para indice_dias<-0 hasta 6 Hacer
-			Escribir sin saltar "¿Cuantós km ha realizado el ",dias[indice_dias],"?:";
+			Escribir sin saltar "¿Cuántos km ha realizado el ",dias[indice_dias],"?:";
 			Leer kms[indice_cond,indice_dias];
 		FinPara
 	FinPara
 	//Recorro los vectores hasta el número de conductores indicados
 	Para indice_cond<-0 hasta num_conductores-1 Hacer
-		//Incializo el acumulador por conductor
+		//Inicializo el acumulador por conductor
 		kms[indice_cond,7]<-0;
 		//Acumulo los kms por día y lo guardo en un vector
 		Para indice_dias<-0 hasta 6 Hacer

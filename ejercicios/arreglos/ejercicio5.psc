@@ -3,7 +3,7 @@
 //y posterior ordene los elementos de menor a mayor.
 //################################################################################
 //Análisis
-//Incializo el vector con valores aleatorios. Voy recorriendo el vector e
+//Inicializo el vector con valores aleatorios. Voy recorriendo el vector e
 //intercambio los valores de dos elementos consecutivos si no están ordenados.
 //Cada vez que hago un intercambio lo cuento, este proceso lo repito hasta que
 //no haya realizado ningún cambio, el vector está ordenado.
@@ -19,7 +19,7 @@ Proceso OrdenarVector
 	Definir indice Como Entero;
 	Definir tam_vector Como Entero;
 	tam_vector<-10;
-	//Incializo el vector con valores aleatorios.
+	//Inicializo el vector con valores aleatorios.
 	Para indice<-0 hasta tam_vector-1 hacer
 		vector[indice]<-aleatorio(1,10);
 	FinPara
