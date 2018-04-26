@@ -51,7 +51,7 @@ mnemónicos (mnemonics).
 
 Un programa escrito en lenguaje ensamblador no puede ser ejecutado directamente por la máquina, sino que requiere una fase de traducción al lenguaje máquina. El programa original escrito en lenguaje ensamblador se denomina **programa fuente** y el programa traducido en lenguaje máquina se conoce como **programa objeto**, ya directamente entendible por el ordenador.
 
-### Lenguaje de alto nivel (Gestión, Científico, Propósito general, específicos etc).
+### Lenguaje de alto nivel
 
 Los lenguajes de alto nivel son los mas utilizados por los progra
 madores. Están diseñados para que las personas escriban y entiendan los programas de un modo muchomas fácil que los lenguajes máquina y ensambladores. Otra razón es que un programa escrito en un lenguaje de alto nivel es independiente de la máquina, o sea, las instrucciones del progra
