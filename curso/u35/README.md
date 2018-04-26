@@ -42,6 +42,26 @@ por tanto serán diferentes de un ordenador a otro.
 
 ### Lenguaje de bajo nivel (Ensamblador)
 
+Los lenguajes de bajo nivel son más fáciles de  utilizar que  los lenguajes
+máquina, pero, al igual que ellos, dependen de la máquina en particular.
+El lenguaje de bajo nivel por excelencia es el **ensamblador**.
 
-* Lenguaje de alto nivel (Gestión, Científico, Propósito general, específicos etc).
+Las instrucciones en lenguaje ensamblador son instrucciones conocidas como
+mnemónicos (mnemonics). 
 
+Un programa escrito en lenguaje ensamblador no puede ser ejecutado directamente por la máquina, sino que requiere una fase de traducción al lenguaje máquina. El programa original escrito en lenguaje ensamblador se denomina **programa fuente** y el programa traducido en lenguaje máquina se conoce como **programa objeto**, ya directamente entendible por el ordenador.
+
+### Lenguaje de alto nivel (Gestión, Científico, Propósito general, específicos etc).
+
+Los lenguajes de alto nivel son los mas utilizados por los progra
+madores. Están diseñados para que las personas escriban y entiendan los programas de un modo muchomas fácil que los lenguajes máquina y ensambladores. Otra razón es que un programa escrito en un lenguaje de alto nivel es independiente de la máquina, o sea, las instrucciones del progra
+ma del ordenador no dependen del diseño hardware de un ordenador en particular. Por lo tanto los programas escritos en lenguajes de alto nivel
+son portables o transportables, lo que significa la posibilidad de poder ser ejecutados con poca o ninguna modificación en diferentes tipos de ordenadores.
+
+Al igual que sucede con los lenguajes ensambladores, los programas fuente
+tienen que ser traducidos por **programas traductores**, llamados en este caso
+compiladores o intérpretes.
+
+Ejemplos de lenguajes de programación de alto nivel:
+
+BASIC, COBOL, PASCAL, C, VISUAL BASIC, JAVA, PYTHON, PERL, GO, PHP, RUBY,...
