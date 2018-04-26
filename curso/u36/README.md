@@ -25,6 +25,6 @@ Los traductores transforman programas escritos en un lenguaje de alto nivel en p
 * Primero se compila el código fuente a un código intermedio (bytecode).
 * Segundo, este bytecode se interpreta y ejecuta por una "máquina virtual".
 * El bytecode es multiplataforma.
-* Necesito una "máuina virtual" para cada plataforma.
+* Necesito una "máquina virtual" para cada plataforma.
 * No necesito el código fuente.
 * Ejemplo: Java, C#, ...

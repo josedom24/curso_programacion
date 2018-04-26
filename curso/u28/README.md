@@ -7,7 +7,7 @@ Una **tabla** en un array bidimensional. La primera dimensión indica el número
 
 Hemos definido una tabla de enteras con 3 filas y 4 columnas, por tanto tenemos 12 elementos.
 
-Para acceder a cada uno de lo elemento tenemos que indicar la fila y la columna en la que se encuentra, siempre empezando por el 0. Por ejemplo para incializar el elemento que esta en la primera fila y la segunda columna sería:
+Para acceder a cada uno de lo elemento tenemos que indicar la fila y la columna en la que se encuentra, siempre empezando por el 0. Por ejemplo para inicializar el elemento que esta en la primera fila y la segunda columna sería:
 
 	tabla[0,1] <- 10;
 

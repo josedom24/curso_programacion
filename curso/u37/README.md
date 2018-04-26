@@ -43,6 +43,6 @@ Realmente la compilación incluye varios pasos, el más importante de ellos es l
 
 ¿Qué sentido tiene compilar por partes? Cuando el código es grande no hay un solo fichero fuente sino muchos, compilar individualmente estos "módulos" permite, por ejemplo, ahorrar mucho tiempo en la modificación y compilación de un solo componente.
 
-A continuación vamos aintentar ejecutar nuestro fichero ejecutable en Windows para comprobar que no es posible: el fichero ejecutable debende de la arquitectura (tipo de procesador, sistema operativo,...) donde se ha compliado.
+A continuación vamos a intentar ejecutar nuestro fichero ejecutable en Windows para comprobar que no es posible: el fichero ejecutable depende de la arquitectura (tipo de procesador, sistema operativo,...) donde se ha compilado.
 
-Podemos probar a continuación a compilar el mismo programa en Windows e intentar ejecurlo en Linux, y volveremos a comprobar que no es posible.
+Podemos probar a continuación a compilar el mismo programa en Windows e intentar ejecutarlo en Linux, y volveremos a comprobar que no es posible.

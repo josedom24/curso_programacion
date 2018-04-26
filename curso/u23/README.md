@@ -59,7 +59,7 @@ Introducir 5 número y sumar los números pares.
 
 Un indicador es una variable lógico, que usamos para recordar o indicar algún suceso. Un indicador:
 
-* Se **incializa** a un valor lógico que indica que el suceso no ha ocurrido.
+* Se **inicializa** a un valor lógico que indica que el suceso no ha ocurrido.
 
 	indicador <- Falso
 
