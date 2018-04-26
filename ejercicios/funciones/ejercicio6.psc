@@ -1,6 +1,6 @@
 //################################################################################
 //Procedimiento CalcularAreaPerimetro: recibe el radio de una circunferencia y
-//devuelve el area y el perímetro.
+//devuelve el área y el perímetro.
 //Parámetros de entrada: radio (real)
 //Parámetros de entrada y salida: área y perímetro (real)
 //################################################################################
@@ -21,6 +21,6 @@ Proceso Circunferencia
 	Escribir Sin Saltar "Introduce el radio:";
 	Leer radio;
 	CalcularAreaPerimetro(radio,area,perimetro);
-	Escribir "Area:",area;
+	Escribir "Área:",area;
 	Escribir "Perímetro:",perimetro;
 FinProceso

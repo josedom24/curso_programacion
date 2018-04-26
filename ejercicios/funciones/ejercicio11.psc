@@ -27,7 +27,7 @@ Funcion dias <- DiasDelMes(month,year)
 			dias<-31;
 		4,6,9,11:
 			dias<-30;
-		2: //El mes de febreo depende de si el año es bisiesto
+		2: //El mes de febrero depende de si el año es bisiesto
 			Si EsBisiesto(year) Entonces
 				dias<-29;
 			SiNo
@@ -38,9 +38,9 @@ FinFuncion
 
 //################################################################################
 //Función Calcular_Dia_Juliano: Recibe un día, mes y año y devuelve el día juliano
-//correpsondiente a esa fecha. El día juliano correspondiente a una fecha es un 
+//correspondiente a esa fecha. El día juliano correspondiente a una fecha es un 
 //número entero que indica los días que han transcurrido desde el 1 de enero del 
-//año indicado. Depende de la funcion DiasDelMes
+//año indicado. Depende de la función DiasDelMes
 //Parámetros de entrada: día, mes y año
 //Dato devuelto: Día juliano
 //################################################################################
@@ -56,7 +56,7 @@ Funcion diaj <- Calcular_Dia_Juliano(day,month,year)
 FinFuncion
 
 //################################################################################
-//Procedimiento LeerFecha: Lee por teclado el dia, mes y el año y lo devuelve
+//Procedimiento LeerFecha: Lee por teclado el día, mes y el año y lo devuelve
 //como parámetro de entrada / salida.
 //Parámetros de entrada/salida: día, mes y año
 //################################################################################

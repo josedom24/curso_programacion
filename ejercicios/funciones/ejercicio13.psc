@@ -14,12 +14,13 @@ Funcion Intercambiar(mayor Por Referencia, menor Por Referencia)
 FinFuncion
 
 //################################################################################
-//Función CalcularMCD: Recibe dos números y devuelve el MCD utilziando el método 
+//Función CalcularMCD: Recibe dos números y devuelve el MCD utilizando el método 
 //de Euclides. El método de Euclides es el siguiente:
 // * Se divide el número mayor entre el menor.
 // * Si la división es exacta, el divisor es el MCD.
 // * Si la división no es exacta, dividimos el divisor entre el resto obtenido y 
-//se continúa de esta forma hasta obtener una división exacta, siendo el último divisor el MCD.
+//se continúa de esta forma hasta obtener una división exacta, siendo el último 
+//divisor el MCD.
 //Parámetros de entrada: dos números
 //Dato devuelto: El MCD
 //################################################################################
@@ -39,7 +40,7 @@ FinFuncion
 //################################################################################
 //Procedimiento LeerFracion: Lee por teclado una fracción (numerador y denominador)
 // y lo devuelve como parámetro de entrada y salida.
-//Este procedimiento usa SimplificarFraccion para simplificar la fracción leida.
+//Este procedimiento usa SimplificarFraccion para simplificar la fracción leída.
 //Parámetros de entrada y salida: numerador y denominador 
 //################################################################################
 

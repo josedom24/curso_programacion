@@ -1,6 +1,6 @@
 //################################################################################
 //Procedimiento IncializarPila: Recibe un vector (pila) y su tamaño. 
-//Recorre el vector e incializa sus elementos a *. 
+//Recorre el vector e inicializa sus elementos a *. 
 //El * representa que el elemento está vacío.
 //Parámetros de entrada: Tamaño del vector
 //Parámetros de entrada y salida: El vector (pila)
@@ -81,7 +81,7 @@ FinFuncion
 //Función SacarPila: Recibe un vector (pila), su tamaño y devuelve 
 //el elemento que se ha introducido en último lugar, si no está vacía.
 //El índice de ese elemento será la longitud de la pila - 1
-//El elemento en esa posición se vacía, es decir se incializa a "*".
+//El elemento en esa posición se vacía, es decir se inicializa a "*".
 //Si está vacía, escribe un mensaje de error.
 //Parámetro de entrada:Tamaño del vector y el elemento.
 //Parámetros de entrada y salida: El vector (pila)
@@ -101,7 +101,7 @@ FinFuncion
 
 //################################################################################
 //Función EscribirPila: Recibe un vector (pila) y su tamaño. 
-//Muestra los elemntos del vector hasta que llegue al final o se encuentre un *.
+//Muestra los elementos del vector hasta que llegue al final o se encuentre un *.
 //Parámetros de entrada: Tamaño del vector, el vector (pila)
 //################################################################################
 

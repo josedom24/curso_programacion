@@ -1,9 +1,9 @@
 //################################################################################
 //Función CalcularFactorial: Recibe un número si el número=1 devuelve que el 
-//factorial es 1, sino acumula el producto del número con el cáculo del factorial 
+//factorial es 1, sino acumula el producto del número con el cálculo del factorial 
 //del numero-1. Es una función recursiva.
 //Parámetros de entrada: número
-////Dato devuelto: Factorial del nñumero
+////Dato devuelto: Factorial del número
 //################################################################################
 
 Funcion fact <- CalcularFactorial(num)

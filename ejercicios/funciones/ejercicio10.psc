@@ -1,7 +1,7 @@
 //################################################################################
-//Función Convertir_A_Segundos: Recibe una cantidad de horas, minútos y segundos 
-//y calcula a cunatros segundos corresponde.
-//Parámetros de entrada: hora, minútos y segundos
+//Función Convertir_A_Segundos: Recibe una cantidad de horas, minutos y segundos 
+//y calcula a cuantos segundos corresponde.
+//Parámetros de entrada: hora, minutos y segundos
 //Dato devuelto: Segundos totales
 //################################################################################
 
@@ -12,9 +12,9 @@ FinFuncion
 
 //################################################################################
 //Procedimiento Convertir_A_HMS: Recibe una cantidad de segundos y debe calcular a 
-//que hora, minutos y segundos correspondede 
+//que hora, minutos y segundos corresponde 
 //Parámetros de entrada: segundos
-//Parámetros de entrada: hora,minútos y segundos
+//Parámetros de entrada: hora,minutos y segundos
 //################################################################################
 
 Funcion Convertir_A_HMS(seg,h Por Referencia,m Por Referencia,s Por Referencia)
@@ -22,7 +22,7 @@ Funcion Convertir_A_HMS(seg,h Por Referencia,m Por Referencia,s Por Referencia)
 	h <- Trunc(seg/3600);
 	//Decremento los segundos que me quedan por convertir
 	seg <- seg - h*3600;
-	//Mínutos = Divisíón entera de los segundos entre 60
+	//Minutos = División entera de los segundos entre 60
 	m <- Trunc(seg/60);
 	//Decremento los segundos que me quedan por convertir
 	seg <- seg - m*60;

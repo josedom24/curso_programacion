@@ -14,7 +14,7 @@ Funcion Intercambiar(mayor Por Referencia, menor Por Referencia)
 FinFuncion
 
 //################################################################################
-//Función CalcularMCD: Recibe dos números y devuelve el MCD utilziando el método 
+//Función CalcularMCD: Recibe dos números y devuelve el MCD utilizando el método 
 //de Euclides. El método de Euclides es el siguiente:
 // * Se divide el número mayor entre el menor.
 // * Si la división es exacta, el divisor es el MCD.

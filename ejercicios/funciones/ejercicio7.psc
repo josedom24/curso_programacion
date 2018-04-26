@@ -37,9 +37,9 @@ Proceso EntrarEnElSistema
 		Leer usuario;
 		Escribir Sin Saltar "Password:";
 		Leer clave;
-		//Llamo a la fnción y le envío el nombre y la contraseña
+		//Llamo a la función y le envío el nombre y la contraseña
 		//Devuelve verdadero o falso según haya indicado bien los datos
-		//Además incrementa la variable 2cuantasveces" que es un contador de intentos
+		//Además incrementa la variable "cuantasveces" que es un contador de intentos
 		entrar<-Login(usuario,clave,cuantasveces);
 		Si no entrar Entonces
 			Escribir "Error. Nombre de usuario o contraseña incorrecta.";
@@ -50,6 +50,6 @@ Proceso EntrarEnElSistema
 	Si entrar Entonces
 		Escribir "Bienvenidos al sistema";
 	SiNo //He llegado a los tres intentos
-		Escribir "No has entrado en el sitema";
+		Escribir "No has entrado en el sistema";
 	FinSi
 FinProceso
