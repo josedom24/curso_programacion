@@ -37,7 +37,7 @@ Cuando compilamos y ejecutamos nuestro código fuente se genera un programa ejec
 Podemos verificar que `adivina.bin` es un fichero binario para linux 64-bit:
 
 	$ file adivina.bin
-	adivina.bin: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, ...
+	adivina.bin: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=007d6a8507f270e6864af6243e127b4128f72277, not stripped
 
 Realmente la compilación incluye varios pasos, el más importante de ellos es la creación de un fichero objeto intermedio. Que ha continuación se enlaza y producir el fichero ejecutable.
 
