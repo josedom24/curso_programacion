@@ -1,8 +1,8 @@
 //################################################################################
-//Función CalcularVuelta: Recibe el dinero que hay que devovler y el valor de un 
-//billete o una moneda, devuelve el número de billetes o menedas de esa cantidad
+//Función CalcularVuelta: Recibe el dinero que hay que devolver y el valor de un 
+//billete o una moneda, devuelve el número de billetes o monedas de esa cantidad
 //que hay que devolver y actualiza el dinero que queda por devolver.
-//Parámetros de entrada: cantidad: valor del billeto o la moneda
+//Parámetros de entrada: cantidad: valor del billete o la moneda
 //Parámetros de entrada y salida : dinero que hay que devolver, se devuelve con el 
 //dinero que queda por devolver.
 //Dato devuelto: vuelta: Número de billetes o monedas que hay que devolver.
@@ -10,10 +10,10 @@
 
 Funcion vuelta <- CalcularVuelta(dinero Por Referencia,cantidad)
 	Definir vuelta como Entero;
-	//Relizamos la división entera entre el dinero 
+	//Realizamos la división entera entre el dinero 
 	//que hay que devolver y la cantidad del billete o moneda
 	vuelta<-Trunc(dinero/cantidad);
-	//Actualimos el dinero que queda por devolver
+	//Actualizamos el dinero que queda por devolver
 	dinero<-dinero - vuelta*cantidad;
 FinFuncion
 
@@ -45,7 +45,7 @@ FinFuncion
 //Procedimiento EscribirVuelta: Recibe la cantidad de billetes o monedas y su valor
 //y los imprime por pantalla. Se imprime si hay que devolver de ese billete o moneda
 //es decir, si la vuelta>0. Si la cantidad>2 se devuelven billetes (euros), 
-//sino se devuelven monedas y si la cantidad es >=1 se devuelven euros, sino centimos.
+//sino se devuelven monedas y si la cantidad es >=1 se devuelven euros, sino céntimos.
 //Parámetros de entrada: vuelta: cantidad de billetes o monedas a devolver y
 //cantidad: valor del billete o moneda
 //################################################################################
@@ -53,7 +53,7 @@ FinFuncion
 Funcion EscribirVuelta(vuelta,cantidad)
 	//Se imprime si hay algo que devolver
 	Si vuelta>0 Entonces
-		//Si la cantidad es mator de 2 devolvemos billetes
+		//Si la cantidad es menor de 2 devolvemos billetes
 		Si cantidad>2 Entonces
 			Escribir vuelta, " billetes de ",cantidad," euros.";
 		SiNo
@@ -61,8 +61,8 @@ Funcion EscribirVuelta(vuelta,cantidad)
 			//Si la cantidad>=1 devolvemos euros
 			Si cantidad>=1 Entonces
 				Escribir vuelta, " monedas de ",cantidad," euros.";
-			SiNo //Devolvemos centimos (lo multiplicamos por 100)
-				Escribir vuelta, " monedas de ",cantidad*100," centimos.";
+			SiNo //Devolvemos céntimos (lo multiplicamos por 100)
+				Escribir vuelta, " monedas de ",cantidad*100," céntimos.";
 			FinSi
 		FinSi
 	FinSi

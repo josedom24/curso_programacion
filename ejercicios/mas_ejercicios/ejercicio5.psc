@@ -1,16 +1,16 @@
 //################################################################################
 //Función ConvertirABinario: Recibe un número entero y devuelve una cadena de
 //caracteres con la representación binaria del número.
-//Parámetros de entrada: Número entero a converir
+//Parámetros de entrada: Número entero a convertir
 //Dato devuelto: Cadena de caracteres con el número binario
 //################################################################################
 
 Funcion binario <- ConvertirABinario(decimal)
 	Definir binario como Caracter;
 	binario<-"";
-	//Realizao divisiones sucesivas entre 2 guardando el resto (1 o 0)
+	//Realizo divisiones sucesivas entre 2 guardando el resto (1 o 0)
 	Mientras decimal>1 Hacer
-		//Concatenmso en orden inverso los restos de la división entre 2.
+		//Concatenamos en orden inverso los restos de la división entre 2.
 		binario<-Concatenar(ConvertirATexto(decimal % 2),binario);
 		decimal <- trunc(decimal / 2);
 	FinMientras
@@ -41,7 +41,7 @@ FinFuncion
 
 //################################################################################
 //Función EsBinario: Recibe una cadena de caracteres con la representación
-// de un número binario y devuelveun valor lógico indicando si realmente es un
+// de un número binario y devuelve un valor lógico indicando si realmente es un
 //número binario (Tienes 1 y 0) verdadero, y falso en caso contrario.
 //Parámetros de entrada: Cadena de caracteres con el número binario
 //Dato devuelto: Valor lógico

@@ -1,8 +1,8 @@
 //################################################################################
-//Procedimiento LeerSecreto: Incializamos la palabra secreta (no más de 20 
+//Procedimiento LeerSecreto: Inicializamos la palabra secreta (no más de 20 
 //caracteres) y el vector de aciertos a Falso.
 //Parámetro de entrada y salida: Palabra que hay que adivinar, y aciertos: vector
-//de valores lógicos que se incializana  falso indicando que no se han acertado 
+//de valores lógicos que se inicializan a falso indicando que no se han acertado 
 //ninguna letra.
 //################################################################################
 
@@ -12,7 +12,7 @@ Funcion LeerSecreto(secreto Por Referencia,aciertos Por Referencia)
 		Escribir "Introduce la palabra a a adivinar:";
 		Leer secreto;
 		Si Longitud(secreto)>20 Entonces
-			Escribir "No puede tener más de 20 caracters";
+			Escribir "No puede tener más de 20 caracteres";
 		FinSi
 	Hasta Que Longitud(secreto)<=20;
 	Para i<-0 hasta 19 Hacer
@@ -24,7 +24,7 @@ FinFuncion
 //################################################################################
 //Función NumeroAciertos: Recibe el vector de aciertos y devuelve cuantas letras
 //se han acertado (valores Verdadero).
-//Parámetro de entrada: aciertos: vector de valores lógicos ique indica las letras
+//Parámetro de entrada: aciertos: vector de valores lógicos que indica las letras
 //que se han acertado.
 //Dato devuelto: Número de letras acertadas
 //################################################################################
@@ -41,18 +41,18 @@ FinFuncion
 
 //################################################################################
 //Procedimiento EscribirSecreto: Recibe la palabra secreta (no más de 20 
-//y el vector de aciertos. Y muestra por pantalla un caracter o un * segun la 
-//posición del caracter indique en el vector aciertos que se ha acertado la letra 
+//y el vector de aciertos. Y muestra por pantalla un carácter o un * según la 
+//posición del carácter indique en el vector aciertos que se ha acertado la letra 
 //(valor Verdadero)
 //Parámetro de entrada: Palabra que hay que adivinar, y aciertos: vector de valores 
-//lógicos ique indica las letras que se han acertado.
+//lógicos que indica las letras que se han acertado.
 //################################################################################
 
 Funcion EscribirSecreto(secreto,aciertos)
 	Definir i como Entero;
 	//Recorro la cadena de caracteres
 	Para i<-0 hasta Longitud(secreto)-1 Hacer
-		//Si la posición del vector aciertos igaul a la posición de un caracter
+		//Si la posición del vector aciertos igual a la posición de un carácter
 		// es verdadero imprimo el carácter
 		Si aciertos[i] Entonces
 			Escribir sin saltar Subcadena(secreto,i,i);
@@ -64,10 +64,10 @@ Funcion EscribirSecreto(secreto,aciertos)
 FinFuncion
 
 //################################################################################
-//Función ComprobarSecreto: Recibe un caracter, la cadena a adivinar y el vector 
-//de aciertos y devuelve si el caracter está en la cadena. Además si es así cambia
+//Función ComprobarSecreto: Recibe un carácter, la cadena a adivinar y el vector 
+//de aciertos y devuelve si el carácter está en la cadena. Además si es así cambia
 //en el vector aciertos las posiciones donde se encuentra el carácter de Falso a
-//Verdaero.
+//Verdadero.
 //Parámetro de entrada: un carácter, la cadena y el vector de aciertos
 //Dato devuelto: Valor lógico, Verdadero si el carácter está en la cadena, 
 //Falso en caso contrario.
@@ -87,8 +87,8 @@ Funcion acierto <- ComprobarSecreto(letra,secreto,aciertos por Referencia)
 FinFuncion
 
 //################################################################################
-//Procedimiento LeerLetra: Lee un caracter por teclado y lo devulve. Además 
-//devuelve un cadena con las letras que se han leido anteriormente.
+//Procedimiento LeerLetra: Lee un carácter por teclado y lo devuelve. Además 
+//devuelve un cadena con las letras que se han leído anteriormente.
 //Parámetro de entrada y salida: la letra leída por teclado, y la cadena con todas 
 //las letras leídas anteriormente.
 //################################################################################
@@ -168,9 +168,9 @@ Proceso Ahorcado
 	num_fallos<-0;
 	//Se introduce por teclado la palabra secreta a adivinar
 	LeerSecreto(secreto,aciertos);
-	//Se repite hasta que el número de aciertos sea igual a la longitud de la palbra o el número de fallos sea 6
+	//Se repite hasta que el número de aciertos sea igual a la longitud de la palabra o el número de fallos sea 6
 	Repetir
-		//Se escribe ela palabra (* las letras no acertadas)
+		//Se escribe la palabra (* las letras no acertadas)
 		EscribirSecreto(secreto,aciertos);
 		//Se lee una letra y se actualiza las letras leídas
 		LeerLetra(letra,letras);
@@ -185,10 +185,10 @@ Proceso Ahorcado
 		Escribir "Letras introducidas: ",letras;
 	Hasta Que NumeroAciertos(aciertos)=Longitud(secreto) o num_fallos=6;
 	//Podemos salir del bucle por dos razones
-	//Si el númerod e fallos es 6 hemos perdido
+	//Si el número de fallos es 6 hemos perdido
 	Si num_fallos=6 Entonces
 		Escribir "Has perdido!!!";
-	SiNo //Hemos ganad0!!!!
+	SiNo //Hemos ganado!!!!
 		Escribir "Has ganado!!!";
 	FinSi
 FinProceso

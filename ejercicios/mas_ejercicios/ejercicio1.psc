@@ -7,7 +7,7 @@
 //Análisis
 //Hacemos un bucle con 10 iteraciones, en cada iteración se inicializan dos
 //números con un valor aleatorio (de 2 a 10). Se calcula la multiplicación.
-//Mostramos la multiplicación, y pedimo por teclado el resultado. Si coincide 
+//Mostramos la multiplicación, y pedimos por teclado el resultado. Si coincide 
 //con la multiplicación calculada cuento un acierto, sino escribimos un mensaje
 //de error mostrando el resultado correcto. Cuando salimos del bucle mostramos
 //el número de aciertos.

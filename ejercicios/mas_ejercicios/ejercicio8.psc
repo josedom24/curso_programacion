@@ -38,9 +38,9 @@ FinFuncion
 
 //################################################################################
 //Función Calcular_Dia_Juliano: Recibe un día, mes y año y devuelve el día juliano
-//correpsondiente a esa fecha. El día juliano correspondiente a una fecha es un 
+//correspondiente a esa fecha. El día juliano correspondiente a una fecha es un 
 //número entero que indica los días que han transcurrido desde el 1 de enero del 
-//año indicado. Depende de la funcion DiasDelMes
+//año indicado. Depende de la función DiasDelMes
 //Parámetros de entrada: día, mes y año
 //Dato devuelto: Día juliano
 //################################################################################
@@ -57,7 +57,7 @@ FinFuncion
 
 //################################################################################
 //Función DiasDesde1900: Recibe un día, mes y año y devuelve los días transcurridos 
-//desde 1900. Por cada año se acumula 365 p 366 días, y del último año se acumula 
+//desde 1900. Por cada año se acumula 365 o 366 días, y del último año se acumula 
 //el día juliano
 //Parámetros de entrada: día, mes y año
 //Dato devuelto: Días desde 1900
@@ -119,8 +119,8 @@ FinFuncion
 //indicados, y una vez calculado le hacemos el módulo 7 y el número obtenido será 
 //el día de la semana (0: domingo, 1: lunes, ...) (Tenemos que transformarlo para 
 //que el 0 sea lunes.
-//Escribimos espacios para desplazar el día 1 a la posición correpondiente, 
-//desde el día 1 hasta el último día del mes, vamos colacando los demás días
+//Escribimos espacios para desplazar el día 1 a la posición correspondiente, 
+//desde el día 1 hasta el último día del mes, vamos colocando los demás días
 // teniendo en cuanta que cada 7 días colocados tenemos que hacer un salto de línea.
 //Parámetros de entrada:  mes y año
 //################################################################################
@@ -131,9 +131,9 @@ Funcion Calendario(month,year)
 	dias_mes<-DiasDelMes(month,year);
 	//Claculamos los días transcurridos desde 1/1/1900 al 1 del mes año indicados.
 	dia1<-DiasDesde1900(1,month,year);
-	//Calculamos el resto de la divisón entre 7 (0: domingo, 1: lunes, ...)
+	//Calculamos el resto de la división entre 7 (0: domingo, 1: lunes, ...)
 	dia1<-dia1 % 7;
-	//Lo transiformo para que el lunes sea el de la posición 0 y el domingo el 6
+	//Lo transformo para que el lunes sea el de la posición 0 y el domingo el 6
 	dia1<-dia1-1;
 	Si dia1=-1 Entonces
 		dia1<-6;
@@ -156,7 +156,7 @@ Funcion Calendario(month,year)
 		SiNo
 			Escribir sin saltar indice,"  ";
 		FinSi
-		//Voy incrementado el día de la semana correponsiente al día que voy a escribir a continuación
+		//Voy incrementado el día de la semana correspondiente al día que voy a escribir a continuación
 		dia1<-dia1+1;
 		//Si llego al Domingo (6) hay que realizar un salto de línea
 		Si dia1>6 Entonces

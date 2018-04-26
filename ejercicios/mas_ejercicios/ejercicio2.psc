@@ -19,7 +19,7 @@ FinFuncion
 //CalcularLetra con el número del DNI y se comprueba si la letra calculada coincide
 //con la letra del DNI.
 //Parámetros de entrada: DNI
-//Dato devuelto: Valor logico Verdadero si el DNI es válido o Falso en caso contrario.
+//Dato devuelto: Valor lógico Verdadero si el DNI es válido o Falso en caso contrario.
 //################################################################################
 
 Funcion esvalido<- ValidarDNI(dni)

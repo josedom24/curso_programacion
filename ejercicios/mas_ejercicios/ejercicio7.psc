@@ -1,6 +1,6 @@
 //################################################################################
 //Función devolverNumero: Recibe un intervalo (límite inferior y superior) y 
-//devuelve el número intermedio como pisble número que tiene que acertar.
+//devuelve el número intermedio como posible número que tiene que acertar.
 //Parámetro de entrada: Límite inferior y superior del intervalo.
 //Dato devuelto: Número intermedio del intervalo.
 //################################################################################
@@ -53,13 +53,13 @@ Proceso AdivinarNumero
 	Definir intentos Como Entero;
 	intentos<-0;
 	Escribir "Piensa un número...";
-	//Se pied el primer intervalo
+	//Se pide el primer intervalo
 	Escribir "Necesito saber el intervalo donde se encuentra el número:";
 	Escribir Sin Saltar "Límite inferior:"; 
 	Leer limite_inferior;
 	Escribir Sin Saltar "Límite superior:"; 
 	Leer limite_superior;
-	//Se va repitinedo hasta que se acierte el número
+	//Se va repitiendo hasta que se acierte el número
 	Repetir
 		//Escribimos el número propuesto (qué sera el número intermedio del intervalo)
 		minumero<-devolverNumero(limite_inferior,limite_superior);

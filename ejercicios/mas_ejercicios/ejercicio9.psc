@@ -17,7 +17,7 @@ Funcion repetido <- EstaRepetido(num,vector)
 FinFuncion
 
 //################################################################################
-//Procedimiento GenerarSecuencia: Recibe un vector que se incializa con 4 enteros 
+//Procedimiento GenerarSecuencia: Recibe un vector que se inicializa con 4 enteros 
 //no repetidos
 //Parámetro de entrada y salida: Vector de 4 enteros
 //################################################################################
@@ -29,7 +29,7 @@ Funcion GenerarSecuencia(vector Por Referencia)
 	Para indice<-0 hasta 3 Hacer
 		vector[indice] <- -1;
 	FinPara
-	//Se incializa cada elemento con un número
+	//Se inicializa cada elemento con un número
 	Para indice<-0 hasta 3 Hacer
 		//Se comprueba que no tenga número repetidos
 		Repetir
@@ -40,8 +40,8 @@ Funcion GenerarSecuencia(vector Por Referencia)
 FinFuncion
 
 //################################################################################
-//Procedimiento LeerSecuencia: Recibe un vector que se incializa con 4 enteros 
-//leidos por teclado por el usuario, asegurando de que no se introduce ninguno 
+//Procedimiento LeerSecuencia: Recibe un vector que se inicializa con 4 enteros 
+//leídos por teclado por el usuario, asegurando de que no se introduce ninguno 
 //repetido.
 //Parámetro de entrada y salida: Vector de 4 enteros
 //################################################################################
@@ -49,13 +49,13 @@ FinFuncion
 Funcion LeerSecuencia(vector por Referencia)
 	Definir  i,num Como Entero;
 	Definir repetido como Logico;
-	//Se incializa el vector para que se pueda comprobar si tiene algún número repetido
+	//Se inicializa el vector para que se pueda comprobar si tiene algún número repetido
 	Para i<-0 hasta 3 Hacer
 		vector[i] <- -1;
 	FinPara
-	//Se incializa cada elemento con un número leido por teclado
+	//Se inicializa cada elemento con un número leído por teclado
 	Para i<-0 Hasta 3 Hacer
-		Repetir //Se compruba que el número leido no se haya repetido
+		Repetir //Se comprueba que el número leído no se haya repetido
 			Escribir sin Saltar "Número ",i+1,":";
 			Leer num;
 			repetido<-EstaRepetido(num,vector);
@@ -69,10 +69,10 @@ FinFuncion
 
 //################################################################################
 //Procedimiento ComprobarSecuencia: Recibe dos vectores, el secreto y el introducido
-//por el usuario y devuelve el número de coincidencias en la misma posiciñon (muertos)
+//por el usuario y devuelve el número de coincidencias en la misma posición (muertos)
 // y las coincidencias en distintas posición (heridos).
 //Parámetros de entrada: Dos vectores
-//Parámetro de entrada y salida: muestros y heridos
+//Parámetro de entrada y salida: muertos y heridos
 //################################################################################
 
 Funcion ComprobarSecuencia(secreto,usuario,m Por Referencia,h Por Referencia)
@@ -81,11 +81,11 @@ Funcion ComprobarSecuencia(secreto,usuario,m Por Referencia,h Por Referencia)
 	Para indice_secreto<-0 Hasta 3 Hacer
 		Para indice_usuario<-0 Hasta 3 Hacer
 			Si secreto[indice_secreto]=usuario[indice_usuario] Entonces
-				//Si el elemnto coincide y además están en la misma psoición, incremento los muertos.
+				//Si el elemento coincide y además están en la misma posición, incremento los muertos.
 				Si indice_secreto=indice_usuario Entonces
 					m<-m+1;
 				SiNo
-					//Si el elemnto coincide pero no están en la misma psoición, incremento los heridos.
+					//Si el elemento coincide pero no están en la misma posición, incremento los heridos.
 					h<-h+1;
 				FinSi
 			FinSi
@@ -120,7 +120,7 @@ Proceso MisterMind
 		heridos<-0;
 		//Se comprueba la propuesta
 		ComprobarSecuencia(secreto,usuario,muertos,heridos);
-		//Y se imprimern los muertos y heridos
+		//Y se imprimen los muertos y heridos
 		Escribir "MUERTOS: ",muertos," - HERIDOS: ",heridos;
 	Hasta Que muertos=4;
 FinProceso
