@@ -11,7 +11,7 @@ Los traductores transforman programas escritos en un lenguaje de alto nivel en p
 * Una vez generado el programa ejecutable, no es necesario tener el código fuente.
 * Ejemplos: C, Pascal,...
 
-## Interprete
+## Interpretes
 
 * La traducción y ejecución de código fuente a código máquina se hace línea por línea.
 * Los errores de sintaxis aparecen cuando se interpreta la instrucción con error.
