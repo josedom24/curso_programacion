@@ -23,4 +23,4 @@ Los datos de entrada y la información de salida se van a guardar en **variables
 
 ## Especificaciones del problema
 
-El resultado final del anális es obtener una serie de documentos (**especificación**) en los cuales quedan totalmente definido el proceso a seguir en la resolución del problema.
+El resultado final del análisis es obtener una serie de documentos (**especificación**) en los cuales quedan totalmente definido el proceso a seguir en la resolución del problema.

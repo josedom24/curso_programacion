@@ -10,7 +10,7 @@
 	* Plantillas de Comandos
 	* Coloreado de Sintaxis
 	* Resaltado de bloques lógicos
-	* Indentado Inteligente
+	* Identación Inteligente
 	* Listados de funciones, operadores y variables
 * Permite generar y editar el diagrama de flujo del algoritmo.
 * El pseudo-lenguaje utilizado es configurable: flexible, estricto y otros perfiles de distintas instituciones.
