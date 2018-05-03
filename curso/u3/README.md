@@ -36,7 +36,7 @@ siguiente descripción mas detallada con mas pasos concretos. Este proceso se de
 
 ## Ejemplo de diseño
 
-Leer el radio de un círculo y calcular e imprimir su superficie y su circunferencia.
+Leer el radio de un circunferencia y calcular e imprimir su superficie y su circunferencia.
 
 * Se puede dividir en tres subproblemas más sencillos:
 
