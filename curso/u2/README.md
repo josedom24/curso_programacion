@@ -15,9 +15,10 @@ Leer el radio de un circunferencia y calcular e imprimir su superficie y su long
 
 **Análisis**
 
+**Definición del problema**: Tenemos que saber que es el radio de un circunferencia, y saber que es su área y su longitud. Además tenemos que saber cómo calcular el área y la longitud. Por lo tanto necesitamos saber el radio y utilizar las formulas para calcular el área y la longitud.
+
 |  | Especificaciones |
 |------------------------------------------------|-----------------------------------------------|
-| **Definición del problema** | Tenemos que saber que es el radio de un circunferencia, y saber que es su área y su longitud. Además tenemos que saber cómo calcular el área y la longitud. Por lo tanto necesitamos saber el radio y utilizar las formulas para calcular el área y la longitud.
 | **Entradas:** | Radio de la circunferencia (Variable RADIO). |
 | **Salidas:**  | Superficie de la circunferencia (Variable SUPERFICIE).<br/>Longitud de la circunferencia (Variable LONGITUD) |
 | **Variables:**  |RADIO, SUPERFICIE, LONGITUD de tipo REAL.|
