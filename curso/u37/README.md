@@ -27,6 +27,7 @@ Lo primero que vamos a hacer es escribir el **código fuente**. Para ello vamos 
 		}
 		cout << "Lo has acertado en " << intentos << " intentos.";
 		return 0;
+	}
 
 Cuando compilamos y ejecutamos nuestro código fuente se genera un programa ejecutable llamado `adivina.bin`. Por lo tanto desde la línea de comandos lo podemos ejecutar:
 
