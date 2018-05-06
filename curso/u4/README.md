@@ -1,6 +1,7 @@
 # Introducción a PSeInt
 
-[PSeInt](http://pseint.sourceforge.net/) (**PSe**udo **Int**érprete) es un software libre educativo multiplataforma dirigido a personas que se inician en la programación. Nos permite diseñar algoritmos utilizando pseudocódigo y diagramas de flujo.
+[PSeInt](http://pseint.sourceforge.net/) (**PSe**udo **Int**érprete) es un software libre educativo multiplataforma dirigido a personas que se inician en la programación. Ha sido creado por [Pablo Novara](http://www.ellitoral.com/index.php/diarios/2015/09/16/educacion/EDUC-01.html) y nos permite diseñar algoritmos utilizando pseudocódigo y diagramas de flujo. 
+Este programa fue creado como proyecto final para la materia Programación 1 de la carrera Ingeniería en Informática de la Facultad de Ingeniería y Ciencias Hídricas de la [Universidad Nacional del Litoral](https://www.unl.edu.ar/), del en aquel momento estudiante Pablo Novara. 
 
 ## Características de PSeInt
 
