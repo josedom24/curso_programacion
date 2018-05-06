@@ -23,6 +23,6 @@ Este programa fue creado como proyecto final para la materia Programación 1 de 
 * Es multiplataforma (probado en Microsoft Windows, GNU/Linux y Mac OS X).
 * Es totalmente libre y gratuito (licencia GPLv2)
 
-## Instalación 
+## Instalación
 
-En la sección de [descarga](http://pseint.sourceforge.net/index.php?page=descargas.php) puedes encontrar el programa para las distintas plataformas e instrucciones de instalación.
+En la sección de [descargas](http://pseint.sourceforge.net/index.php?page=descargas.php) puedes encontrar el programa para las distintas plataformas e instrucciones de instalación.
