@@ -1,4 +1,4 @@
-# Curso de introducción a la programación
+# Curso de introducción a la programación con pseudocódigo
 
 0. Introducción al curso
 
