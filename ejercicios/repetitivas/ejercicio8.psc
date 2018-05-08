@@ -43,7 +43,7 @@ Proceso Intervalo
 	Definir lim_inf, lim_sup como Entero;
 	Definir num como Entero;
 	Definir suma_dentro_intervalo Como Entero;
-	DEfinir cont_fuera_intervalo Como Entero;
+	Definir cont_fuera_intervalo Como Entero;
 	Definir igual_limites Como Logico;
 	suma_dentro_intervalo <- 0;
 	cont_fuera_intervalo <- 0;
