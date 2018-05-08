@@ -29,7 +29,7 @@ Proceso CalcularSueldo
 	Leer venta2;
 	Escribir "Dime precio de la venta 3:";
 	Leer venta3;
-	comision<-venta1*0.1+venta2*0.2+venta3*0.1;
+	comision<-venta1*0.1+venta2*0.1+venta3*0.1;
 	Escribir "Comisión por ventas:",comision;
 	Escribir "Sueldo total:", sueldo_base+comision;
 FinProceso
