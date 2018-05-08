@@ -11,9 +11,8 @@
 // Análisis
 // Pedimos el centro (x1,y1) de una circunferencia y su radio r1, pedimos el 
 //centro de otra circunferencia (x2,y2) y su radio r2.
-//En las siguientes página podemos aprender la relación entre dos circunferencias.
+//En la siguiente página podemos aprender la relación entre dos circunferencias.
 //http://mimosa.pntic.mec.es/clobo/geoweb/circun3.htm
-//https://www.geogebra.org/m/Wk7Y7N6V
 // Datos de entrada: x1,y1,x3,y2,r1,r2 (real)
 // Información de salida: Tipo de relación entre las circunferencias
 // Variables: x1,y1,x3,y2,r1,r2 (real), distancia (real)
