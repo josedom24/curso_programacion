@@ -28,12 +28,12 @@ Proceso SustituirCaracter
 	Hasta Que Longitud(car_sustituir)=1;
 	
 	
-	Para c<-0 hasta Longitud(cad)-1 Hacer
-		Si Subcadena(cad,c,c)=car_buscar Entonces
+	Para posicion<-0 hasta Longitud(cad)-1 Hacer
+		Si Subcadena(cad,posicion,posicion)=car_buscar Entonces
 			newcad<-concatenar(newcad,car_sustituir);
 		SiNo
-			newcad<-concatenar(newcad,Subcadena(cad,c,c));
+			newcad<-concatenar(newcad,Subcadena(cad,posicion,posicion));
 		FinSi
 	FinPara
-	Escribir "La cadena invertida es ",newcad;
+	Escribir "La cadena modificada es ",newcad;
 FinProceso
