@@ -111,12 +111,26 @@ FinFuncion
 //################################################################################
 
 Funcion MostrarAhorcado(fallos)
+	Escribir "";
+	Escribir "La horca!!!";
+	Escribir "";
 	Segun fallos Hacer
 		0:
 			Escribir "";
+			Escribir "";
+			Escribir "";
+			Escribir "";
+			Escribir "";
+			Escribir "";
 		1:
+			Escribir "";
+			Escribir "";
+			Escribir "";
+			Escribir "";
+			Escribir "";
 			Escribir "_________";
 		2:
+			Escribir "|";
 			Escribir "|";
 			Escribir "|";
 			Escribir "|";
@@ -140,7 +154,7 @@ Funcion MostrarAhorcado(fallos)
 			Escribir "------";
 			Escribir "|   |";
 			Escribir "|   o";
-			Escribir "|  /|\";
+			Escribir "|  /|";
 			Escribir "|";
 			Escribir "_________";
 			
@@ -149,9 +163,24 @@ Funcion MostrarAhorcado(fallos)
 			Escribir "|   |";
 			Escribir "|   o";
 			Escribir "|  /|\";
+			Escribir "|";
+			Escribir "_________";
+		7:
+			Escribir "------";
+			Escribir "|   |";
+			Escribir "|   o";
+			Escribir "|  /|\";
+			Escribir "|  / ";
+			Escribir "_________";
+		8:
+			Escribir "------";
+			Escribir "|   |";
+			Escribir "|   o";
+			Escribir "|  /|\";
 			Escribir "|  / \";
 			Escribir "_________";
 	FinSegun
+	Escribir "";
 FinFuncion
 
 //################################################################################
@@ -170,23 +199,35 @@ Proceso Ahorcado
 	LeerSecreto(secreto,aciertos);
 	//Se repite hasta que el número de aciertos sea igual a la longitud de la palabra o el número de fallos sea 6
 	Repetir
+		
+		Borrar Pantalla;
 		//Se escribe la palabra (* las letras no acertadas)
 		EscribirSecreto(secreto,aciertos);
+		
+		//Se muestra el dibujo del ahorcado, se haya acertado o no.
+		MostrarAhorcado(num_fallos);
+		
+		//Se muestran las letras que se han introducido anteriormente
+		Escribir "Letras introducidas: ",letras;
+		
 		//Se lee una letra y se actualiza las letras leídas
 		LeerLetra(letra,letras);
 		//Si no hemos acertado la letra mostramos mensaje de error e incrementamos número de fallos.
 		Si no ComprobarSecreto(letra,secreto,aciertos) Entonces
-			Escribir "La letra ",letra," no existe";
 			num_fallos<-num_fallos+1;
 		FinSi
-		//Se muestra el dibujo del ahorcado, se haya acertado o no.
-		MostrarAhorcado(num_fallos);
-		//Se muestran las letras que se han introducido anteriormente
-		Escribir "Letras introducidas: ",letras;
-	Hasta Que NumeroAciertos(aciertos)=Longitud(secreto) o num_fallos=6;
+		
+		
+		
+	Hasta Que NumeroAciertos(aciertos)=Longitud(secreto) o num_fallos=8;
 	//Podemos salir del bucle por dos razones
 	//Si el número de fallos es 6 hemos perdido
-	Si num_fallos=6 Entonces
+	
+	
+	Si num_fallos=8 Entonces
+		Borrar Pantalla;
+		EscribirSecreto(secreto,aciertos);
+		MostrarAhorcado(num_fallos);
 		Escribir "Has perdido!!!";
 	SiNo //Hemos ganado!!!!
 		Escribir "Has ganado!!!";
