@@ -3,7 +3,7 @@
 Una **tabla** en un array bidimensional. La primera dimensión indica el número de filas y el segundo el número de columnas.
 
 	Definir tabla como Entero;
-	Dimension tabla [3,4];
+	Dimension tabla[3,4];
 
 Hemos definido una tabla de enteras con 3 filas y 4 columnas, por tanto tenemos 12 elementos.
 
@@ -58,11 +58,11 @@ Inicializar una tabla con los números del 1 al 5, sus cuadrados y sus cubos. Po
 Los arrays pueden ter las dimensiones que deseemos, por ejemplo podemos tener una array de tres dimensiones:
 
 	Definir tabla como Entero;
-	Dimension tabla [4,4,4];
+	Dimension tabla[4,4,4];
 
 Y podríamos inicializar el primer elemento como:
 
-	tabla[0,0,0,]<-10;
+	tabla[0,0,0]<-10;
 
 Necesitaríamos tres bucles para recorrer un array de tres dimensiones:
 
