@@ -106,13 +106,19 @@ FinFuncion
 //################################################################################
 
 Proceso MisterMind
+	Definir indice,intentos Como Entero;
+	Definir numero Como Caracter;
+	Definir resultados Como Caracter;
+	Dimension resultados[100];
 	Definir secreto,usuario como Entero;
 	Definir muertos,heridos como Entero;
 	Dimension secreto[4];
 	Dimension usuario[4];
+	
 	//Se genera el número secreto a adivinar
 	GenerarSecuencia(secreto);
 	//Se repeti hasta que se acierte, número de muertos = 4
+	intentos<-0;
 	Repetir
 		//Leemos la secuencia propuesta por el usuario
 		LeerSecuencia(usuario);
@@ -120,7 +126,19 @@ Proceso MisterMind
 		heridos<-0;
 		//Se comprueba la propuesta
 		ComprobarSecuencia(secreto,usuario,muertos,heridos);
+		//Voy a guardar el numero, con el resultado
+		numero<-"";
+		Para indice<-0 hasta 3 Hacer
+			numero<-concatenar(numero,convertiratexto(usuario[indice]));
+		FinPara
 		//Y se imprimen los muertos y heridos
-		Escribir "MUERTOS: ",muertos," - HERIDOS: ",heridos;
+		resultados[intentos]<- Concatenar(numero,concatenar(" - MUERTOS: ",concatenar(convertiratexto(muertos),concatenar(" - HERIDOS: ",convertiratexto(heridos)))));
+		//Muestro los resiltados
+		Borrar Pantalla;
+		Para indice<-intentos Hasta 0 con paso -1 Hacer
+			Escribir resultados[indice];
+		FinPara
+		intentos<-intentos+1;
+		
 	Hasta Que muertos=4;
 FinProceso
