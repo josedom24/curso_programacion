@@ -65,7 +65,7 @@ Funcion PonerMinas(tablero Por Referencia)
 		Repetir
 			fila<-azar(10);
 			colum<-azar(10);
-		Hasta Que tablero[fila,colum]=0;
+		Hasta Que tablero[fila,colum]<>9;
 		//Reperesentamos la mina con el número 9
 		tablero[fila,colum]<-9;
 		//Ahora incremento el número de minas cercanas en las casillas vecinas
