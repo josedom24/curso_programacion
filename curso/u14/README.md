@@ -9,7 +9,7 @@ Vamos a resolver un problema completo, siguiendo todas las etapas que hemos estu
 * Definición del problema: Tenemos que saber cuantos hombres y mujeres hay en la clase, y calcular el porcentaje de cada uno.
 * Datos de Entradas: Número de hombre y número de mujeres. Valores enteros.
 * Información de salida: Porcentaje de hombres y porcentaje de mujeres. Valores reales.
-* Variables: `cant_hombres`, `cant_mujeres` de tipo entero; `porcentaje_hombres`, `porcentaje_mujeres` de tipo real.
+* Variables: `num_hombres`, `num_mujeres` de tipo entero; `porcentaje_hombres`, `porcentaje_mujeres` de tipo real.
 
 ## Diseño
 
