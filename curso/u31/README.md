@@ -48,7 +48,7 @@ Si queremos indicar explícitamente como se pasan los parámetros podemos usar l
 Comprobamos que los parámetros pasados por valor no modifican los parámetros reales.
 
 	Funcion PasoPorValor(num)
-		num <- num +1;
+		num <- num + 1;
 		Escribir num;
 	FinFuncion	
 
@@ -59,7 +59,7 @@ Comprobamos que los parámetros pasados por valor no modifican los parámetros r
 		Escribir numero1;
 	FinProceso
 
-El resultado será 5 y 6. Hemos incrementado el valor del parámetro formal, pero no se ha modificado el real.
+El resultado será 6 y 5. Hemos incrementado el valor del parámetro formal, pero no se ha modificado el real.
 
 Veamos ahora el mismo programa pero pasando el parámetro por referencia.
 
