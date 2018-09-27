@@ -1,6 +1,6 @@
 # Variables
 
-Un variable nos permite almacenar información. Durante el análisis del problema, determinado las variables que vamos a necesitar en nuestro algoritmo (los datos de entrada y la información de salida).
+Una variable nos permite almacenar información. Durante el análisis del problema, determinado las variables que vamos a necesitar en nuestro algoritmo (los datos de entrada y la información de salida).
 
 Cada variable tiene un nombre y al crearlas hay que indicar el tipo de datos que va a almacenar.
 
