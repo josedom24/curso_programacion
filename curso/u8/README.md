@@ -76,11 +76,11 @@ Si tenemos 4 variables enteras `a`,`b`,`c` y `d`, expresar los siguientes predic
 * Los valores de `b` y `d` están comprendidos estrictamente entre los valores de `a` y `c`, siendo `a` inferior a `c`.
 * Entre los valores de `a`, `b`, y `c` hay al menos dos idénticos
 
-## Procedencia de operadores
+## Precedencia de operadores
 
-La procedencia de operadores es la siguiente:
+La precedencia de operadores es la siguiente:
 
-1. Los paréntesis rompen la procedencia.
+1. Los paréntesis rompen la precedencia.
 2. La potencia 
 3. Operadores unarios 
 4. Multiplicar, dividir y módulo 
