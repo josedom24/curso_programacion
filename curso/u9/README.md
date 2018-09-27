@@ -55,7 +55,7 @@ Y para decrementar sería algo similar:
 		superficie<-2.5;
 		nombre<-superficie;
 		
-		//Inicalizamos variables
+		//Inicializamos variables
 		perimetro<-3.5;
 		superficie<-4;
 		numero1<-superficie;

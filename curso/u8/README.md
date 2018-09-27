@@ -67,6 +67,14 @@ El valor devuelto por una operación lógica es un valor lógico:
 | V  | F  |
 | F  | V  |
 
+### Ejercicios de operadores lógicos
+
+Si tenemos 4 variables enteras `a`,`b`,`c` y `d`, expresar los siguientes predicados:
+
+* Los valores de `a` y `b` son ambos menores que 17.
+* Los valores de `a`,`b` y `c` son idénticos y distintos de `d`.
+* Los valores de `b` y `d` están comprendidos estrictamente entre los valores de `a` y `c`, siendo `a` inferior a `c`.
+* Entre los valores de `a`, `b`, y `c` hay al menos dos idénticos
 
 ## Procedencia de operadores
 

@@ -2,7 +2,7 @@
 
 ## Opciones del lenguaje (perfiles)
 
-El lenguaje que utilizamos para construir el pseudocódigo no es estándar. Podemos añadir o eliminar algunas reglas de sintaxis sin ningún problema. En al opción *Configurar-Opciones del Lenguaje (perfiles)*, podemos escoger las características del pseudocódigo que vamos a utilizar. tenemos tres alternativas:
+El lenguaje que utilizamos para construir el pseudocódigo no es estándar. Podemos añadir o eliminar algunas reglas de sintaxis sin ningún problema. En la opción *Configurar-Opciones del Lenguaje (perfiles)*, podemos escoger las características del pseudocódigo que vamos a utilizar. Tenemos tres alternativas:
 
 * Escoger un perfil que define un pseudocódigo utilizado en distintos centros educativos y universidades.
 * Perfil **flexible**: Está escogido por defecto, y no es muy exigente con las reglas que hay que utilizar para escribir el pseudocódigo.
@@ -19,7 +19,7 @@ El lenguaje que utilizamos para construir el pseudocódigo no es estándar. Pode
         acción n;
     FinProceso
 
-* Comienza con la palabra clave `Proceso` (o alternativamente `Algortimo`, son sinónimos) seguida del nombre del programa.
+* Comienza con la palabra clave `Proceso` (o alternativamente `Algoritmo`, son sinónimos) seguida del nombre del programa.
 * Le sigue una secuencia (**Estructura de control secuencial**) de instrucciones. Una secuencia de instrucciones es una lista de una o más instrucciones y/o estructuras de control.
 * Finaliza con la palabra `FinProceso` (o `FinAlgoritmo`). 
 * La identación no es significativo, pero se recomienda para que el código sea más legible.
@@ -53,4 +53,4 @@ El pseudocódigo podría ser:
 
 Y el diagrama de flujo:
 
-![diagrama](img/diagrama.png)
+![diagrama](img/diagrama1.png)
