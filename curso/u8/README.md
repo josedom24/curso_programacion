@@ -30,6 +30,7 @@ El valor devuelto por una operación de comparación es un valor lógico:
 * `=`: Igual que
 * `<=`: Menor o igual
 * `>=`: Mayor o igual
+* `<>`: Distinto
 
 La comparación entre cadenas de caracteres se hace según el código ASCII.
 
