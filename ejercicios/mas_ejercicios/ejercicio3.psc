@@ -26,21 +26,21 @@ FinFuncion
 //################################################################################
 
 Funcion InicializaBilletesMonedas(valores_nominales Por Referencia)
-	valores_nominales[0]<-500;
-	valores_nominales[1]<-200;
-	valores_nominales[2]<-100;
-	valores_nominales[3]<-50;
-	valores_nominales[4]<-20;
-	valores_nominales[5]<-10;
-	valores_nominales[6]<-5;
-	valores_nominales[7]<-2;
-	valores_nominales[8]<-1;
-	valores_nominales[9]<-0.50;
-	valores_nominales[10]<-0.20;
-	valores_nominales[11]<-0.10;
-	valores_nominales[12]<-0.05;
-	valores_nominales[13]<-0.02;
-	valores_nominales[14]<-0.01;
+	valores_nominales[1]<-500;
+	valores_nominales[2]<-200;
+	valores_nominales[3]<-100;
+	valores_nominales[4]<-50;
+	valores_nominales[5]<-20;
+	valores_nominales[6]<-10;
+	valores_nominales[7]<-5;
+	valores_nominales[8]<-2;
+	valores_nominales[9]<-1;
+	valores_nominales[10]<-0.50;
+	valores_nominales[11]<-0.20;
+	valores_nominales[12]<-0.10;
+	valores_nominales[13]<-0.05;
+	valores_nominales[14]<-0.02;
+	valores_nominales[15]<-0.01;
 FinFuncion
 
 //################################################################################
@@ -90,7 +90,7 @@ Proceso Devolucion
 	//Incializamos las cantidades de billetes o monedas
 	InicializaBilletesMonedas(cantidades);
 	//Por cada cantidad, calculamos la vuelta e imprimimos lo que hay que devolver
-	Para indice<-0 hasta 14 Hacer
+	Para indice<-1 hasta 15 Hacer
 		vuelta<- CalcularVuelta(dinero,cantidades[indice]);
 		EscribirVuelta(vuelta,cantidades[indice]);
 	FinPara
