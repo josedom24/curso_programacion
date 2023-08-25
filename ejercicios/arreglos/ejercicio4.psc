@@ -13,13 +13,13 @@
 // Datos de entrada: Leo número positivos y los guardo en el vector, hasta que lea 
 //un número negativo o lea todos los elementos del vector.
 // Información de salida:Los elementos (números positivos) guardados en el vector.
-// Variables: vector (vector de 10 enteros), tam_vector,indice,num (Entero)
+// Variables: vector (vector de 10 enteros), tam_vector,indice (Entero)
 //################################################################################
 
 Proceso VectorPositivo
 	Definir vector Como Entero;
 	Dimension vector[10];
-	Definir tam_vector,indice,num como Entero;
+	Definir tam_vector,indice como Entero;
 	indice<-0;
 	tam_vector<-10;
 	//Recorro el vector y voy inicializando sus elementos
