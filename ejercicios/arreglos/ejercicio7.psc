@@ -9,7 +9,7 @@
 // Datos de entrada: Números para el primer vector, números para el segundo vector
 // Información de salida: Los números del tercer vector, que es la suma de 
 //los anteriores
-// Variables: vector1,vector2,vector3 (vector de 12 enteros), 
+// Variables: vector1,vector2,vector3 (vector de 5 enteros), 
 //            indice, tam_vector (entero)
 //################################################################################
 
