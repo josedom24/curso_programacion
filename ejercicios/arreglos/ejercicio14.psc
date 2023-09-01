@@ -20,7 +20,7 @@
 // Datos de entrada: Precio de 5 artículos y la cantidad vendida de cada artículo en 4 
 //sucursales
 // Información de salida: Las que indica el enunciado
-// Variables: Precio (tabla de 5 reales), Cantidad (tabla de 4 x 3 reales)
+// Variables: Precio (tabla de 5 reales), Cantidad (tabla de 4 x 5 reales)
 //			  Suma,NumMayor,Ariculos_Sucursal2,MayorRec,TotalSucursal,TotalEmpresa 
 //			  (Real)
 //################################################################################
