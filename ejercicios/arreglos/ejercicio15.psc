@@ -30,15 +30,15 @@ Proceso Quiniela
 	Dimension resultados[15,2];
 	num_partidos<-15;
 	//Recorro las tablas para incializar el nombre de los dos quipos y el resultado del partido
-	Para indice<-0 hasta num_partidos-1 Hacer
-		Escribir Sin Saltar "Introduce el nombre del equipo 1 del partido ", indice+1,":";
-		Leer partidos[indice,0];
-		Escribir Sin Saltar "Introduce el nombre del equipo 2 del partido ", indice+1,":";
+	Para indice<-1 hasta num_partidos Hacer
+		Escribir Sin Saltar "Introduce el nombre del equipo 1 del partido ", indice,":";
 		Leer partidos[indice,1];
-		Escribir Sin Saltar "Introduce los goles metidos por el equipo ",partidos[indice,0],": ";
-		Leer resultados[indice,0];
+		Escribir Sin Saltar "Introduce el nombre del equipo 2 del partido ", indice,":";
+		Leer partidos[indice,2];
 		Escribir Sin Saltar "Introduce los goles metidos por el equipo ",partidos[indice,1],": ";
 		Leer resultados[indice,1];
+		Escribir Sin Saltar "Introduce los goles metidos por el equipo ",partidos[indice,2],": ";
+		Leer resultados[indice,2];
 	FinPara
 	Escribir "QUINIELA";
 	Escribir "========";
@@ -47,14 +47,14 @@ Proceso Quiniela
 	// Un 1 si el que juega en casa ha ganado (primer equipo gana)
 	// Un 2 si el que juega de visitante ha ganado (segundo equipo gana)
 	// Una X si hay empate
-	Para indice<-0 hasta num_partidos-1 Hacer
-		Si resultados[indice,0]>resultados[indice,1] Entonces
-			Escribir partidos[indice,0], " - ",partidos[indice,0]," -> 1";
+	Para indice<-1 hasta num_partidos Hacer
+		Si resultados[indice,1]>resultados[indice,2] Entonces
+			Escribir partidos[indice,1], " - ",partidos[indice,2]," -> 1";
 		SiNo
-			Si resultados[indice,0]<resultados[indice,1] Entonces
-				Escribir partidos[indice,0], " - ",partidos[indice,0]," -> 2";
+			Si resultados[indice,1]<resultados[indice,2] Entonces
+				Escribir partidos[indice,1], " - ",partidos[indice,2]," -> 2";
 			SiNo
-				Escribir partidos[indice,0], " - ",partidos[indice,0]," -> X";
+				Escribir partidos[indice,1], " - ",partidos[indice,2]," -> X";
 			FinSi
 		FinSi
 	FinPara
