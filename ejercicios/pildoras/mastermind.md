@@ -1,0 +1,1 @@
+[Juego Mastermind](../mas_ejercicios/ejercicio9.psc)

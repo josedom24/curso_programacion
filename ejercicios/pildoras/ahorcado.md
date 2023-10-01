@@ -1,0 +1,1 @@
+[Juego del ahorcado](../mas_ejercicios/ejercicio10.psc)
